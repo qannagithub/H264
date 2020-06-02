@@ -1,0 +1,1798 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ABS	common/portab.h	112;"	d
+ABS	common/portab.h	158;"	d
+ABS	common/portab.h	67;"	d
+ADDSRC	build/linux/makefile	/^ADDSRC= $(wildcard $(ADDSRCDIR)\/*.c)$/;"	m
+ADDSRCDIR	build/linux/makefile	/^ADDSRCDIR= ..\/..\/common$/;"	m
+ARCH_IS_IA32	common/config.h	32;"	d
+ARCH_IS_IA32	common/config.h	41;"	d
+ASFLAGS	build/linux/makefile	/^ASFLAGS= -f elf -DNOPREFIX$/;"	m
+ASMSRCDIR	build/linux/makefile	/^ASMSRCDIR= ..\/..\/encoder\/sse2$/;"	m
+AWb	encoder/plugins/ratecontrol.c	/^    double AWb;$/;"	m	struct:__anon34	file:
+AWp	encoder/plugins/ratecontrol.c	/^    double AWp;$/;"	m	struct:__anon34	file:
+Active	dshow/splitter.cpp	/^HRESULT CSplitterInputPin::Active()$/;"	f	class:CSplitterInputPin
+Active	dshow/splitter.h	/^    HRESULT Active()$/;"	f	class:CSplitterOutputPin
+AddBuffer	dshow/alloc.cpp	/^void CSequentialAllocator::AddBuffer(CMediaSample *pSample)$/;"	f	class:CSequentialAllocator
+AddMediaType	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::AddMediaType($/;"	f	class:CSplitterOutputPin
+AddMediaType	dshow/splitter.h	/^        HRESULT AddMediaType(CMediaType const *pmt)$/;"	f	class:CSplitterOutputPin::CImplStreamNotify
+AddOutputPin	dshow/splitter.cpp	/^BOOL CBaseSplitterFilter::AddOutputPin(CSplitterOutputPin *pOutputPin)$/;"	f	class:CBaseSplitterFilter
+Advance	dshow/alloc.cpp	/^HRESULT CSequentialAllocator::Advance(LONG lAdvance)$/;"	f	class:CSequentialAllocator
+Alloc	dshow/alloc.cpp	/^HRESULT CSequentialAllocator::Alloc()$/;"	f	class:CSequentialAllocator
+Allocator	dshow/splitter.h	/^    CSequentialAllocator *Allocator()$/;"	f	class:CBaseSplitterFilter
+Allocator	dshow/splitter.h	/^    CSequentialAllocator *Allocator()$/;"	f	class:CSplitterInputPin
+Allocator	dshow/splitter.h	/^    CSubAllocator *Allocator()$/;"	f	class:CSplitterOutputPin
+BIN	build/linux/makefile	/^BIN=    $(BINDIR)\/$(NAME)$(SUFFIX)$/;"	m
+BINDIR	build/linux/makefile	/^BINDIR= ..\/bin$/;"	m
+BLOCK_INDEX_CHROMA_DC	decoder/dec_cavlc.c	37;"	d	file:
+BLOCK_INDEX_CHROMA_DC	encoder/cavlc.c	73;"	d	file:
+BLOCK_INDEX_LUMA_DC	decoder/dec_cavlc.c	38;"	d	file:
+BLOCK_INDEX_LUMA_DC	encoder/cavlc.c	74;"	d	file:
+BSWAP	common/portab.h	144;"	d
+BSWAP	common/portab.h	57;"	d
+BSWAP	common/portab.h	99;"	d
+BUFFER_SIZE	encoder/T264.c	390;"	d	file:
+BYTE	common/portab.h	138;"	d
+BYTE	common/portab.h	49;"	d
+B_8x8	common/T264.h	/^    B_8x8$/;"	e	enum:__anon8
+B_8x81	decoder/dec_cabac.c	/^	B_8x81          = 16,$/;"	e	enum:__anon32	file:
+B_8x81	encoder/t264enc.c	/^	B_8x81          = 16,$/;"	e	enum:__anon36	file:
+B_BI_BI	decoder/dec_cabac.c	/^	B_BI_BI         = 15,$/;"	e	enum:__anon32	file:
+B_BI_BI	encoder/t264enc.c	/^	B_BI_BI         = 15,$/;"	e	enum:__anon36	file:
+B_BI_L0	decoder/dec_cabac.c	/^	B_BI_L0         = 13,$/;"	e	enum:__anon32	file:
+B_BI_L0	encoder/t264enc.c	/^	B_BI_L0         = 13,$/;"	e	enum:__anon36	file:
+B_BI_L1	decoder/dec_cabac.c	/^	B_BI_L1         = 14,$/;"	e	enum:__anon32	file:
+B_BI_L1	encoder/t264enc.c	/^	B_BI_L1         = 14,$/;"	e	enum:__anon36	file:
+B_Bi_16x16	common/T264.h	/^    B_Bi_16x16,$/;"	e	enum:__anon7
+B_Bi_16x8	common/T264.h	/^    B_Bi_16x8,$/;"	e	enum:__anon7
+B_Bi_4x4	common/T264.h	/^    B_Bi_4x4$/;"	e	enum:__anon9
+B_Bi_4x8	common/T264.h	/^    B_Bi_4x8,$/;"	e	enum:__anon9
+B_Bi_8x16	common/T264.h	/^    B_Bi_8x16,$/;"	e	enum:__anon7
+B_Bi_8x4	common/T264.h	/^    B_Bi_8x4,$/;"	e	enum:__anon9
+B_Bi_8x8	common/T264.h	/^    B_Bi_8x8,$/;"	e	enum:__anon9
+B_Bi_Bi_16x8	common/T264.h	/^    B_Bi_Bi_16x8,$/;"	e	enum:__anon8
+B_Bi_Bi_8x16	common/T264.h	/^    B_Bi_Bi_8x16,$/;"	e	enum:__anon8
+B_Bi_L0_16x8	common/T264.h	/^    B_Bi_L0_16x8,$/;"	e	enum:__anon8
+B_Bi_L0_8x16	common/T264.h	/^    B_Bi_L0_8x16,$/;"	e	enum:__anon8
+B_Bi_L1_16x8	common/T264.h	/^    B_Bi_L1_16x8,$/;"	e	enum:__anon8
+B_Bi_L1_8x16	common/T264.h	/^    B_Bi_L1_8x16,$/;"	e	enum:__anon8
+B_DIRECT	decoder/dec_cabac.c	/^	B_DIRECT        = 6,$/;"	e	enum:__anon32	file:
+B_DIRECT	encoder/t264enc.c	/^	B_DIRECT        = 6,$/;"	e	enum:__anon36	file:
+B_DIRECT_16x16	common/T264.h	/^    B_DIRECT_16x16 = 10,$/;"	e	enum:__anon7
+B_DIRECT_8x8	common/T264.h	/^    B_DIRECT_8x8 = 100,$/;"	e	enum:__anon9
+B_L0_16x16	common/T264.h	/^    B_L0_16x16,$/;"	e	enum:__anon7
+B_L0_16x8	common/T264.h	/^    B_L0_16x8,$/;"	e	enum:__anon7
+B_L0_4x4	common/T264.h	/^    B_L0_4x4,$/;"	e	enum:__anon9
+B_L0_4x8	common/T264.h	/^    B_L0_4x8,$/;"	e	enum:__anon9
+B_L0_8x16	common/T264.h	/^    B_L0_8x16,$/;"	e	enum:__anon7
+B_L0_8x4	common/T264.h	/^    B_L0_8x4,$/;"	e	enum:__anon9
+B_L0_8x8	common/T264.h	/^    B_L0_8x8,$/;"	e	enum:__anon9
+B_L0_BI	decoder/dec_cabac.c	/^	B_L0_BI         = 9,$/;"	e	enum:__anon32	file:
+B_L0_BI	encoder/t264enc.c	/^	B_L0_BI         = 9,$/;"	e	enum:__anon36	file:
+B_L0_Bi_16x8	common/T264.h	/^    B_L0_Bi_16x8,$/;"	e	enum:__anon8
+B_L0_Bi_8x16	common/T264.h	/^    B_L0_Bi_8x16,$/;"	e	enum:__anon8
+B_L0_L0	decoder/dec_cabac.c	/^	B_L0_L0         = 7,$/;"	e	enum:__anon32	file:
+B_L0_L0	encoder/t264enc.c	/^	B_L0_L0         = 7,$/;"	e	enum:__anon36	file:
+B_L0_L0_16x8	common/T264.h	/^    B_L0_L0_16x8 = 4,$/;"	e	enum:__anon8
+B_L0_L0_8x16	common/T264.h	/^    B_L0_L0_8x16,$/;"	e	enum:__anon8
+B_L0_L1	decoder/dec_cabac.c	/^	B_L0_L1         = 8,$/;"	e	enum:__anon32	file:
+B_L0_L1	encoder/t264enc.c	/^	B_L0_L1         = 8,$/;"	e	enum:__anon36	file:
+B_L0_L1_16x8	common/T264.h	/^    B_L0_L1_16x8,$/;"	e	enum:__anon8
+B_L0_L1_8x16	common/T264.h	/^    B_L0_L1_8x16,$/;"	e	enum:__anon8
+B_L1_16x16	common/T264.h	/^    B_L1_16x16,$/;"	e	enum:__anon7
+B_L1_16x8	common/T264.h	/^    B_L1_16x8,$/;"	e	enum:__anon7
+B_L1_4x4	common/T264.h	/^    B_L1_4x4,$/;"	e	enum:__anon9
+B_L1_4x8	common/T264.h	/^    B_L1_4x8,$/;"	e	enum:__anon9
+B_L1_8x16	common/T264.h	/^    B_L1_8x16,$/;"	e	enum:__anon7
+B_L1_8x4	common/T264.h	/^    B_L1_8x4,$/;"	e	enum:__anon9
+B_L1_8x8	common/T264.h	/^    B_L1_8x8,$/;"	e	enum:__anon9
+B_L1_BI	decoder/dec_cabac.c	/^	B_L1_BI         = 12,$/;"	e	enum:__anon32	file:
+B_L1_BI	encoder/t264enc.c	/^	B_L1_BI         = 12,$/;"	e	enum:__anon36	file:
+B_L1_Bi_16x8	common/T264.h	/^    B_L1_Bi_16x8,$/;"	e	enum:__anon8
+B_L1_Bi_8x16	common/T264.h	/^    B_L1_Bi_8x16,$/;"	e	enum:__anon8
+B_L1_L0	decoder/dec_cabac.c	/^	B_L1_L0         = 10,$/;"	e	enum:__anon32	file:
+B_L1_L0	encoder/t264enc.c	/^	B_L1_L0         = 10,$/;"	e	enum:__anon36	file:
+B_L1_L0_16x8	common/T264.h	/^    B_L1_L0_16x8,$/;"	e	enum:__anon8
+B_L1_L0_8x16	common/T264.h	/^    B_L1_L0_8x16,$/;"	e	enum:__anon8
+B_L1_L1	decoder/dec_cabac.c	/^	B_L1_L1         = 11,$/;"	e	enum:__anon32	file:
+B_L1_L1	encoder/t264enc.c	/^	B_L1_L1         = 11,$/;"	e	enum:__anon36	file:
+B_L1_L1_16x8	common/T264.h	/^    B_L1_L1_16x8,$/;"	e	enum:__anon8
+B_L1_L1_8x16	common/T264.h	/^    B_L1_L1_8x16,$/;"	e	enum:__anon8
+B_MODE	common/T264.h	/^    B_MODE,$/;"	e	enum:__anon10
+B_SKIP	common/T264.h	/^    B_SKIP,$/;"	e	enum:__anon10
+B_SKIP1	decoder/dec_cabac.c	/^	B_SKIP1         = 17,$/;"	e	enum:__anon32	file:
+B_SKIP1	encoder/t264enc.c	/^	B_SKIP1         = 17,$/;"	e	enum:__anon36	file:
+B_VOP	common/bitstream.h	127;"	d
+BeginFlush	dshow/splitter.cpp	/^HRESULT CBaseSplitterFilter::BeginFlush()$/;"	f	class:CBaseSplitterFilter
+BeginFlush	dshow/splitter.cpp	/^STDMETHODIMP CSplitterInputPin::BeginFlush()$/;"	f	class:CSplitterInputPin
+BeginFlush	dshow/splitter.h	/^        HRESULT BeginFlush() {$/;"	f	class:CSplitterInputPin::CImplPullPin
+Bitstream	common/bitstream.h	/^Bitstream;$/;"	t	typeref:struct:__anon1
+BitstreamByteAlign	common/bitstream.h	/^BitstreamByteAlign(Bitstream * const bs)$/;"	f
+BitstreamFlush	common/bitstream.h	/^BitstreamFlush(Bitstream* const bs)$/;"	f
+BitstreamForward	common/bitstream.h	/^BitstreamForward(Bitstream * const bs,$/;"	f
+BitstreamGetBit	common/bitstream.h	/^BitstreamGetBit(Bitstream * const bs)$/;"	f
+BitstreamGetBits	common/bitstream.h	/^BitstreamGetBits(Bitstream * const bs,$/;"	f
+BitstreamInit	common/bitstream.h	/^BitstreamInit(Bitstream * const bs,$/;"	f
+BitstreamLength	common/bitstream.h	/^BitstreamLength(Bitstream * const bs)$/;"	f
+BitstreamNumBitsToByteAlign	common/bitstream.h	/^BitstreamNumBitsToByteAlign(Bitstream *bs)$/;"	f
+BitstreamPad	common/bitstream.h	/^BitstreamPad(Bitstream * const bs)$/;"	f
+BitstreamPadAlways	common/bitstream.h	/^BitstreamPadAlways(Bitstream * const bs)$/;"	f
+BitstreamPadOne	common/bitstream.h	/^BitstreamPadOne(Bitstream * const bs)$/;"	f
+BitstreamPadOneA	common/bitstream.h	/^BitstreamPadOneA(Bitstream * const bs)$/;"	f
+BitstreamPadZero	common/bitstream.h	/^BitstreamPadZero(Bitstream * const bs)$/;"	f
+BitstreamPos	common/bitstream.h	/^BitstreamPos(const Bitstream * const bs)$/;"	f
+BitstreamPutBit	common/bitstream.h	/^BitstreamPutBit(Bitstream * const bs,$/;"	f
+BitstreamPutBits	common/bitstream.h	/^BitstreamPutBits(Bitstream * const bs,$/;"	f
+BitstreamReset	common/bitstream.h	/^BitstreamReset(Bitstream * const bs)$/;"	f
+BitstreamShowBits	common/bitstream.h	/^BitstreamShowBits(Bitstream * const bs,$/;"	f
+BitstreamShowBitsFromByteAlign	common/bitstream.h	/^BitstreamShowBitsFromByteAlign(Bitstream *bs, int bits)$/;"	f
+BitstreamSkip	common/bitstream.h	/^BitstreamSkip(Bitstream * const bs,$/;"	f
+BreakConnect	dshow/splitter.cpp	/^HRESULT CSplitterInputPin::BreakConnect()$/;"	f	class:CSplitterInputPin
+BreakConnect	dshow/splitter.cpp	/^void CBaseSplitterFilter::BreakConnect()$/;"	f	class:CBaseSplitterFilter
+BufferIndex	dshow/alloc.cpp	/^int CSequentialAllocator::BufferIndex(PBYTE pbBuffer)$/;"	f	class:CSequentialAllocator
+CACHE_SIZE	common/T264.h	93;"	d
+CBaseParser	dshow/splitter.h	/^    CBaseParser(CParserNotify *pNotify,$/;"	f	class:CBaseParser
+CBaseParser	dshow/splitter.h	/^class CBaseParser$/;"	c
+CBaseSplitterFilter	dshow/splitter.cpp	/^CBaseSplitterFilter::CBaseSplitterFilter($/;"	f	class:CBaseSplitterFilter
+CBaseSplitterFilter	dshow/splitter.h	/^class CBaseSplitterFilter : public CBaseFilter$/;"	c
+CC	build/linux/makefile	/^CC= arm-linux-gcc$/;"	m
+CFLAGS	build/linux/makefile	/^CFLAGS=  $(INCLUDE) -D__GCC__$/;"	m
+CHECK_CANDIDATE	encoder/estimation.c	181;"	d	file:
+CHIP_DM642	common/config.h	49;"	d
+CHROMA_COEFF_COST	common/T264.h	110;"	d
+CHROMA_CORRECTION128	encoder/yuv2rgb.c	127;"	d	file:
+CHROMA_CORRECTION128D	encoder/yuv2rgb.c	133;"	d	file:
+CHROMA_CORRECTION256	encoder/yuv2rgb.c	124;"	d	file:
+CHROMA_CORRECTION256D	encoder/yuv2rgb.c	130;"	d	file:
+CImplParserNotify	dshow/splitter.h	/^        CImplParserNotify(CBaseSplitterFilter *pFilter) : m_pFilter(pFilter) {};$/;"	f	class:CBaseSplitterFilter::CImplParserNotify
+CImplParserNotify	dshow/splitter.h	/^    class CImplParserNotify : public CParserNotify$/;"	c	class:CBaseSplitterFilter
+CImplPullPin	dshow/splitter.h	/^        CImplPullPin(CSplitterInputPin* pPin)$/;"	f	class:CSplitterInputPin::CImplPullPin
+CImplPullPin	dshow/splitter.h	/^    class CImplPullPin : public CPullPin$/;"	c	class:CSplitterInputPin
+CImplStreamNotify	dshow/splitter.h	/^        CImplStreamNotify(CSplitterOutputPin *pPin) : m_pPin(pPin) {}$/;"	f	class:CSplitterOutputPin::CImplStreamNotify
+CImplStreamNotify	dshow/splitter.h	/^    class CImplStreamNotify : public CStreamNotify$/;"	c	class:CSplitterOutputPin
+CLIP1	common/portab.h	111;"	d
+CLIP1	common/portab.h	157;"	d
+CLIP1	common/portab.h	66;"	d
+COEFF_COST	common/T264.h	/^static const int8_t COEFF_COST[16] =$/;"	v
+CParseReader	dshow/splitter.h	/^class CParseReader$/;"	c
+CParseReaderFromAsync	dshow/splitter.h	/^    CParseReaderFromAsync(IAsyncReader *pRdr) :$/;"	f	class:CParseReaderFromAsync
+CParseReaderFromAsync	dshow/splitter.h	/^class CParseReaderFromAsync : public CParseReader$/;"	c
+CParserNotify	dshow/splitter.h	/^class CParserNotify$/;"	c
+CSequentialAllocator	dshow/alloc.cpp	/^CSequentialAllocator::CSequentialAllocator($/;"	f	class:CSequentialAllocator
+CSequentialAllocator	dshow/alloc.h	/^class CSequentialAllocator : public CMemAllocator$/;"	c
+CSplitterInputPin	dshow/splitter.cpp	/^CSplitterInputPin::CSplitterInputPin($/;"	f	class:CSplitterInputPin
+CSplitterInputPin	dshow/splitter.h	/^class CSplitterInputPin : public CBaseInputPin$/;"	c
+CSplitterOutputPin	dshow/splitter.cpp	/^CSplitterOutputPin::CSplitterOutputPin($/;"	f	class:CSplitterOutputPin
+CSplitterOutputPin	dshow/splitter.h	/^class CSplitterOutputPin : public CBaseOutputPin$/;"	c
+CStream	dshow/T264Enc.h	/^        CStream():$/;"	f	class:CT264Parser::CStream
+CStream	dshow/T264Enc.h	/^    class CStream$/;"	c	class:CT264Parser
+CStreamNotify	dshow/splitter.h	/^class CStreamNotify$/;"	c
+CSubAllocator	dshow/alloc.h	/^    CSubAllocator($/;"	f	class:CSubAllocator
+CSubAllocator	dshow/alloc.h	/^class CSubAllocator : public CBaseAllocator$/;"	c
+CT264Dec	dshow/T264Enc.cpp	/^CT264Dec::CT264Dec(TCHAR *tszName,LPUNKNOWN punk,HRESULT *phr) :$/;"	f	class:CT264Dec
+CT264Dec	dshow/T264Enc.h	/^class CT264Dec: public CTransformFilter$/;"	c
+CT264Enc	dshow/T264Enc.cpp	/^CT264Enc::CT264Enc(TCHAR *tszName,LPUNKNOWN punk,HRESULT *phr) :$/;"	f	class:CT264Enc
+CT264Enc	dshow/T264Enc.h	/^class CT264Enc: public CTransformFilter,$/;"	c
+CT264EncProp	dshow/T264EncProp.cpp	/^CT264EncProp::CT264EncProp(LPUNKNOWN pUnk, HRESULT *phr) :$/;"	f	class:CT264EncProp
+CT264EncProp	dshow/T264EncProp.h	/^class CT264EncProp : public CBasePropertyPage$/;"	c
+CT264Parser	dshow/T264Enc.h	/^    CT264Parser(CParserNotify *pNotify, HRESULT *phr) :$/;"	f	class:CT264Parser
+CT264Parser	dshow/T264Enc.h	/^class CT264Parser : public CBaseParser$/;"	c
+CT264Splitter	dshow/T264Enc.cpp	/^CT264Splitter::CT264Splitter($/;"	f	class:CT264Splitter
+CT264Splitter	dshow/T264Enc.h	/^class CT264Splitter: public CBaseSplitterFilter$/;"	c
+CUSTOM_FASTINTERPOLATE	common/T264.h	60;"	d
+Cb_b_tab	encoder/yuv2rgb.c	/^static int *L_tab, *Cr_r_tab, *Cr_g_tab, *Cb_g_tab, *Cb_b_tab;$/;"	v	file:
+Cb_g_tab	encoder/yuv2rgb.c	/^static int *L_tab, *Cr_r_tab, *Cr_g_tab, *Cb_g_tab, *Cb_b_tab;$/;"	v	file:
+CheckConnect	dshow/splitter.cpp	/^HRESULT CSplitterInputPin::CheckConnect(IPin *pPin)$/;"	f	class:CSplitterInputPin
+CheckInputType	dshow/T264Enc.cpp	/^HRESULT CT264Dec::CheckInputType(const CMediaType *mtIn)$/;"	f	class:CT264Dec
+CheckInputType	dshow/T264Enc.cpp	/^HRESULT CT264Enc::CheckInputType(const CMediaType *mtIn)$/;"	f	class:CT264Enc
+CheckInputType	dshow/T264Enc.cpp	/^HRESULT CT264Splitter::CheckInputType(const CMediaType *pmt)$/;"	f	class:CT264Splitter
+CheckMediaType	dshow/splitter.cpp	/^HRESULT CSplitterInputPin::CheckMediaType(const CMediaType *pmt)$/;"	f	class:CSplitterInputPin
+CheckMediaType	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::CheckMediaType(const CMediaType *pmt)$/;"	f	class:CSplitterOutputPin
+CheckTransform	dshow/T264Enc.cpp	/^HRESULT CT264Dec::CheckTransform(const CMediaType *mtIn,const CMediaType *mtOut)$/;"	f	class:CT264Dec
+CheckTransform	dshow/T264Enc.cpp	/^HRESULT CT264Enc::CheckTransform(const CMediaType *mtIn,const CMediaType *mtOut)$/;"	f	class:CT264Enc
+Color16DitherImage	encoder/yuv2rgb.c	/^ Color16DitherImage (src, out)$/;"	f
+Color32DitherImage	encoder/yuv2rgb.c	/^ Color32DitherImage (src, out)$/;"	f
+CompleteConnect	dshow/T264Enc.cpp	/^HRESULT CT264Dec::CompleteConnect(PIN_DIRECTION direction, IPin *pReceivePin)$/;"	f	class:CT264Dec
+CompleteConnect	dshow/splitter.cpp	/^HRESULT CBaseSplitterFilter::CompleteConnect(IPin *pReceivePin)$/;"	f	class:CBaseSplitterFilter
+CompleteConnect	dshow/splitter.cpp	/^HRESULT CSplitterInputPin::CompleteConnect(IPin *pReceivePin)$/;"	f	class:CSplitterInputPin
+CompletionType	encoder/display.c	/^static int CompletionType = -1;$/;"	v	file:
+ConvertRGB2YUV	dshow/T264Enc.cpp	/^int ConvertRGB2YUV(int w,int h,unsigned char *bmp,unsigned int *yuv)$/;"	f
+ConvertYUVtoRGB	encoder/yuvrgb24.c	/^void ConvertYUVtoRGB (unsigned char *src0, unsigned char *src1, unsigned char *src2,$/;"	f
+Copy	dshow/T264Enc.cpp	/^HRESULT CT264Dec::Copy(IMediaSample *pSource, IMediaSample *pDest) const$/;"	f	class:CT264Dec
+Copy	dshow/T264Enc.cpp	/^HRESULT CT264Enc::Copy(IMediaSample *pSource, IMediaSample *pDest) const$/;"	f	class:CT264Enc
+Cr_g_tab	encoder/yuv2rgb.c	/^static int *L_tab, *Cr_r_tab, *Cr_g_tab, *Cb_g_tab, *Cb_b_tab;$/;"	v	file:
+Cr_r_tab	encoder/yuv2rgb.c	/^static int *L_tab, *Cr_r_tab, *Cr_g_tab, *Cb_g_tab, *Cb_b_tab;$/;"	v	file:
+CreateInstance	dshow/T264Enc.cpp	/^CUnknown * WINAPI CT264Dec::CreateInstance(LPUNKNOWN punk, HRESULT *phr) $/;"	f	class:CT264Dec
+CreateInstance	dshow/T264Enc.cpp	/^CUnknown * WINAPI CT264Enc::CreateInstance(LPUNKNOWN punk, HRESULT *phr) $/;"	f	class:CT264Enc
+CreateInstance	dshow/T264Enc.cpp	/^CUnknown *CT264Splitter::CreateInstance(LPUNKNOWN pUnk, HRESULT *phr)$/;"	f	class:CT264Splitter
+CreateInstance	dshow/T264EncProp.cpp	/^CUnknown * WINAPI CT264EncProp::CreateInstance(LPUNKNOWN lpunk, HRESULT *phr)$/;"	f	class:CT264EncProp
+CreateParser	dshow/T264Enc.cpp	/^CBaseParser *CT264Splitter::CreateParser($/;"	f	class:CT264Splitter
+CreateStream	dshow/splitter.cpp	/^HRESULT CBaseSplitterFilter::CreateStream($/;"	f	class:CBaseSplitterFilter
+CreateStream	dshow/splitter.h	/^        HRESULT CreateStream($/;"	f	class:CBaseSplitterFilter::CImplParserNotify
+CurrentMediaType	dshow/splitter.h	/^        void CurrentMediaType(AM_MEDIA_TYPE *pmt)$/;"	f	class:CSplitterOutputPin::CImplStreamNotify
+DECLARE_ALIGNED2_MATRIX_H	common/portab.h	122;"	d
+DECLARE_ALIGNED2_MATRIX_H	common/portab.h	164;"	d
+DECLARE_ALIGNED2_MATRIX_H	common/portab.h	86;"	d
+DECLARE_ALIGNED_MATRIX	common/portab.h	119;"	d
+DECLARE_ALIGNED_MATRIX	common/portab.h	160;"	d
+DECLARE_ALIGNED_MATRIX	common/portab.h	80;"	d
+DECLARE_ALIGNED_MATRIX_H	common/T264.h	36;"	d
+DECLARE_ALIGNED_MATRIX_H	common/portab.h	120;"	d
+DECLARE_ALIGNED_MATRIX_H	common/portab.h	162;"	d
+DECLARE_ALIGNED_MATRIX_H	common/portab.h	83;"	d
+DECLARE_INTERFACE_	dshow/IProp.h	/^    DECLARE_INTERFACE_(IProp, IUnknown)$/;"	f
+DECLARE_IUNKNOWN	dshow/T264Enc.h	/^    DECLARE_IUNKNOWN;$/;"	m	class:CT264Dec
+DECLARE_IUNKNOWN	dshow/T264Enc.h	/^    DECLARE_IUNKNOWN;$/;"	m	class:CT264Enc
+DECODESRC	build/linux/makefile	/^DECODESRC= $(wildcard $(DECODESRCDIR)\/*.c)$/;"	m
+DECODESRCDIR	build/linux/makefile	/^DECODESRCDIR= ..\/..\/decoder$/;"	m
+DEC_STATE_BUFFER	common/T264.h	/^    DEC_STATE_BUFFER = -1,$/;"	e	enum:__anon12
+DEC_STATE_CUSTOM_SET	common/T264.h	/^    DEC_STATE_CUSTOM_SET,$/;"	e	enum:__anon12
+DEC_STATE_OK	common/T264.h	/^    DEC_STATE_OK,$/;"	e	enum:__anon12
+DEC_STATE_PIC	common/T264.h	/^    DEC_STATE_PIC,$/;"	e	enum:__anon12
+DEC_STATE_SEQ	common/T264.h	/^    DEC_STATE_SEQ,$/;"	e	enum:__anon12
+DEC_STATE_SLICE	common/T264.h	/^    DEC_STATE_SLICE,$/;"	e	enum:__anon12
+DEC_STATE_UNKOWN	common/T264.h	/^    DEC_STATE_UNKOWN$/;"	e	enum:__anon12
+DEPEND	build/linux/makefile	/^DEPEND= dependencies$/;"	m
+DISPLAY_BLOCK	common/T264.h	108;"	d
+DISPLAY_PSNR	common/T264.h	107;"	d
+DQ_BITS	common/dct.c	28;"	d	file:
+DQ_BITS	common/utility.c	25;"	d	file:
+DQ_ROUND	common/dct.c	29;"	d	file:
+DQ_ROUND	common/utility.c	26;"	d	file:
+DeInstallXErrorHandler	encoder/display.c	/^static void DeInstallXErrorHandler ()$/;"	f	file:
+DecideAllocator	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::DecideAllocator($/;"	f	class:CSplitterOutputPin
+DecideBufferSize	dshow/T264Enc.cpp	/^HRESULT CT264Dec::DecideBufferSize(IMemAllocator *pAlloc,ALLOCATOR_PROPERTIES *pProperties)$/;"	f	class:CT264Dec
+DecideBufferSize	dshow/T264Enc.cpp	/^HRESULT CT264Enc::DecideBufferSize(IMemAllocator *pAlloc,ALLOCATOR_PROPERTIES *pProperties)$/;"	f	class:CT264Enc
+DecideBufferSize	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::DecideBufferSize($/;"	f	class:CSplitterOutputPin
+DeliverBeginFlush	dshow/splitter.h	/^    HRESULT DeliverBeginFlush()$/;"	f	class:CSplitterOutputPin
+DeliverEndFlush	dshow/splitter.h	/^    HRESULT DeliverEndFlush()$/;"	f	class:CSplitterOutputPin
+DeliverEndOfStream	dshow/splitter.h	/^    HRESULT DeliverEndOfStream()$/;"	f	class:CSplitterOutputPin
+DestroyInputPin	dshow/splitter.cpp	/^void CBaseSplitterFilter::DestroyInputPin()$/;"	f	class:CBaseSplitterFilter
+DestroyOutputPins	dshow/splitter.cpp	/^void CBaseSplitterFilter::DestroyOutputPins()$/;"	f	class:CBaseSplitterFilter
+DisplayWinMain	encoder/win.c	/^void DisplayWinMain (void *dummy)$/;"	f
+DllMain	dshow/T264Enc.cpp	/^BOOL APIENTRY DllMain(HANDLE hModule, $/;"	f
+DllRegisterServer	dshow/T264Enc.cpp	/^DllRegisterServer()$/;"	f
+DllUnregisterServer	dshow/T264Enc.cpp	/^DllUnregisterServer()$/;"	f
+DrawDIB	encoder/win.c	/^int DrawDIB ()$/;"	f
+EDGED_HEIGHT	common/T264.h	95;"	d
+EDGED_WIDTH	common/T264.h	94;"	d
+ENABLE_PROFILE	common/config.h	33;"	d
+ENABLE_PROFILE	common/config.h	42;"	d
+ENCODESRC	build/linux/makefile	/^ENCODESRC= $(filter-out $(ENCODESRCDIR)\/inter_test.c $(ENCODESRCDIR)\/win.c\\$/;"	m
+ENCODESRCDIR	build/linux/makefile	/^ENCODESRCDIR= ..\/..\/encoder$/;"	m
+EXTERN	encoder/display.h	5;"	d
+EXTERN	encoder/display.h	7;"	d
+EdgeLoopH	common/deblock.c	/^EdgeLoopH(T264_t* t, uint8_t* dst, int32_t stride, uint8_t indexA, int32_t alpha, int32_t beta, uint8_t bS, int32_t is_chroma)$/;"	f	file:
+EdgeLoopV	common/deblock.c	/^EdgeLoopV(T264_t* t, uint8_t* dst, int32_t stride, uint8_t indexA, int32_t alpha, int32_t beta, uint8_t bS, int32_t is_chroma)$/;"	f	file:
+EndFlush	dshow/splitter.cpp	/^HRESULT CBaseSplitterFilter::EndFlush()$/;"	f	class:CBaseSplitterFilter
+EndFlush	dshow/splitter.cpp	/^STDMETHODIMP CSplitterInputPin::EndFlush()$/;"	f	class:CSplitterInputPin
+EndFlush	dshow/splitter.h	/^        HRESULT EndFlush() {$/;"	f	class:CSplitterInputPin::CImplPullPin
+EndOfStream	dshow/splitter.cpp	/^STDMETHODIMP CSplitterInputPin::EndOfStream()$/;"	f	class:CSplitterInputPin
+EndOfStream	dshow/splitter.cpp	/^void CBaseSplitterFilter::EndOfStream()$/;"	f	class:CBaseSplitterFilter
+EndOfStream	dshow/splitter.h	/^        HRESULT EndOfStream(void) {$/;"	f	class:CSplitterInputPin::CImplPullPin
+FALSE	common/portab.h	36;"	d
+FIX8	common/cabac_engine.c	671;"	d	file:
+FIX8	common/cabac_engine.c	744;"	d	file:
+Filter	dshow/splitter.h	/^    CBaseSplitterFilter *Filter()$/;"	f	class:CSplitterInputPin
+Filter	dshow/splitter.h	/^    CBaseSplitterFilter *Filter()$/;"	f	class:CSplitterOutputPin
+Flush	dshow/alloc.cpp	/^void CSequentialAllocator::Flush()$/;"	f	class:CSequentialAllocator
+Free	dshow/alloc.h	/^    void Free() {}$/;"	f	class:CSubAllocator
+GAMMA_CORRECTION	encoder/yuv2rgb.c	123;"	d	file:
+GRPOFVOP_START_CODE	common/bitstream.h	66;"	d
+GetBuffer	dshow/alloc.cpp	/^STDMETHODIMP CSequentialAllocator::GetBuffer($/;"	f	class:CSequentialAllocator
+GetMediaType	dshow/T264Enc.cpp	/^HRESULT CT264Dec::GetMediaType(int iPosition, CMediaType *pMediaType)$/;"	f	class:CT264Dec
+GetMediaType	dshow/T264Enc.cpp	/^HRESULT CT264Enc::GetMediaType(int iPosition, CMediaType *pMediaType)$/;"	f	class:CT264Enc
+GetMediaType	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::GetMediaType($/;"	f	class:CSplitterOutputPin
+GetNotify	dshow/splitter.h	/^    CStreamNotify *GetNotify()$/;"	f	class:CSplitterOutputPin
+GetPages	dshow/T264Enc.cpp	/^STDMETHODIMP CT264Enc::GetPages(CAUUID *pPages)$/;"	f	class:CT264Enc
+GetPin	dshow/splitter.cpp	/^CBasePin *CBaseSplitterFilter::GetPin(int iPin)$/;"	f	class:CBaseSplitterFilter
+GetPinCount	dshow/splitter.cpp	/^int CBaseSplitterFilter::GetPinCount()$/;"	f	class:CBaseSplitterFilter
+GetSample	dshow/alloc.h	/^    CMediaSample *GetSample(PBYTE pbData, DWORD dwLen)$/;"	f	class:CSubAllocator
+GetSetupData	dshow/T264Enc.cpp	/^LPAMOVIESETUP_FILTER CT264Splitter::GetSetupData()$/;"	f	class:CT264Splitter
+GetSizeAndCount	dshow/T264Enc.cpp	/^void CT264Parser::GetSizeAndCount(LONG *plSize, LONG *plCount)$/;"	f	class:CT264Parser
+GetValid	dshow/alloc.cpp	/^PBYTE CSequentialAllocator::GetValid(LONG *plValid)$/;"	f	class:CSequentialAllocator
+HandleXError	encoder/display.c	/^static int HandleXError (dpy, event)$/;"	f	file:
+IDC_BUTTON1	dshow/resource.h	30;"	d
+IDC_BUTTON_DEFAULT	dshow/resource.h	31;"	d
+IDC_CHECK_B16X16	dshow/resource.h	37;"	d
+IDC_CHECK_B16X8	dshow/resource.h	38;"	d
+IDC_CHECK_B8X16	dshow/resource.h	39;"	d
+IDC_CHECK_B8X17	dshow/resource.h	40;"	d
+IDC_CHECK_B8X8	dshow/resource.h	41;"	d
+IDC_CHECK_CPU	dshow/resource.h	28;"	d
+IDC_CHECK_DEBLOCK	dshow/resource.h	27;"	d
+IDC_CHECK_EXTSKIP	dshow/resource.h	24;"	d
+IDC_CHECK_FASTINTERPOLATE	dshow/resource.h	25;"	d
+IDC_CHECK_I16X16	dshow/resource.h	13;"	d
+IDC_CHECK_I4X4	dshow/resource.h	14;"	d
+IDC_CHECK_I8X16	dshow/resource.h	17;"	d
+IDC_CHECK_P16X16	dshow/resource.h	15;"	d
+IDC_CHECK_P16X8	dshow/resource.h	16;"	d
+IDC_CHECK_P4X4	dshow/resource.h	22;"	d
+IDC_CHECK_P4X8	dshow/resource.h	21;"	d
+IDC_CHECK_P8X16	dshow/resource.h	18;"	d
+IDC_CHECK_P8X4	dshow/resource.h	20;"	d
+IDC_CHECK_P8X8	dshow/resource.h	19;"	d
+IDC_CHECK_QUARTPEL	dshow/resource.h	23;"	d
+IDC_CHECK_SAD	dshow/resource.h	26;"	d
+IDC_CHECK_USEINTRAININTER	dshow/resource.h	36;"	d
+IDC_EDIT_BFRAMENUM	dshow/resource.h	35;"	d
+IDC_EDIT_BITRATE	dshow/resource.h	8;"	d
+IDC_EDIT_FRAMEFATE	dshow/resource.h	12;"	d
+IDC_EDIT_IFRAME	dshow/resource.h	7;"	d
+IDC_EDIT_IQP	dshow/resource.h	9;"	d
+IDC_EDIT_MAXQP	dshow/resource.h	33;"	d
+IDC_EDIT_MINQP	dshow/resource.h	32;"	d
+IDC_EDIT_REFNUM	dshow/resource.h	11;"	d
+IDC_EDIT_SEARCH	dshow/resource.h	10;"	d
+IDC_STATIC_INFO	dshow/resource.h	29;"	d
+IDC_STATIC_VER	dshow/resource.h	34;"	d
+IDD_DIALOG_PROP	dshow/resource.h	6;"	d
+IDS_TITLE	dshow/resource.h	5;"	d
+INCLUDE	build/linux/makefile	/^INCLUDE= -I..\/..\/encoder  -I..\/..\/decoder -I..\/..\/encoder\/plugins -I..\/..\/common -I..\/..\/encoder\/sse2$/;"	m
+INITINVALIDVEC	decoder/T264dec.c	122;"	d	file:
+INITINVALIDVEC	decoder/T264dec.c	130;"	d	file:
+INITINVALIDVEC	decoder/dec_cabac.c	1279;"	d	file:
+INITINVALIDVEC	decoder/dec_cabac.c	1287;"	d	file:
+INITINVALIDVEC	decoder/dec_cabac.c	1391;"	d	file:
+INITINVALIDVEC	decoder/dec_cabac.c	1443;"	d	file:
+INITINVALIDVEC	decoder/dec_cabac.c	1496;"	d	file:
+INITINVALIDVEC	decoder/dec_cabac.c	1503;"	d	file:
+INITINVALIDVEC	decoder/dec_cavlc.c	39;"	d	file:
+INITINVALIDVEC	encoder/t264enc.c	1529;"	d	file:
+INITINVALIDVEC	encoder/t264enc.c	1855;"	d	file:
+INITINVALIDVEC	encoder/t264enc.c	2595;"	d	file:
+INITINVALIDVEC	encoder/t264enc.c	2604;"	d	file:
+INT16	common/portab.h	140;"	d
+INT16	common/portab.h	51;"	d
+INT32	common/portab.h	139;"	d
+INT32	common/portab.h	50;"	d
+INTERPOLATE	encoder/yuv2rgb.c	86;"	d	file:
+INTRA_16x16	decoder/dec_cabac.c	/^	INTRA_16x16         = 1,$/;"	e	enum:__anon32	file:
+INTRA_16x16	encoder/t264enc.c	/^	INTRA_16x16         = 1,$/;"	e	enum:__anon36	file:
+INTRA_4x4	decoder/dec_cabac.c	/^	INTRA_4x4           = 0,$/;"	e	enum:__anon32	file:
+INTRA_4x4	encoder/t264enc.c	/^	INTRA_4x4           = 0,$/;"	e	enum:__anon36	file:
+INTRA_PCM	decoder/dec_cabac.c	/^	INTRA_PCM           = 2,$/;"	e	enum:__anon32	file:
+INTRA_PCM	encoder/t264enc.c	/^	INTRA_PCM           = 2,$/;"	e	enum:__anon36	file:
+INTRA_THRESH	encoder/typedecision.c	31;"	d	file:
+IPM_LUMA	common/T264.h	112;"	d
+IProp	dshow/T264EncProp.h	/^interface IProp;$/;"	v
+IS_DIRECT	encoder/cavlc.c	72;"	d	file:
+IS_INTRA	common/deblock.c	28;"	d	file:
+IS_INTRA	decoder/dec_cabac.c	90;"	d	file:
+IS_INTRA	encoder/t264enc.c	37;"	d	file:
+IS_SKIP	decoder/dec_cabac.c	91;"	d	file:
+IS_SKIP	encoder/t264enc.c	38;"	d	file:
+I_16x16	common/T264.h	/^	I_16x16,$/;"	e	enum:__anon10
+I_4x4	common/T264.h	/^    I_4x4,$/;"	e	enum:__anon10
+I_VOP	common/bitstream.h	125;"	d
+Inactive	dshow/splitter.cpp	/^HRESULT CSplitterInputPin::Inactive()$/;"	f	class:CSplitterInputPin
+Inactive	dshow/splitter.h	/^    HRESULT Inactive()$/;"	f	class:CSplitterOutputPin
+Init	dshow/T264Enc.cpp	/^HRESULT CT264Parser::Init(CParseReader *pRdr)$/;"	f	class:CT264Parser
+InitAllocator	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::InitAllocator(IMemAllocator **ppAlloc)$/;"	f	class:CSplitterOutputPin
+InitColorDither	encoder/yuv2rgb.c	/^ InitColorDither (thirty2)$/;"	f
+InitDisplayWindowThread	encoder/win.c	/^int InitDisplayWindowThread (int width, int height)$/;"	f
+InitLookupTable	dshow/T264Enc.cpp	/^void InitLookupTable()$/;"	f
+InitOutMediaType	dshow/T264Enc.cpp	/^HRESULT CT264Dec::InitOutMediaType(CMediaType* pmt)$/;"	f	class:CT264Dec
+InitOutMediaType	dshow/T264Enc.cpp	/^HRESULT CT264Enc::InitOutMediaType(CMediaType* pmt)$/;"	f	class:CT264Enc
+Initialized	dshow/T264Enc.h	/^            BOOL Initialized()$/;"	f	class:CT264Parser::CStream
+InputPin	dshow/splitter.h	/^    CSplitterInputPin *InputPin()$/;"	f	class:CBaseSplitterFilter
+InstallXErrorHandler	encoder/display.c	/^static void InstallXErrorHandler ()$/;"	f	file:
+Intra_16x16_DC	common/T264.h	/^	Intra_16x16_DC,$/;"	e	enum:__anon3
+Intra_16x16_DC128	common/T264.h	/^	Intra_16x16_DC128$/;"	e	enum:__anon3
+Intra_16x16_DCLEFT	common/T264.h	/^	Intra_16x16_DCLEFT,$/;"	e	enum:__anon3
+Intra_16x16_DCTOP	common/T264.h	/^	Intra_16x16_DCTOP,$/;"	e	enum:__anon3
+Intra_16x16_LEFT	common/T264.h	/^	Intra_16x16_LEFT,$/;"	e	enum:__anon3
+Intra_16x16_PLANE	common/T264.h	/^	Intra_16x16_PLANE,$/;"	e	enum:__anon3
+Intra_16x16_TOP	common/T264.h	/^	Intra_16x16_TOP = 0,$/;"	e	enum:__anon3
+Intra_4x4_DC	common/T264.h	/^	Intra_4x4_DC,$/;"	e	enum:__anon5
+Intra_4x4_DC128	common/T264.h	/^	Intra_4x4_DC128$/;"	e	enum:__anon5
+Intra_4x4_DCLEFT	common/T264.h	/^	Intra_4x4_DCLEFT,$/;"	e	enum:__anon5
+Intra_4x4_DCTOP	common/T264.h	/^	Intra_4x4_DCTOP = 9,$/;"	e	enum:__anon5
+Intra_4x4_DIAGONAL_DOWNLEFT	common/T264.h	/^	Intra_4x4_DIAGONAL_DOWNLEFT,	$/;"	e	enum:__anon5
+Intra_4x4_DIAGONAL_DOWNRIGHT	common/T264.h	/^	Intra_4x4_DIAGONAL_DOWNRIGHT,	$/;"	e	enum:__anon5
+Intra_4x4_HORIZONTAL_DOWN	common/T264.h	/^	Intra_4x4_HORIZONTAL_DOWN,	$/;"	e	enum:__anon5
+Intra_4x4_HORIZONTAL_UP	common/T264.h	/^	Intra_4x4_HORIZONTAL_UP,	$/;"	e	enum:__anon5
+Intra_4x4_LEFT	common/T264.h	/^	Intra_4x4_LEFT,$/;"	e	enum:__anon5
+Intra_4x4_TOP	common/T264.h	/^	Intra_4x4_TOP = 0,$/;"	e	enum:__anon5
+Intra_4x4_VERTICAL_LEFT	common/T264.h	/^	Intra_4x4_VERTICAL_LEFT,	$/;"	e	enum:__anon5
+Intra_4x4_VERTICAL_RIGHT	common/T264.h	/^	Intra_4x4_VERTICAL_RIGHT,	$/;"	e	enum:__anon5
+Intra_8x8_DC	common/T264.h	/^    Intra_8x8_DC = 0,$/;"	e	enum:__anon4
+Intra_8x8_DC128	common/T264.h	/^    Intra_8x8_DC128$/;"	e	enum:__anon4
+Intra_8x8_DCLEFT	common/T264.h	/^    Intra_8x8_DCLEFT,$/;"	e	enum:__anon4
+Intra_8x8_DCTOP	common/T264.h	/^    Intra_8x8_DCTOP,$/;"	e	enum:__anon4
+Intra_8x8_LEFT	common/T264.h	/^    Intra_8x8_LEFT,$/;"	e	enum:__anon4
+Intra_8x8_PLANE	common/T264.h	/^    Intra_8x8_PLANE,$/;"	e	enum:__anon4
+Intra_8x8_TOP	common/T264.h	/^    Intra_8x8_TOP,$/;"	e	enum:__anon4
+LIBDIR	build/linux/makefile	/^LIBDIR= \/usr\/X11R6\/lib$/;"	m
+LIBS	build/linux/makefile	/^LIBS=   -lm$/;"	m
+LPCMEDIASAMPLE	dshow/alloc.h	/^typedef CMediaSample *LPCMEDIASAMPLE;$/;"	t
+L_tab	encoder/yuv2rgb.c	/^static int *L_tab, *Cr_r_tab, *Cr_g_tab, *Cb_g_tab, *Cb_b_tab;$/;"	v	file:
+Length	dshow/splitter.h	/^    HRESULT Length(LONGLONG *pLength)$/;"	f	class:CParseReaderFromAsync
+MAX_BREFNUMS	common/T264.h	91;"	d
+MAX_PLUGINS	common/T264.h	92;"	d
+MAX_REFFRAMES	common/T264.h	90;"	d
+MBAnalysis	encoder/typedecision.c	/^MBAnalysis(T264_t* t, int32_t y, int32_t x)$/;"	f	file:
+MB_16x16	common/T264.h	/^	MB_16x16 = 0,$/;"	e	enum:__anon6
+MB_16x8	common/T264.h	/^	MB_16x8,$/;"	e	enum:__anon6
+MB_2x2	common/T264.h	/^	MB_2x2$/;"	e	enum:__anon6
+MB_4x4	common/T264.h	/^	MB_4x4,$/;"	e	enum:__anon6
+MB_4x8	common/T264.h	/^	MB_4x8,$/;"	e	enum:__anon6
+MB_8x16	common/T264.h	/^	MB_8x16,$/;"	e	enum:__anon6
+MB_8x4	common/T264.h	/^	MB_8x4,$/;"	e	enum:__anon6
+MB_8x8	common/T264.h	/^	MB_8x8,$/;"	e	enum:__anon6
+MB_8x8ref0	common/T264.h	/^    MB_8x8ref0,$/;"	e	enum:__anon6
+MB_LEFT	common/T264.h	86;"	d
+MB_TOP	common/T264.h	87;"	d
+MB_TOPRIGHT	common/T264.h	88;"	d
+MEAnalysis	encoder/typedecision.c	/^MEAnalysis(T264_t* t)$/;"	f	file:
+MINPOSITIVE	encoder/inter_b.c	233;"	d	file:
+MINPOSITIVE	encoder/inter_b.c	253;"	d	file:
+MKVLC	encoder/vlc.h	54;"	d
+MainWndProc	encoder/win.c	/^LRESULT APIENTRY MainWndProc (HWND hWnd, UINT msg, UINT wParam, LONG lParam)$/;"	f
+MediaType	dshow/splitter.h	/^    CMediaType *MediaType()$/;"	f	class:CSplitterInputPin
+NAL_ACD	common/T264.h	/^    NAL_ACD,$/;"	e	enum:__anon2
+NAL_BUFFER_LEN	decoder/T264dec.c	46;"	d	file:
+NAL_CUSTOM_SET	common/T264.h	/^    NAL_CUSTOM_SET = 26$/;"	e	enum:__anon2
+NAL_END_SEQ	common/T264.h	/^    NAL_END_SEQ,$/;"	e	enum:__anon2
+NAL_END_STREAM	common/T264.h	/^    NAL_END_STREAM,$/;"	e	enum:__anon2
+NAL_FILTER	common/T264.h	/^    NAL_FILTER,$/;"	e	enum:__anon2
+NAL_PIC_SET	common/T264.h	/^    NAL_PIC_SET,$/;"	e	enum:__anon2
+NAL_SEI	common/T264.h	/^    NAL_SEI,$/;"	e	enum:__anon2
+NAL_SEQ_SET	common/T264.h	/^    NAL_SEQ_SET,$/;"	e	enum:__anon2
+NAL_SLICE_IDR	common/T264.h	/^    NAL_SLICE_IDR,$/;"	e	enum:__anon2
+NAL_SLICE_NOPART	common/T264.h	/^    NAL_SLICE_NOPART = 1,$/;"	e	enum:__anon2
+NAL_SLICE_PARTA	common/T264.h	/^    NAL_SLICE_PARTA,$/;"	e	enum:__anon2
+NAL_SLICE_PARTB	common/T264.h	/^    NAL_SLICE_PARTB,$/;"	e	enum:__anon2
+NAL_SLICE_PARTC	common/T264.h	/^    NAL_SLICE_PARTC,$/;"	e	enum:__anon2
+NAME	build/linux/makefile	/^NAME=   t264$/;"	m
+NNZ_CHROMA0	common/T264.h	115;"	d
+NNZ_CHROMA1	common/T264.h	116;"	d
+NNZ_LUMA	common/T264.h	114;"	d
+NUMBITS_VP_RESYNC_MARKER	common/bitstream.h	132;"	d
+N_VOP	common/bitstream.h	129;"	d
+NonDelegatingAddRef	dshow/splitter.cpp	/^CSplitterOutputPin::NonDelegatingAddRef()$/;"	f	class:CSplitterOutputPin
+NonDelegatingQueryInterface	dshow/T264Enc.cpp	/^STDMETHODIMP CT264Dec::NonDelegatingQueryInterface(REFIID riid, void **ppv)$/;"	f	class:CT264Dec
+NonDelegatingQueryInterface	dshow/T264Enc.cpp	/^STDMETHODIMP CT264Enc::NonDelegatingQueryInterface(REFIID riid, void **ppv)$/;"	f	class:CT264Enc
+NonDelegatingQueryInterface	dshow/splitter.h	/^    STDMETHODIMP NonDelegatingQueryInterface(REFIID riid, void ** ppv)$/;"	f	class:CSplitterInputPin
+NonDelegatingRelease	dshow/splitter.cpp	/^CSplitterOutputPin::NonDelegatingRelease()$/;"	f	class:CSplitterOutputPin
+Notify	dshow/splitter.cpp	/^STDMETHODIMP CSplitterOutputPin::Notify(IBaseFilter* pSender, Quality q)$/;"	f	class:CSplitterOutputPin
+NotifyAllocator	dshow/splitter.h	/^    STDMETHODIMP NotifyAllocator(IMemAllocator *pAllocator)$/;"	f	class:CSplitterInputPin
+NotifyError	dshow/splitter.h	/^    void NotifyError(HRESULT hr)$/;"	f	class:CSplitterInputPin
+OBJ	build/linux/makefile	/^OBJ=    $(ENCODESRC:$(ENCODESRCDIR)\/%.c=$(OBJDIR)\/%.o$(SUFFIX)) \\$/;"	m
+OBJDIR	build/linux/makefile	/^OBJDIR= ..\/obj$/;"	m
+OBJSUF	build/linux/makefile	/^OBJSUF= .o$(SUFFIX)$/;"	m
+OUTPIN_BUFFER_SIZE	dshow/T264Enc.h	1;"	d
+O_BINARY	encoder/display.h	17;"	d
+OnActivate	dshow/T264EncProp.cpp	/^HRESULT CT264EncProp::OnActivate(void)$/;"	f	class:CT264EncProp
+OnApplyChanges	dshow/T264EncProp.cpp	/^HRESULT CT264EncProp::OnApplyChanges()$/;"	f	class:CT264EncProp
+OnConnect	dshow/T264EncProp.cpp	/^HRESULT CT264EncProp::OnConnect(IUnknown *pUnknown)$/;"	f	class:CT264EncProp
+OnDeactivate	dshow/T264EncProp.cpp	/^HRESULT CT264EncProp::OnDeactivate(void)$/;"	f	class:CT264EncProp
+OnDisconnect	dshow/T264EncProp.cpp	/^HRESULT CT264EncProp::OnDisconnect()$/;"	f	class:CT264EncProp
+OnError	dshow/splitter.h	/^        void OnError(HRESULT hr) {$/;"	f	class:CSplitterInputPin::CImplPullPin
+OnReceiveMessage	dshow/T264EncProp.cpp	/^BOOL CT264EncProp::OnReceiveMessage(HWND hwnd,$/;"	f	class:CT264EncProp
+PIAFUNC	encoder/interpolate.c	245;"	d	file:
+PLUGINSRC	build/linux/makefile	/^PLUGINSRC= $(wildcard $(PLUGINSRCDIR)\/*.c)$/;"	m
+PLUGINSRCDIR	build/linux/makefile	/^PLUGINSRCDIR= ..\/..\/encoder\/plugins$/;"	m
+P_8x81	decoder/dec_cabac.c	/^	P_8x81          = 4,$/;"	e	enum:__anon32	file:
+P_8x81	encoder/t264enc.c	/^	P_8x81          = 4,$/;"	e	enum:__anon36	file:
+P_L0	decoder/dec_cabac.c	/^	P_L0            = 3,$/;"	e	enum:__anon32	file:
+P_L0	encoder/t264enc.c	/^	P_L0            = 3,$/;"	e	enum:__anon36	file:
+P_MODE	common/T264.h	/^    P_MODE,$/;"	e	enum:__anon10
+P_SKIP	common/T264.h	/^    P_SKIP,$/;"	e	enum:__anon10
+P_SKIP1	decoder/dec_cabac.c	/^	P_SKIP1         = 5,$/;"	e	enum:__anon32	file:
+P_SKIP1	encoder/t264enc.c	/^	P_SKIP1         = 5,$/;"	e	enum:__anon36	file:
+P_VOP	common/bitstream.h	126;"	d
+Pause	dshow/splitter.cpp	/^CBaseSplitterFilter::Pause()$/;"	f	class:CBaseSplitterFilter
+Process	dshow/T264Enc.cpp	/^HRESULT CT264Parser::Process($/;"	f	class:CT264Parser
+Q_BITS	common/dct.c	27;"	d	file:
+Q_BITS	common/utility.c	24;"	d	file:
+READ_MARKER	common/bitstream.h	120;"	d
+REFCOST	encoder/interpolate.h	34;"	d
+REFCOST1	encoder/interpolate.h	36;"	d
+RESYNC_MARKER	common/bitstream.h	133;"	d
+RGB2YUV_UBVR	dshow/T264Enc.cpp	/^int RGB2YUV_UR[256], RGB2YUV_UG[256], RGB2YUV_UBVR[256];$/;"	v
+RGB2YUV_UG	dshow/T264Enc.cpp	/^int RGB2YUV_UR[256], RGB2YUV_UG[256], RGB2YUV_UBVR[256];$/;"	v
+RGB2YUV_UR	dshow/T264Enc.cpp	/^int RGB2YUV_UR[256], RGB2YUV_UG[256], RGB2YUV_UBVR[256];$/;"	v
+RGB2YUV_VB	dshow/T264Enc.cpp	/^int RGB2YUV_VG[256], RGB2YUV_VB[256];$/;"	v
+RGB2YUV_VG	dshow/T264Enc.cpp	/^int RGB2YUV_VG[256], RGB2YUV_VB[256];$/;"	v
+RGB2YUV_YB	dshow/T264Enc.cpp	/^int RGB2YUV_YR[256], RGB2YUV_YG[256], RGB2YUV_YB[256];$/;"	v
+RGB2YUV_YG	dshow/T264Enc.cpp	/^int RGB2YUV_YR[256], RGB2YUV_YG[256], RGB2YUV_YB[256];$/;"	v
+RGB2YUV_YR	dshow/T264Enc.cpp	/^int RGB2YUV_YR[256], RGB2YUV_YG[256], RGB2YUV_YB[256];$/;"	v
+Read	dshow/splitter.h	/^    HRESULT Read(PBYTE pbData, DWORD cbData)$/;"	f	class:CParseReaderFromAsync
+Reader	dshow/splitter.h	/^    IAsyncReader *Reader()$/;"	f	class:CSplitterInputPin
+Receive	dshow/T264Enc.cpp	/^HRESULT CT264Dec::Receive(IMediaSample* pSample)$/;"	f	class:CT264Dec
+Receive	dshow/splitter.cpp	/^HRESULT CBaseSplitterFilter::Receive(IMediaSample *pSample)$/;"	f	class:CBaseSplitterFilter
+Receive	dshow/splitter.cpp	/^STDMETHODIMP CSplitterInputPin::Receive(IMediaSample *pSample)$/;"	f	class:CSplitterInputPin
+Receive	dshow/splitter.h	/^        HRESULT Receive(IMediaSample* pSample) {$/;"	f	class:CSplitterInputPin::CImplPullPin
+ReceiveCanBlock	dshow/splitter.h	/^    STDMETHODIMP ReceiveCanBlock()$/;"	f	class:CSplitterInputPin
+ReleaseBuffer	dshow/alloc.h	/^    STDMETHODIMP ReleaseBuffer(IMediaSample * pSample)$/;"	f	class:CSubAllocator
+ResetAllocatorAndParser	dshow/splitter.h	/^    void ResetAllocatorAndParser()$/;"	f	class:CBaseSplitterFilter
+SADFUNC	common/utility.c	370;"	d	file:
+SEARCH_16x16B	common/T264.h	70;"	d
+SEARCH_16x16P	common/T264.h	62;"	d
+SEARCH_16x8B	common/T264.h	71;"	d
+SEARCH_16x8P	common/T264.h	63;"	d
+SEARCH_4x4P	common/T264.h	68;"	d
+SEARCH_4x8P	common/T264.h	67;"	d
+SEARCH_8x16B	common/T264.h	72;"	d
+SEARCH_8x16P	common/T264.h	64;"	d
+SEARCH_8x4P	common/T264.h	66;"	d
+SEARCH_8x8B	common/T264.h	73;"	d
+SEARCH_8x8P	common/T264.h	65;"	d
+SEARCH_THRESH	encoder/typedecision.c	32;"	d	file:
+SH_MEM	encoder/display.c	115;"	d	file:
+SLICE_B	common/T264.h	/^    SLICE_B,$/;"	e	enum:__anon11
+SLICE_I	common/T264.h	/^    SLICE_I,$/;"	e	enum:__anon11
+SLICE_IDR	common/T264.h	/^    SLICE_IDR$/;"	e	enum:__anon11
+SLICE_P	common/T264.h	/^    SLICE_P = 0,$/;"	e	enum:__anon11
+SLICE_SI	common/T264.h	/^    SLICE_SI,$/;"	e	enum:__anon11
+SLICE_SP	common/T264.h	/^    SLICE_SP,$/;"	e	enum:__anon11
+SPRITE_GMC	common/bitstream.h	116;"	d
+SPRITE_NONE	common/bitstream.h	114;"	d
+SPRITE_STATIC	common/bitstream.h	115;"	d
+STATE_AFTERPIC	common/T264.h	104;"	d
+STATE_BEFOREGOP	common/T264.h	102;"	d
+STATE_BEFOREPIC	common/T264.h	103;"	d
+STATE_BEFORESEQ	common/T264.h	101;"	d
+SUFFIX	build/linux/makefile	/^SUFFIX= .dbg$/;"	m
+SUFFIX	build/linux/makefile	/^SUFFIX=$/;"	m
+SWAP	common/portab.h	110;"	d
+SWAP	common/portab.h	156;"	d
+SWAP	common/portab.h	65;"	d
+S_VOP	common/bitstream.h	128;"	d
+SampleFromBuffer	dshow/alloc.cpp	/^CMediaSample *CSequentialAllocator::SampleFromBuffer(PBYTE pBuffer)$/;"	f	class:CSequentialAllocator
+SendAnyway	dshow/splitter.h	/^    void SendAnyway()$/;"	f	class:CSplitterOutputPin
+SendSample	dshow/T264Enc.cpp	/^HRESULT CT264Dec::SendSample(T264_t* t, T264_frame_t *frame, IMediaSample* pSample)$/;"	f	class:CT264Dec
+SendSample	dshow/splitter.cpp	/^HRESULT CSplitterOutputPin::SendSample($/;"	f	class:CSplitterOutputPin
+SendSample	dshow/splitter.h	/^        HRESULT SendSample($/;"	f	class:CSplitterOutputPin::CImplStreamNotify
+SetDirty	dshow/T264EncProp.cpp	/^void CT264EncProp::SetDirty()$/;"	f	class:CT264EncProp
+SetPointer	dshow/splitter.h	/^    HRESULT SetPointer(LONGLONG llPos)$/;"	f	class:CParseReaderFromAsync
+StartStreaming	dshow/T264Enc.cpp	/^HRESULT CT264Dec::StartStreaming()$/;"	f	class:CT264Dec
+StartStreaming	dshow/T264Enc.cpp	/^HRESULT CT264Enc::StartStreaming()$/;"	f	class:CT264Enc
+Stop	dshow/splitter.cpp	/^STDMETHODIMP CBaseSplitterFilter::Stop()$/;"	f	class:CBaseSplitterFilter
+StopStreaming	dshow/T264Enc.cpp	/^HRESULT CT264Dec::StopStreaming()$/;"	f	class:CT264Dec
+StopStreaming	dshow/T264Enc.cpp	/^HRESULT CT264Enc::StopStreaming()$/;"	f	class:CT264Enc
+StreamReset	dshow/T264Enc.cpp	/^void CT264Parser::StreamReset()$/;"	f	class:CT264Parser
+T264_CPU_FORCE	common/T264.h	80;"	d
+T264_CPU_MMX	common/T264.h	81;"	d
+T264_CPU_SSE	common/T264.h	82;"	d
+T264_CPU_SSE2	common/T264.h	83;"	d
+T264_MAJOR	common/T264.h	40;"	d
+T264_MAX	common/T264.h	98;"	d
+T264_MIN	common/T264.h	97;"	d
+T264_MINOR	common/T264.h	41;"	d
+T264_SCAN8_0	decoder/dec_cabac.c	64;"	d	file:
+T264_SCAN8_0	encoder/t264enc.c	11;"	d	file:
+T264_SCAN8_SIZE	decoder/dec_cabac.c	63;"	d	file:
+T264_SCAN8_SIZE	encoder/t264enc.c	10;"	d	file:
+T264_VER	common/T264.h	42;"	d
+T264_cabac_context_init	common/cabac_engine.c	/^void T264_cabac_context_init( T264_cabac_t *cb, int i_slice_type, int i_qp, int i_model )$/;"	f
+T264_cabac_context_init_I	common/cabac_engine.c	/^static const int T264_cabac_context_init_I[399][2] =$/;"	v	file:
+T264_cabac_context_init_PB	common/cabac_engine.c	/^static const int T264_cabac_context_init_PB[3][399][2] =$/;"	v	file:
+T264_cabac_dec_mb_skip	decoder/dec_cabac.c	/^int T264_cabac_dec_mb_skip( T264_t *t)$/;"	f
+T264_cabac_decode_bypass	common/cabac_engine.c	/^int  T264_cabac_decode_bypass( T264_cabac_t *cb )$/;"	f
+T264_cabac_decode_decision	common/cabac_engine.c	/^int  T264_cabac_decode_decision( T264_cabac_t *cb, int i_ctx )$/;"	f
+T264_cabac_decode_init	common/cabac_engine.c	/^void T264_cabac_decode_init( T264_cabac_t *cb, bs_t *s )$/;"	f
+T264_cabac_decode_renorm	common/cabac_engine.c	/^static __inline void T264_cabac_decode_renorm( T264_cabac_t *cb )$/;"	f	file:
+T264_cabac_decode_terminal	common/cabac_engine.c	/^int  T264_cabac_decode_terminal( T264_cabac_t *cb )$/;"	f
+T264_cabac_encode_bypass	common/cabac_engine.c	/^void T264_cabac_encode_bypass( T264_cabac_t *cb, int b )$/;"	f
+T264_cabac_encode_decision	common/cabac_engine.c	/^void T264_cabac_encode_decision( T264_cabac_t *cb, int i_ctx, int b )$/;"	f
+T264_cabac_encode_flush	common/cabac_engine.c	/^void T264_cabac_encode_flush( T264_cabac_t *cb )$/;"	f
+T264_cabac_encode_init	common/cabac_engine.c	/^void T264_cabac_encode_init( T264_cabac_t *cb, bs_t *s )$/;"	f
+T264_cabac_encode_renorm	common/cabac_engine.c	/^static __inline void T264_cabac_encode_renorm( T264_cabac_t *cb )$/;"	f	file:
+T264_cabac_encode_terminal	common/cabac_engine.c	/^void T264_cabac_encode_terminal( T264_cabac_t *cb, int b )$/;"	f
+T264_cabac_entropy	common/cabac_engine.c	/^static int T264_cabac_entropy[128] =$/;"	v	file:
+T264_cabac_mb8x8_mvd	decoder/dec_cabac.c	/^static __inline void T264_cabac_mb8x8_mvd( T264_t *t, int i_list )$/;"	f	file:
+T264_cabac_mb8x8_mvd	encoder/t264enc.c	/^static __inline void T264_cabac_mb8x8_mvd( T264_t *t, int i_list )$/;"	f	file:
+T264_cabac_mb_cbf_ctxidxinc	decoder/dec_cabac.c	/^static int T264_cabac_mb_cbf_ctxidxinc( T264_t *t, int i_cat, int i_idx )$/;"	f	file:
+T264_cabac_mb_cbf_ctxidxinc	encoder/t264enc.c	/^static int T264_cabac_mb_cbf_ctxidxinc( T264_t *t, int i_cat, int i_idx )$/;"	f	file:
+T264_cabac_mb_cbp_chroma	decoder/dec_cabac.c	/^static void T264_cabac_mb_cbp_chroma( T264_t *t )$/;"	f	file:
+T264_cabac_mb_cbp_chroma	encoder/t264enc.c	/^static void T264_cabac_mb_cbp_chroma( T264_t *t )$/;"	f	file:
+T264_cabac_mb_cbp_luma	decoder/dec_cabac.c	/^static void T264_cabac_mb_cbp_luma( T264_t *t )$/;"	f	file:
+T264_cabac_mb_cbp_luma	encoder/t264enc.c	/^static void T264_cabac_mb_cbp_luma( T264_t *t )$/;"	f	file:
+T264_cabac_mb_intra4x4_pred_mode	decoder/dec_cabac.c	/^static int T264_cabac_mb_intra4x4_pred_mode( T264_t *t, int i_pred)$/;"	f	file:
+T264_cabac_mb_intra4x4_pred_mode	encoder/t264enc.c	/^static void T264_cabac_mb_intra4x4_pred_mode( T264_t *t, int i_pred, int i_mode )$/;"	f	file:
+T264_cabac_mb_intra8x8_pred_mode	decoder/dec_cabac.c	/^static void T264_cabac_mb_intra8x8_pred_mode( T264_t *t )$/;"	f	file:
+T264_cabac_mb_intra8x8_pred_mode	encoder/t264enc.c	/^static void T264_cabac_mb_intra8x8_pred_mode( T264_t *t )$/;"	f	file:
+T264_cabac_mb_mvd	decoder/dec_cabac.c	/^static __inline  void  T264_cabac_mb_mvd( T264_t *t, int i_list, int idx, int width, int height )$/;"	f	file:
+T264_cabac_mb_mvd	encoder/t264enc.c	/^static __inline  void  T264_cabac_mb_mvd( T264_t *t, int i_list, int idx, int width, int height )$/;"	f	file:
+T264_cabac_mb_mvd_cpn	decoder/dec_cabac.c	/^static __inline  int  T264_cabac_mb_mvd_cpn( T264_t *t, int i_list, int i8, int l)$/;"	f	file:
+T264_cabac_mb_mvd_cpn	encoder/t264enc.c	/^static __inline  void  T264_cabac_mb_mvd_cpn( T264_t *t, int i_list, int i8, int l, int mvd )$/;"	f	file:
+T264_cabac_mb_qp_delta	decoder/dec_cabac.c	/^static void T264_cabac_mb_qp_delta( T264_t *t )$/;"	f	file:
+T264_cabac_mb_qp_delta	encoder/t264enc.c	/^static void T264_cabac_mb_qp_delta( T264_t *t )$/;"	f	file:
+T264_cabac_mb_ref	decoder/dec_cabac.c	/^static __inline  void T264_cabac_mb_ref( T264_t *t, int i_list, int idx, int width, int height, int i_ref_max )$/;"	f	file:
+T264_cabac_mb_ref	encoder/t264enc.c	/^static __inline  void T264_cabac_mb_ref( T264_t *t, int i_list, int idx )$/;"	f	file:
+T264_cabac_mb_skip	encoder/t264enc.c	/^void T264_cabac_mb_skip( T264_t *t, int b_skip )$/;"	f
+T264_cabac_mb_sub_b_partition	decoder/dec_cabac.c	/^static __inline  int T264_cabac_mb_sub_b_partition( T264_t *t)$/;"	f	file:
+T264_cabac_mb_sub_b_partition	encoder/t264enc.c	/^static __inline  void T264_cabac_mb_sub_b_partition( T264_t *t, int i_sub )$/;"	f	file:
+T264_cabac_mb_sub_p_partition	decoder/dec_cabac.c	/^static __inline  int T264_cabac_mb_sub_p_partition( T264_t *t)$/;"	f	file:
+T264_cabac_mb_sub_p_partition	encoder/t264enc.c	/^static __inline  void T264_cabac_mb_sub_p_partition( T264_t *t, int i_sub )$/;"	f	file:
+T264_cabac_mb_type	decoder/dec_cabac.c	/^static void T264_cabac_mb_type( T264_t *t )$/;"	f	file:
+T264_cabac_mb_type	encoder/t264enc.c	/^static void T264_cabac_mb_type( T264_t *t )$/;"	f	file:
+T264_cabac_model_get	common/cabac_engine.c	/^int  T264_cabac_model_get ( T264_cabac_t *cb, int i_slice_type )$/;"	f
+T264_cabac_model_init	common/cabac_engine.c	/^void T264_cabac_model_init( T264_cabac_t *cb )$/;"	f
+T264_cabac_model_update	common/cabac_engine.c	/^void T264_cabac_model_update( T264_cabac_t *cb, int i_slice_type, int i_qp )$/;"	f
+T264_cabac_probability	common/cabac_engine.c	/^static int T264_cabac_probability[128] =$/;"	v	file:
+T264_cabac_putbit	common/cabac_engine.c	/^static __inline void T264_cabac_putbit( T264_cabac_t *cb, int b )$/;"	f	file:
+T264_cabac_range_lps	common/cabac_engine.c	/^static const int T264_cabac_range_lps[64][4] =$/;"	v	file:
+T264_cabac_t	common/T264.h	/^} T264_cabac_t;$/;"	t	typeref:struct:__anon24
+T264_clip3	common/cabac_engine.c	65;"	d	file:
+T264_close	encoder/t264enc.c	/^T264_close(T264_t* t)$/;"	f
+T264_cmp_t	common/T264.h	/^typedef uint32_t (*T264_cmp_t)(uint8_t* src, int32_t src_stride, uint8_t* data, int32_t dst_stride);$/;"	t
+T264_custom_set_t	common/T264.h	/^} T264_custom_set_t;$/;"	t	typeref:struct:__anon19
+T264_dct_t	common/T264.h	/^typedef void (*T264_dct_t)(int16_t* data);$/;"	t
+T264_deblock_frame	common/deblock.c	/^T264_deblock_frame(T264_t* t, T264_frame_t* f)$/;"	f
+T264_detect_cpu	encoder/sse2/cpu.asm	/^T264_detect_cpu$/;"	l
+T264_detect_direct_16x16	encoder/inter_b.c	/^T264_detect_direct_16x16(T264_t* t)$/;"	f	file:
+T264_detect_pskip	encoder/inter.c	/^T264_detect_pskip(T264_t* t, uint32_t sad_t)$/;"	f
+T264_eighth_pixel_mc_u_c	encoder/interpolate.c	/^T264_eighth_pixel_mc_u_c(uint8_t* src, int32_t src_stride, uint8_t* dst, int16_t mvx, int16_t mvy, int32_t width, int32_t height)$/;"	f
+T264_eighth_pixel_mc_u_t	common/T264.h	/^typedef void (*T264_eighth_pixel_mc_u_t)(uint8_t* src, int32_t src_stride, uint8_t* dst, int16_t mvx, int16_t mvy, int32_t width, int32_t height);$/;"	t
+T264_emms_c	encoder/t264enc.c	/^T264_emms_c()$/;"	f	file:
+T264_emms_mmx	encoder/sse2/cpu.asm	/^T264_emms_mmx$/;"	l
+T264_emms_t	common/T264.h	/^typedef void (*T264_emms_t)();$/;"	t
+T264_encode	encoder/t264enc.c	/^T264_encode(T264_t* t, uint8_t* src, uint8_t* dst, int32_t dst_size)$/;"	f
+T264_encode_frame	encoder/t264enc.c	/^T264_encode_frame(T264_t* t)$/;"	f	file:
+T264_encode_inter_16x16p	encoder/inter.c	/^T264_encode_inter_16x16p(_RW T264_t* t, uint8_t* pred)$/;"	f
+T264_encode_inter_16x16p	encoder/inter_test.c	/^T264_encode_inter_16x16p(_RW T264_t* t, uint8_t* pred)$/;"	f
+T264_encode_inter_uv	encoder/inter.c	/^T264_encode_inter_uv(_RW T264_t* t)$/;"	f
+T264_encode_inter_uv	encoder/inter_test.c	/^T264_encode_inter_uv(_RW T264_t* t)$/;"	f
+T264_encode_inter_y	encoder/inter.c	/^T264_encode_inter_y(_RW T264_t* t)$/;"	f
+T264_encode_inter_y	encoder/inter_test.c	/^T264_encode_inter_y(_RW T264_t* t)$/;"	f
+T264_encode_interb_uv	encoder/inter_b.c	/^T264_encode_interb_uv(_RW T264_t* t)$/;"	f
+T264_encode_intra_16x16	encoder/intra.c	/^T264_encode_intra_16x16(_RW T264_t* t)$/;"	f
+T264_encode_intra_4x4	encoder/intra.c	/^T264_encode_intra_4x4(_RW T264_t* t, uint8_t* pred, int32_t i)$/;"	f
+T264_encode_intra_uv	encoder/intra.c	/^T264_encode_intra_uv(_RW T264_t* t)$/;"	f
+T264_encode_intra_y	encoder/intra.c	/^T264_encode_intra_y(_RW T264_t* t)$/;"	f
+T264_extend_border	encoder/t264enc.c	/^T264_extend_border(T264_t* t, T264_frame_t* f)$/;"	f
+T264_flush_frames	encoder/t264enc.c	/^T264_flush_frames(T264_t* t, uint8_t* dst, int32_t dst_size)$/;"	f	file:
+T264_frame_t	common/T264.h	/^} T264_frame_t;$/;"	t	typeref:struct:__anon23
+T264_free	common/utility.c	/^T264_free(void* p)$/;"	f
+T264_get_direct_mv	encoder/inter_b.c	/^T264_get_direct_mv(T264_t* t, T264_vector_t vec_direct[2][16])$/;"	f
+T264_get_pos_sad	encoder/inter.c	/^T264_get_pos_sad(T264_t* t, uint8_t* ref, T264_vector_t* vec)$/;"	f
+T264_get_ref_idx	encoder/inter_b.c	/^T264_get_ref_idx(T264_t* t, int32_t list)$/;"	f	file:
+T264_init_cpu	encoder/t264enc.c	/^T264_init_cpu(T264_t* t)$/;"	f
+T264_init_frame	encoder/t264enc.c	/^T264_init_frame(T264_t* t, uint8_t* src, T264_frame_t* f, int32_t poc)$/;"	f	file:
+T264_inter_p16x16_mode_available	encoder/inter.c	/^T264_inter_p16x16_mode_available(T264_t* t, int32_t preds[], int32_t* modes)$/;"	f
+T264_inter_p16x16_mode_available	encoder/inter_test.c	/^T264_inter_p16x16_mode_available(T264_t* t, int32_t preds[], int32_t* modes)$/;"	f
+T264_inter_p8x8_mode_available	encoder/inter.c	/^T264_inter_p8x8_mode_available(T264_t* t, int32_t preds[], int32_t* modes, int32_t sub_no)$/;"	f
+T264_inter_p8x8_mode_available	encoder/inter_test.c	/^T264_inter_p8x8_mode_available(T264_t* t, int32_t preds[], int32_t* modes, int32_t sub_no)$/;"	f
+T264_interpolate_halfpel	encoder/t264enc.c	/^T264_interpolate_halfpel(T264_t* t, T264_frame_t* f)$/;"	f
+T264_interpolate_halfpel_t	common/T264.h	/^typedef void (*T264_interpolate_halfpel_t)(uint8_t* src, int32_t src_stride, uint8_t* dst, int32_t dst_stride, int32_t width, int32_t height);$/;"	t
+T264_intra_16x16_available	encoder/intra.c	/^T264_intra_16x16_available(T264_t* t, int32_t preds[], int32_t* modes, uint8_t* top, uint8_t* left)$/;"	f
+T264_intra_4x4_available	encoder/intra.c	/^T264_intra_4x4_available(T264_t* t, int32_t idx, int32_t preds[], int32_t* modes, uint8_t* dst, uint8_t* left, uint8_t* top)$/;"	f
+T264_intra_8x8_available	encoder/intra.c	/^T264_intra_8x8_available(T264_t* t, int32_t preds[], int32_t* modes, uint8_t* top_u, uint8_t* left_u, uint8_t* top_v, uint8_t* left_v)$/;"	f
+T264_iquant_t	common/T264.h	/^typedef void (*T264_iquant_t)(int16_t* data, const int32_t Qp);$/;"	t
+T264_load_ref	encoder/t264enc.c	/^T264_load_ref(T264_t* t)$/;"	f	file:
+T264_macroblock_read_cabac	decoder/dec_cabac.c	/^void T264_macroblock_read_cabac( T264_t *t, bs_t *s )$/;"	f
+T264_macroblock_write_cabac	encoder/t264enc.c	/^void T264_macroblock_write_cabac( T264_t *t, bs_t *s )$/;"	f
+T264_macroblock_write_cavlc	encoder/cavlc.c	/^T264_macroblock_write_cavlc(T264_t *t)$/;"	f
+T264_malloc	common/utility.c	/^T264_malloc(int32_t size, int32_t alignment)$/;"	f
+T264_map_btype_mbpart	decoder/dec_cabac.c	/^static const int T264_map_btype_mbpart[] = $/;"	v	file:
+T264_mb4x4_interb_mc	decoder/block.c	/^T264_mb4x4_interb_mc(T264_t* t,T264_vector_t vec[2][16],uint8_t* ref)$/;"	f
+T264_mb4x4_interb_uv_mc	decoder/block.c	/^T264_mb4x4_interb_uv_mc(T264_t* t,T264_vector_t vecPredicted[2][16],uint8_t* pred_u,uint8_t* pred_v)$/;"	f
+T264_mb_context_t	common/T264.h	/^} T264_mb_context_t;$/;"	t	typeref:struct:__anon22
+T264_mb_encode	encoder/t264enc.c	/^T264_mb_encode(T264_t* t)$/;"	f
+T264_mb_encode_post	encoder/t264enc.c	/^T264_mb_encode_post(T264_t* t)$/;"	f
+T264_mb_load_context	encoder/t264enc.c	/^T264_mb_load_context(T264_t* t, int32_t mb_y, int32_t mb_x)$/;"	f
+T264_mb_mode_decision	encoder/t264enc.c	/^T264_mb_mode_decision(T264_t* t)$/;"	f
+T264_mb_partition_listX_table	decoder/dec_cabac.c	/^static const int T264_mb_partition_listX_table[][2] = $/;"	v	file:
+T264_mb_partition_listX_table	encoder/t264enc.c	/^static const int T264_mb_partition_listX_table[][2] = $/;"	v	file:
+T264_mb_predict_intra4x4_mode	decoder/dec_cabac.c	/^T264_mb_predict_intra4x4_mode(T264_t *t, int32_t idx)$/;"	f	file:
+T264_mb_predict_intra4x4_mode	encoder/cavlc.c	/^T264_mb_predict_intra4x4_mode(T264_t *t, int32_t idx)$/;"	f
+T264_mb_predict_intra4x4_mode	encoder/t264enc.c	/^T264_mb_predict_intra4x4_mode(T264_t *t, int32_t idx)$/;"	f	file:
+T264_mb_predict_non_zero_code	encoder/cavlc.c	/^T264_mb_predict_non_zero_code(T264_t* t, int idx)$/;"	f
+T264_mb_read_cavlc_i4x4_mode	decoder/dec_cavlc.c	/^T264_mb_read_cavlc_i4x4_mode(T264_t* t)$/;"	f	file:
+T264_mb_save_context	encoder/t264enc.c	/^T264_mb_save_context(T264_t* t)$/;"	f
+T264_mb_t	common/T264.h	/^} T264_mb_t;$/;"	t	typeref:struct:__anon27
+T264_mb_type_list0_table	decoder/dec_cabac.c	/^static const int T264_mb_type_list0_table[18][2] =$/;"	v	file:
+T264_mb_type_list0_table	encoder/t264enc.c	/^static const int T264_mb_type_list0_table[18][2] =$/;"	v	file:
+T264_mb_type_list1_table	decoder/dec_cabac.c	/^static const int T264_mb_type_list1_table[18][2] =$/;"	v	file:
+T264_mb_type_list1_table	encoder/t264enc.c	/^static const int T264_mb_type_list1_table[18][2] =$/;"	v	file:
+T264_median	encoder/inter.c	/^T264_median(int32_t x, int32_t y, int32_t z)$/;"	f
+T264_median	encoder/inter_test.c	/^T264_median(int32_t x, int32_t y, int32_t z)$/;"	f
+T264_mode_decision_inter_16x16b	encoder/inter_b.c	/^T264_mode_decision_inter_16x16b(_RW T264_t* t, T264_vector_t vec_best[2][2], uint8_t* pred, uint8_t* part)$/;"	f
+T264_mode_decision_inter_16x16p	encoder/inter.c	/^T264_mode_decision_inter_16x16p(_RW T264_t* t, search_data_t* s)$/;"	f
+T264_mode_decision_inter_16x16p	encoder/inter_test.c	/^T264_mode_decision_inter_16x16p(_RW T264_t* t, search_data_t* s)$/;"	f
+T264_mode_decision_inter_16x8b	encoder/inter_b.c	/^T264_mode_decision_inter_16x8b(_RW T264_t* t, T264_vector_t vec_best[2][2], uint8_t* pred, uint8_t* part)$/;"	f
+T264_mode_decision_inter_16x8p	encoder/inter.c	/^T264_mode_decision_inter_16x8p(_RW T264_t* t, search_data_t* s)$/;"	f
+T264_mode_decision_inter_16x8p	encoder/inter_test.c	/^T264_mode_decision_inter_16x8p(_RW T264_t* t, search_data_t* s)$/;"	f
+T264_mode_decision_inter_4x4p	encoder/inter.c	/^T264_mode_decision_inter_4x4p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_4x4p	encoder/inter_test.c	/^T264_mode_decision_inter_4x4p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_4x8p	encoder/inter.c	/^T264_mode_decision_inter_4x8p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_4x8p	encoder/inter_test.c	/^T264_mode_decision_inter_4x8p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_8x16b	encoder/inter_b.c	/^T264_mode_decision_inter_8x16b(_RW T264_t* t, T264_vector_t vec_best[2][2], uint8_t* pred, uint8_t* part)$/;"	f
+T264_mode_decision_inter_8x16p	encoder/inter.c	/^T264_mode_decision_inter_8x16p(_RW T264_t * t, search_data_t* s)$/;"	f
+T264_mode_decision_inter_8x16p	encoder/inter_test.c	/^T264_mode_decision_inter_8x16p(_RW T264_t * t, search_data_t* s)$/;"	f
+T264_mode_decision_inter_8x4p	encoder/inter.c	/^T264_mode_decision_inter_8x4p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_8x4p	encoder/inter_test.c	/^T264_mode_decision_inter_8x4p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_8x8b	encoder/inter_b.c	/^T264_mode_decision_inter_8x8b(_RW T264_t * t, int32_t i, T264_vector_t vec_best[2], uint8_t* pred, uint8_t* part)$/;"	f
+T264_mode_decision_inter_8x8p	encoder/inter.c	/^T264_mode_decision_inter_8x8p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_8x8p	encoder/inter_test.c	/^T264_mode_decision_inter_8x8p(_RW T264_t * t, int32_t i, subpart_search_data_t* s)$/;"	f
+T264_mode_decision_inter_direct_16x16b	encoder/inter_b.c	/^T264_mode_decision_inter_direct_16x16b(_RW T264_t* t, T264_vector_t predVec[2][4 * 4], uint8_t* pred, uint8_t* part)$/;"	f
+T264_mode_decision_inter_y	encoder/inter_test.c	/^T264_mode_decision_inter_y(_RW T264_t* t)$/;"	f
+T264_mode_decision_interb_y	encoder/inter_b.c	/^T264_mode_decision_interb_y(_RW T264_t* t)$/;"	f
+T264_mode_decision_interp_y	encoder/inter.c	/^T264_mode_decision_interp_y(_RW T264_t* t)$/;"	f
+T264_mode_decision_intra_16x16	encoder/intra.c	/^T264_mode_decision_intra_16x16(_RW T264_t* t)$/;"	f
+T264_mode_decision_intra_4x4	encoder/intra.c	/^T264_mode_decision_intra_4x4(T264_t* t)$/;"	f
+T264_mode_decision_intra_uv	encoder/intra.c	/^T264_mode_decision_intra_uv(_RW T264_t* t)$/;"	f
+T264_mode_decision_intra_y	encoder/intra.c	/^T264_mode_decision_intra_y(_RW T264_t* t)$/;"	f
+T264_nal_t	common/T264.h	/^} T264_nal_t;$/;"	t	typeref:struct:__anon15
+T264_open	encoder/t264enc.c	/^T264_open(T264_param_t* para)$/;"	f
+T264_param_t	common/T264.h	/^} T264_param_t;$/;"	t	typeref:struct:__anon13
+T264_pending_bframe	encoder/t264enc.c	/^T264_pending_bframe(T264_t* t, uint8_t* src, int32_t poc)$/;"	f	file:
+T264_pia_t	common/T264.h	/^typedef void (*T264_pia_t)(uint8_t* p1, uint8_t* p2, int32_t p1_stride, int32_t p2_stride, uint8_t* dst, int32_t dst_stride);$/;"	t
+T264_pia_u_16x16_sse	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_16x16_sse    $/;"	l
+T264_pia_u_16x16_sse2	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_16x16_sse2$/;"	l
+T264_pia_u_16x8_sse	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_16x8_sse    $/;"	l
+T264_pia_u_16x8_sse2	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_16x8_sse2$/;"	l
+T264_pia_u_4x4_mmx	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_4x4_mmx    $/;"	l
+T264_pia_u_4x8_mmx	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_4x8_mmx    $/;"	l
+T264_pia_u_8x16_sse	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_8x16_sse    $/;"	l
+T264_pia_u_8x4_sse	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_8x4_sse    $/;"	l
+T264_pia_u_8x8_sse	encoder/sse2/interpolate_sse2.asm	/^T264_pia_u_8x8_sse    $/;"	l
+T264_pia_u_c	encoder/interpolate.c	/^T264_pia_u_c(uint8_t* p1, uint8_t* p2, int32_t p1_stride, int32_t p2_stride, uint8_t* dst, int32_t dst_stride,$/;"	f
+T264_pic_set_t	common/T264.h	/^} T264_pic_set_t;$/;"	t	typeref:struct:__anon17
+T264_pixel_avg_t	common/T264.h	/^typedef void (*T264_pixel_avg_t)(uint8_t* p1, uint8_t* p2, int32_t p1_stride, int32_t p2_stride, uint8_t* dst, int32_t dst_stride, int32_t w, int32_t h);$/;"	t
+T264_plugin_t	common/T264.h	/^} T264_plugin_t;$/;"	t	typeref:struct:__anon20
+T264_predict_16x16_mode_0_c	encoder/predict.c	/^T264_predict_16x16_mode_0_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_1_c	encoder/predict.c	/^T264_predict_16x16_mode_1_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_20_c	encoder/predict.c	/^T264_predict_16x16_mode_20_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_21_c	encoder/predict.c	/^T264_predict_16x16_mode_21_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_22_c	encoder/predict.c	/^T264_predict_16x16_mode_22_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_2_c	encoder/predict.c	/^T264_predict_16x16_mode_2_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_3_c	encoder/predict.c	/^T264_predict_16x16_mode_3_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_16x16_mode_t	common/T264.h	/^typedef void (*T264_predict_16x16_mode_t)(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left);$/;"	t
+T264_predict_16x16_mode_t	encoder/predict.h	/^typedef void (*T264_predict_16x16_mode_t)(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left);$/;"	t
+T264_predict_4x4_mode_0_c	encoder/predict.c	/^void T264_predict_4x4_mode_0_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_1_c	encoder/predict.c	/^void T264_predict_4x4_mode_1_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_20_c	encoder/predict.c	/^void T264_predict_4x4_mode_20_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_21_c	encoder/predict.c	/^void T264_predict_4x4_mode_21_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_22_c	encoder/predict.c	/^void T264_predict_4x4_mode_22_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_2_c	encoder/predict.c	/^void T264_predict_4x4_mode_2_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_3_c	encoder/predict.c	/^void T264_predict_4x4_mode_3_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_4_c	encoder/predict.c	/^void T264_predict_4x4_mode_4_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_5_c	encoder/predict.c	/^void T264_predict_4x4_mode_5_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_6_c	encoder/predict.c	/^void T264_predict_4x4_mode_6_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_7_c	encoder/predict.c	/^void T264_predict_4x4_mode_7_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_8_c	encoder/predict.c	/^void T264_predict_4x4_mode_8_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_4x4_mode_t	common/T264.h	/^typedef void (*T264_predict_4x4_mode_t)  (uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left);$/;"	t
+T264_predict_4x4_mode_t	encoder/predict.h	/^typedef void (*T264_predict_4x4_mode_t)  (uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left);$/;"	t
+T264_predict_8x8_mode_0_c	encoder/predict.c	/^T264_predict_8x8_mode_0_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_1_c	encoder/predict.c	/^T264_predict_8x8_mode_1_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_20_c	encoder/predict.c	/^T264_predict_8x8_mode_20_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_21_c	encoder/predict.c	/^T264_predict_8x8_mode_21_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_22_c	encoder/predict.c	/^T264_predict_8x8_mode_22_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_2_c	encoder/predict.c	/^T264_predict_8x8_mode_2_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_3_c	encoder/predict.c	/^T264_predict_8x8_mode_3_c(uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left)$/;"	f
+T264_predict_8x8_mode_t	common/T264.h	/^typedef void (*T264_predict_8x8_mode_t)  (uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left);$/;"	t
+T264_predict_8x8_mode_t	encoder/predict.h	/^typedef void (*T264_predict_8x8_mode_t)  (uint8_t* dst, int32_t dst_stride, uint8_t* top, uint8_t* left);$/;"	t
+T264_predict_mv	encoder/inter.c	/^T264_predict_mv(T264_t* t, int32_t list, int32_t i, int32_t width, T264_vector_t* vec)$/;"	f
+T264_predict_mv	encoder/inter_test.c	/^T264_predict_mv(T264_t* t, int32_t list, int32_t i, int32_t width, T264_vector_t* vec)$/;"	f
+T264_predict_mv_skip	encoder/inter.c	/^T264_predict_mv_skip(T264_t* t, int32_t list, T264_vector_t* vec)$/;"	f
+T264_predict_sad	encoder/inter.c	/^T264_predict_sad(T264_t* t, int32_t list)$/;"	f
+T264_quant2x2dc_t	common/T264.h	/^typedef void (*T264_quant2x2dc_t)(int16_t* data, const int32_t Qp, int32_t is_intra);$/;"	t
+T264_quant4x4_t	common/T264.h	/^typedef void (*T264_quant4x4_t)(int16_t* data, const int32_t Qp, int32_t is_intra);$/;"	t
+T264_quant4x4dc_t	common/T264.h	/^typedef void (*T264_quant4x4dc_t)(int16_t* data, const int32_t Qp);$/;"	t
+T264_quarter_pixel_search	encoder/interpolate.c	/^T264_quarter_pixel_search(T264_t* t, int32_t list_index, uint8_t* src, T264_frame_t* refframe, int32_t offset, T264_vector_t* vec, T264_vector_t* vec_median, uint32_t sad_org, int32_t w, int32_t h, uint8_t* residual, int32_t mb_part)$/;"	f
+T264_rc_t	encoder/plugins/ratecontrol.c	/^} T264_rc_t;$/;"	t	typeref:struct:__anon34	file:
+T264_reset_ref	encoder/t264enc.c	/^T264_reset_ref(T264_t* t)$/;"	f	file:
+T264_sad_u_16x16_sse2	encoder/sse2/sad.asm	/^T264_sad_u_16x16_sse2$/;"	l
+T264_sad_u_16x8_sse2	encoder/sse2/sad.asm	/^T264_sad_u_16x8_sse2$/;"	l
+T264_sad_u_4x4_sse	encoder/sse2/sad.asm	/^T264_sad_u_4x4_sse$/;"	l
+T264_sad_u_4x8_sse	encoder/sse2/sad.asm	/^T264_sad_u_4x8_sse$/;"	l
+T264_sad_u_8x16_sse	encoder/sse2/sad.asm	/^T264_sad_u_8x16_sse$/;"	l
+T264_sad_u_8x4_sse	encoder/sse2/sad.asm	/^T264_sad_u_8x4_sse$/;"	l
+T264_sad_u_8x8_sse	encoder/sse2/sad.asm	/^T264_sad_u_8x8_sse$/;"	l
+T264_sad_u_c	common/utility.c	/^T264_sad_u_c(uint8_t* src, int32_t src_stride, uint8_t* data, int32_t width, int32_t height, int32_t dst_stride)$/;"	f	file:
+T264_satd_16x16_u	common/T264.h	/^    T264_satd_i16x16_u_t T264_satd_16x16_u;$/;"	m	struct:T264_t
+T264_satd_i16x16_u_c	common/utility.c	/^T264_satd_i16x16_u_c(uint8_t* src, int32_t src_stride, uint8_t* data, int32_t dst_stride)$/;"	f
+T264_satd_i16x16_u_t	common/T264.h	/^typedef uint32_t (*T264_satd_i16x16_u_t)(uint8_t* src, int32_t src_stride, uint8_t* data, int32_t dst_stride);$/;"	t
+T264_satd_u_c	common/utility.c	/^T264_satd_u_c(uint8_t* src, int32_t src_stride, uint8_t* data, int32_t width, int32_t height, int32_t dst_stride)$/;"	f	file:
+T264_save_ref	encoder/t264enc.c	/^T264_save_ref(T264_t* t)$/;"	f	file:
+T264_scan8	decoder/dec_cabac.c	/^static const int T264_scan8[16+2*4] =$/;"	v	file:
+T264_scan8	encoder/t264enc.c	/^static const int T264_scan8[16+2*4] =$/;"	v	file:
+T264_search	encoder/estimation.c	/^T264_search(T264_t* t, T264_search_context_t* context)$/;"	f
+T264_search_context_t	common/T264.h	/^typedef struct T264_search_context_t$/;"	s
+T264_search_context_t	common/T264.h	/^} T264_search_context_t;$/;"	t	typeref:struct:T264_search_context_t
+T264_search_full	encoder/estimation.c	/^T264_search_full(T264_t* t, T264_search_context_t* context)$/;"	f
+T264_search_t	common/T264.h	/^typedef uint32_t (*T264_search_t)(T264_t* t, T264_search_context_t* context);$/;"	t
+T264_seq_set_t	common/T264.h	/^} T264_seq_set_t;$/;"	t	typeref:struct:__anon16
+T264_slice_t	common/T264.h	/^} T264_slice_t;$/;"	t	typeref:struct:__anon18
+T264_spiral_search_full	encoder/estimation.c	/^T264_spiral_search_full(T264_t* t, T264_search_context_t* context)$/;"	f
+T264_stat_t	common/T264.h	/^} T264_stat_t;$/;"	t	typeref:struct:__anon14
+T264_t	common/T264.h	/^struct T264_t$/;"	s
+T264_t	common/T264.h	/^typedef struct T264_t T264_t;$/;"	t	typeref:struct:T264_t
+T264_transform_inter_uv	encoder/inter.c	/^T264_transform_inter_uv(_RW T264_t* t, uint8_t* pred_u, uint8_t* pred_v)$/;"	f
+T264_transform_inter_uv	encoder/inter_test.c	/^T264_transform_inter_uv(_RW T264_t* t, uint8_t* pred_u, uint8_t* pred_v)$/;"	f
+T264_transition_lps	common/cabac_engine.c	/^static const int T264_transition_lps[64] =$/;"	v	file:
+T264_transition_mps	common/cabac_engine.c	/^static const int T264_transition_mps[64] =$/;"	v	file:
+T264_try_get_col_zero_mv	encoder/inter_b.c	/^T264_try_get_col_zero_mv(T264_t* t, T264_vector_t vec_direct[2][16], int32_t refl0, int32_t refl1)$/;"	f	file:
+T264_vector_t	common/T264.h	/^} T264_vector_t;$/;"	t	typeref:struct:__anon21
+T264dec_buffer	decoder/T264dec.c	/^T264dec_buffer(T264_t* t, uint8_t* buf, int32_t len)$/;"	f
+T264dec_close	decoder/T264dec.c	/^T264dec_close(T264_t* t)$/;"	f
+T264dec_copy_nal	decoder/T264dec.c	/^T264dec_copy_nal(T264_t* t)$/;"	f
+T264dec_custom_buffer	decoder/T264dec.c	/^T264dec_custom_buffer(T264_t* t, uint8_t* buf, int32_t stride)$/;"	f
+T264dec_decode_nal	decoder/T264dec.c	/^T264dec_decode_nal(T264_t* t)$/;"	f
+T264dec_find_nal	decoder/T264dec.c	/^T264dec_find_nal(T264_t* t)$/;"	f
+T264dec_flush_frame	decoder/T264dec.c	/^T264dec_flush_frame(T264_t* t)$/;"	f
+T264dec_load_ref	decoder/T264dec.c	/^T264dec_load_ref(T264_t* t)$/;"	f
+T264dec_mb_decode	decoder/T264dec.c	/^T264dec_mb_decode(T264_t* t)$/;"	f
+T264dec_mb_decode_i16x16_y	decoder/block.c	/^T264dec_mb_decode_i16x16_y(T264_t* t)$/;"	f	file:
+T264dec_mb_decode_i4x4_y	decoder/block.c	/^T264dec_mb_decode_i4x4_y(T264_t* t)$/;"	f	file:
+T264dec_mb_decode_interb_mc	decoder/block.c	/^T264dec_mb_decode_interb_mc(T264_t* t, uint8_t* ref)$/;"	f
+T264dec_mb_decode_interb_uv	decoder/block.c	/^T264dec_mb_decode_interb_uv(T264_t* t)$/;"	f
+T264dec_mb_decode_interb_y	decoder/block.c	/^T264dec_mb_decode_interb_y(T264_t* t)$/;"	f
+T264dec_mb_decode_interp_mc	decoder/block.c	/^T264dec_mb_decode_interp_mc(T264_t* t, uint8_t* ref)$/;"	f
+T264dec_mb_decode_interp_transform	decoder/block.c	/^T264dec_mb_decode_interp_transform(T264_t* t, uint8_t* ref)$/;"	f
+T264dec_mb_decode_interp_uv	decoder/block.c	/^T264dec_mb_decode_interp_uv(T264_t* t)$/;"	f
+T264dec_mb_decode_interp_y	decoder/block.c	/^T264dec_mb_decode_interp_y(T264_t* t)$/;"	f
+T264dec_mb_decode_intra_uv	decoder/block.c	/^T264dec_mb_decode_intra_uv(T264_t* t)$/;"	f
+T264dec_mb_decode_intra_y	decoder/block.c	/^T264dec_mb_decode_intra_y(T264_t* t)$/;"	f
+T264dec_mb_decode_predict_i16x16_y	decoder/block.c	/^T264dec_mb_decode_predict_i16x16_y(T264_t* t, uint8_t mode, uint8_t* pred, uint8_t* src)$/;"	f	file:
+T264dec_mb_decode_predict_i4x4_y	decoder/block.c	/^T264dec_mb_decode_predict_i4x4_y(T264_t* t, uint8_t idx, uint8_t mode, uint8_t* pred, uint8_t* src)$/;"	f	file:
+T264dec_mb_decode_predict_i8x8_y	decoder/block.c	/^T264dec_mb_decode_predict_i8x8_y(T264_t* t, uint8_t mode, uint8_t* pred_u, uint8_t* pred_v)$/;"	f	file:
+T264dec_mb_decode_uv	decoder/block.c	/^T264dec_mb_decode_uv(T264_t* t, uint8_t* pred_u, uint8_t* pred_v)$/;"	f
+T264dec_mb_load_context	decoder/T264dec.c	/^T264dec_mb_load_context(T264_t* t, int32_t mb_y, int32_t mb_x)$/;"	f
+T264dec_mb_read_cabac	decoder/dec_cabac.c	/^int T264dec_mb_read_cabac(T264_t *t)$/;"	f
+T264dec_mb_read_cavlc	decoder/dec_cavlc.c	/^T264dec_mb_read_cavlc(T264_t* t)$/;"	f
+T264dec_mb_read_cavlc_residual	decoder/dec_cavlc.c	/^T264dec_mb_read_cavlc_residual(T264_t* t, int32_t idx, int16_t* z, int32_t count)$/;"	f
+T264dec_mb_read_coff_token_t0	decoder/dec_cavlc.c	/^T264dec_mb_read_coff_token_t0(T264_t* t, uint8_t* trailing_ones, uint8_t* total_coff)$/;"	f
+T264dec_mb_read_coff_token_t1	decoder/dec_cavlc.c	/^T264dec_mb_read_coff_token_t1(T264_t* t, uint8_t* trailing_ones, uint8_t* total_coff)$/;"	f
+T264dec_mb_read_coff_token_t2	decoder/dec_cavlc.c	/^T264dec_mb_read_coff_token_t2(T264_t* t, uint8_t* trailing_ones, uint8_t* total_coff)$/;"	f
+T264dec_mb_read_coff_token_t3	decoder/dec_cavlc.c	/^T264dec_mb_read_coff_token_t3(T264_t* t, uint8_t* trailing_ones, uint8_t* total_coff)$/;"	f
+T264dec_mb_read_coff_token_t4	decoder/dec_cavlc.c	/^T264dec_mb_read_coff_token_t4(T264_t* t, uint8_t* trailing_ones, uint8_t* total_coff)$/;"	f
+T264dec_mb_read_intra_cavlc	decoder/dec_cavlc.c	/^T264dec_mb_read_intra_cavlc(T264_t* t)$/;"	f	file:
+T264dec_mb_read_level_prefix	decoder/dec_cavlc.c	/^T264dec_mb_read_level_prefix(T264_t* t)$/;"	f
+T264dec_mb_read_run_before	decoder/dec_cavlc.c	/^T264dec_mb_read_run_before(T264_t* t, uint8_t zero_left)$/;"	f
+T264dec_mb_read_total_zero1	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero1(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero10	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero10(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero11	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero11(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero12	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero12(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero13	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero13(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero14	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero14(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero15	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero15(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero2	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero2(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero3	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero3(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero4	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero4(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero5	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero5(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero6	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero6(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero7	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero7(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero8	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero8(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero9	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero9(T264_t* t)$/;"	f
+T264dec_mb_read_total_zero_chroma	decoder/dec_cavlc.c	/^T264dec_mb_read_total_zero_chroma(T264_t* t, uint8_t total_coeff)$/;"	f
+T264dec_mb_save_context	decoder/T264dec.c	/^T264dec_mb_save_context(T264_t* t, int32_t i, int32_t j)$/;"	f
+T264dec_open	decoder/T264dec.c	/^T264dec_open()$/;"	f
+T264dec_parse	decoder/T264dec.c	/^T264dec_parse(T264_t* t)$/;"	f
+T264dec_parse_custom_set	decoder/T264dec.c	/^T264dec_parse_custom_set(T264_t* t)$/;"	f
+T264dec_parse_pic_header	decoder/T264dec.c	/^T264dec_parse_pic_header(T264_t* t)$/;"	f
+T264dec_parse_seq_header	decoder/T264dec.c	/^T264dec_parse_seq_header(T264_t* t)$/;"	f
+T264dec_parse_slice	decoder/T264dec.c	/^T264dec_parse_slice(T264_t* t)$/;"	f
+T264dec_parse_slice_header	decoder/T264dec.c	/^T264dec_parse_slice_header(T264_t* t)$/;"	f
+T264dec_save_ref	decoder/T264dec.c	/^T264dec_save_ref(T264_t* t)$/;"	f
+TRUE	common/portab.h	35;"	d
+T_VDWINDOW	encoder/win.h	/^} T_VDWINDOW;$/;"	t	typeref:struct:__anon33
+Transform	dshow/T264Enc.cpp	/^HRESULT CT264Dec::Transform(IMediaSample *pIn, IMediaSample *pOut)$/;"	f	class:CT264Dec
+Transform	dshow/T264Enc.cpp	/^HRESULT CT264Enc::Transform(IMediaSample *pIn, IMediaSample *pOut)$/;"	f	class:CT264Enc
+U	common/T264.h	/^    uint8_t*  Y[4], *U, *V;$/;"	m	struct:__anon23
+UINT16	common/portab.h	141;"	d
+UINT16	common/portab.h	52;"	d
+UINT32	common/portab.h	142;"	d
+UINT32	common/portab.h	53;"	d
+USERDATA_START_CODE	common/bitstream.h	65;"	d
+USE_DIAMONDSEACH	common/T264.h	50;"	d
+USE_EXTRASUBPELSEARCH	common/T264.h	56;"	d
+USE_FASTINTERPOLATE	common/T264.h	52;"	d
+USE_FORCEBLOCKSIZE	common/T264.h	51;"	d
+USE_FULLSEARCH	common/T264.h	49;"	d
+USE_HALFPEL	common/T264.h	47;"	d
+USE_INTRA16x16	common/T264.h	44;"	d
+USE_INTRA4x4	common/T264.h	45;"	d
+USE_INTRAININTER	common/T264.h	55;"	d
+USE_QUARTPEL	common/T264.h	48;"	d
+USE_SAD	common/T264.h	53;"	d
+USE_SATD	common/T264.h	54;"	d
+USE_SCENEDETECT	common/T264.h	57;"	d
+USE_SUBBLOCK	common/T264.h	46;"	d
+V	common/T264.h	/^    uint8_t*  Y[4], *U, *V;$/;"	m	struct:__anon23
+VEC_LUMA	common/T264.h	113;"	d
+VIDEO_BEGIN	encoder/win.h	85;"	d
+VIDEO_DRAW_FRAME	encoder/win.h	86;"	d
+VIDEO_END	encoder/win.h	88;"	d
+VIDEO_REDRAW_FRAME	encoder/win.h	87;"	d
+VIDOBJLAY_AR_EXTPAR	common/bitstream.h	105;"	d
+VIDOBJLAY_SHAPE_BINARY	common/bitstream.h	109;"	d
+VIDOBJLAY_SHAPE_BINARY_ONLY	common/bitstream.h	110;"	d
+VIDOBJLAY_SHAPE_GRAYSCALE	common/bitstream.h	111;"	d
+VIDOBJLAY_SHAPE_RECTANGULAR	common/bitstream.h	108;"	d
+VIDOBJLAY_START_CODE	common/bitstream.h	62;"	d
+VIDOBJLAY_TYPE_ART_SIMPLE	common/bitstream.h	89;"	d
+VIDOBJLAY_TYPE_ASP	common/bitstream.h	96;"	d
+VIDOBJLAY_TYPE_SIMPLE	common/bitstream.h	80;"	d
+VIDOBJ_START_CODE	common/bitstream.h	61;"	d
+VISOBJSEQ_START_CODE	common/bitstream.h	63;"	d
+VISOBJSEQ_STOP_CODE	common/bitstream.h	64;"	d
+VISOBJ_START_CODE	common/bitstream.h	68;"	d
+VISOBJ_TYPE_VIDEO	common/bitstream.h	73;"	d
+VLC	decoder/dec_cavlc.c	472;"	d	file:
+VLC	decoder/dec_cavlc.c	475;"	d	file:
+VLC	decoder/dec_cavlc.c	47;"	d	file:
+VLC2	decoder/dec_cavlc.c	473;"	d	file:
+VLC2	decoder/dec_cavlc.c	476;"	d	file:
+VLC2	decoder/dec_cavlc.c	48;"	d	file:
+VLC4	decoder/dec_cavlc.c	474;"	d	file:
+VLC4	decoder/dec_cavlc.c	477;"	d	file:
+VLC4	decoder/dec_cavlc.c	49;"	d	file:
+VLC8	decoder/dec_cavlc.c	478;"	d	file:
+VOP_START_CODE	common/bitstream.h	69;"	d
+WIN32_LEAN_AND_MEAN	dshow/stdafx.h	9;"	d
+WRITE_MARKER	common/bitstream.h	121;"	d
+Wrap	dshow/alloc.cpp	/^HRESULT CSequentialAllocator::Wrap(void)$/;"	f	class:CSequentialAllocator
+Y	common/T264.h	/^    uint8_t*  Y[4], *U, *V;$/;"	m	struct:__anon23
+_ANSI_ARGS_	encoder/display.h	11;"	d
+_ANSI_ARGS_	encoder/display.h	13;"	d
+_APS_NEXT_COMMAND_VALUE	dshow/resource.h	48;"	d
+_APS_NEXT_CONTROL_VALUE	dshow/resource.h	49;"	d
+_APS_NEXT_RESOURCE_VALUE	dshow/resource.h	47;"	d
+_APS_NEXT_SYMED_VALUE	dshow/resource.h	50;"	d
+_BITSTREAM_H_	common/bitstream.h	52;"	d
+_CABAC_ENGINE_H_	common/cabac_engine.h	24;"	d
+_CAVLC_H_	encoder/cavlc.h	25;"	d
+_CONFIG_H_	common/config.h	27;"	d
+_DCT_H_	common/dct.h	25;"	d
+_DEBLOCK_H_	common/deblock.h	25;"	d
+_DECODE_H_	decoder/block.h	25;"	d
+_DEC_CABAC_H_	decoder/dec_cabac.h	25;"	d
+_DEC_CAVLC_H_	decoder/dec_cavlc.h	25;"	d
+_ESTIMATION_	encoder/estimation.h	25;"	d
+_INPUT	common/portab.h	32;"	d
+_INTERB_H_	encoder/inter_b.h	25;"	d
+_INTERPOLATE_H_	encoder/interpolate.h	25;"	d
+_INTER_H_	encoder/inter.h	25;"	d
+_INTRA_H_	encoder/intra.h	25;"	d
+_OUTPUT	common/portab.h	33;"	d
+_PORTAB_H_	common/portab.h	25;"	d
+_PREDICT_H	encoder/predict.h	25;"	d
+_PREDICT_H_1	common/T264.h	529;"	d
+_PREDICT_H_1	encoder/predict.h	74;"	d
+_R	common/portab.h	30;"	d
+_RATECONTROL_H_	encoder/plugins/ratecontrol.h	28;"	d
+_RBSP_H_	encoder/rbsp.h	25;"	d
+_RW	common/portab.h	29;"	d
+_SSE2_H_	encoder/sse2/sse2.h	25;"	d
+_STAT_H_	encoder/plugins/stat.h	25;"	d
+_T264_H_	common/T264.h	25;"	d
+_TIMER_H_	common/timer.h	2;"	d
+_TYPEDECISION_H_	encoder/typedecision.h	25;"	d
+_UTILITY_H_	common/utility.h	25;"	d
+_W	common/portab.h	31;"	d
+__INTTYPES_H_	common/inttypes.h	19;"	d
+__Linux_Display__	encoder/display.h	2;"	d
+_satd_4x4_dif_c	common/utility.c	/^uint32_t _satd_4x4_dif_c(int16_t* diff)$/;"	f	file:
+a1	encoder/plugins/ratecontrol.c	/^    double a1;$/;"	m	struct:__anon34	file:
+a2	encoder/plugins/ratecontrol.c	/^    double a2;$/;"	m	struct:__anon34	file:
+action	common/T264.h	/^    action_t action;$/;"	m	struct:T264_t
+action_t	common/T264.h	/^typedef decoder_state_t (*action_t)(T264_t* t);$/;"	t
+adaptive_ref_pic_marking_mode_flag	common/T264.h	/^    int32_t adaptive_ref_pic_marking_mode_flag;$/;"	m	struct:__anon18
+all	common/timer.h	/^    int64_t all;$/;"	m	struct:__anon29
+array_non_zero_count	common/utility.c	/^array_non_zero_count(int16_t *v, int32_t i_count)$/;"	f
+aspect_ratio	common/T264.h	/^    int32_t aspect_ratio;$/;"	m	struct:T264_t
+aspect_ratio	common/T264.h	/^    int32_t aspect_ratio;$/;"	m	struct:__anon13
+b_2_pix	encoder/yuv2rgb.c	/^static long *b_2_pix;$/;"	v	file:
+b_2_pix_alloc	encoder/yuv2rgb.c	/^static long *b_2_pix_alloc;$/;"	v	file:
+b_block_num	common/T264.h	/^    int32_t b_block_num[2];$/;"	m	struct:__anon14
+b_first_bit	common/T264.h	/^	int b_first_bit;$/;"	m	struct:__anon24
+b_no	encoder/plugins/ratecontrol.c	/^    int32_t b_no;$/;"	m	struct:__anon34	file:
+b_num	common/T264.h	/^    int32_t b_num;                      \/\/ b frame num$/;"	m	struct:__anon13
+bc	encoder/plugins/ratecontrol.c	/^    int32_t bc;$/;"	m	struct:__anon34	file:
+beta	encoder/plugins/ratecontrol.c	/^    double beta;$/;"	m	struct:__anon34	file:
+biHeader	encoder/win.h	/^  BITMAPINFOHEADER biHeader;$/;"	m	struct:__anon33
+binCount	common/cabac_engine.c	/^static int binCount = 0;$/;"	v	file:
+binCountDec	common/cabac_engine.c	/^static int binCountDec = 0;$/;"	v	file:
+bitCnt	common/cabac_engine.c	/^static int bitCnt = 0;$/;"	v	file:
+bitCntDec	common/cabac_engine.c	/^static int bitCntDec = 0;$/;"	v	file:
+bitrate	common/T264.h	/^    int32_t bitrate;$/;"	m	struct:__anon13
+bits	encoder/sse2/cpu.asm	/^bits 32$/;"	l
+bits	encoder/sse2/dct_sse2.asm	/^bits 32$/;"	l
+bits	encoder/sse2/interpolate_sse2.asm	/^bits 32$/;"	l
+bits	encoder/sse2/sad.asm	/^bits 32$/;"	l
+bits	encoder/sse2/utility_mmx.asm	/^bits 32$/;"	l
+blk_cnt	encoder/dither.c	/^EXTERN int chrom_width, chrom_height, blk_cnt;$/;"	v
+blk_cnt	encoder/yuv2rgb.c	/^EXTERN int chrom_width, chrom_height, blk_cnt;$/;"	v
+block_idx_xy	decoder/dec_cabac.c	/^static const uint8_t block_idx_xy[4][4] =$/;"	v	file:
+block_idx_xy	encoder/t264enc.c	/^static const uint8_t block_idx_xy[4][4] =$/;"	v	file:
+block_residual_read_cabac	decoder/dec_cabac.c	/^static void block_residual_read_cabac( T264_t *t, int i_ctxBlockCat, int i_idx, int16_t *l, int i_count )$/;"	f	file:
+block_residual_write_cabac	encoder/t264enc.c	/^static void block_residual_write_cabac( T264_t *t, int i_ctxBlockCat, int i_idx, int16_t *l, int i_count )$/;"	f	file:
+block_residual_write_cavlc	encoder/cavlc.c	/^static void block_residual_write_cavlc( T264_t *h, int32_t i_idx, int16_t *l, int32_t i_count )$/;"	f	file:
+block_size	common/T264.h	/^    int32_t block_size;$/;"	m	struct:__anon13
+bs	common/T264.h	/^    void*        bs;$/;"	m	struct:T264_t
+bs_buf	common/T264.h	/^    uint8_t*    bs_buf;$/;"	m	struct:T264_t
+bs_t	common/bitstream.h	536;"	d
+buf	common/bitstream.h	/^    uint32_t buf;$/;"	m	struct:__anon1
+buf	encoder/plugins/stat.c	/^    uint8_t* buf;$/;"	m	struct:__anon35	file:
+bufRGB	encoder/win.h	/^  unsigned char *bufRGB;$/;"	m	struct:__anon33
+bufa	common/bitstream.h	/^    uint32_t bufa;$/;"	m	struct:__anon1
+bufb	common/bitstream.h	/^    uint32_t bufb;$/;"	m	struct:__anon1
+bufb	encoder/plugins/stat.c	/^    uint8_t* bufb;$/;"	m	struct:__anon35	file:
+cabac	common/T264.h	/^	T264_cabac_t cabac;$/;"	m	struct:T264_t
+cabac	common/T264.h	/^	int32_t cabac;$/;"	m	struct:__anon13
+cabac_init_idc	common/T264.h	/^	int32_t cabac_init_idc;$/;"	m	struct:__anon18
+cbp	common/T264.h	/^	uint16_t	cbp;$/;"	m	struct:__anon22
+cbp	common/T264.h	/^	uint16_t	cbp;$/;"	m	struct:__anon27
+cbp_c	common/T264.h	/^	uint16_t    cbp_c;$/;"	m	struct:__anon22
+cbp_c	common/T264.h	/^	uint16_t    cbp_c;$/;"	m	struct:__anon27
+cbp_y	common/T264.h	/^	uint16_t    cbp_y;$/;"	m	struct:__anon22
+cbp_y	common/T264.h	/^	uint16_t    cbp_y;$/;"	m	struct:__anon27
+cbu_tab	encoder/yuvrgb24.c	/^long int cbu_tab[256];$/;"	v
+cextern	encoder/sse2/dct_sse2.asm	/^cextern dequant$/;"	l
+cextern	encoder/sse2/dct_sse2.asm	/^cextern quant$/;"	l
+cglobal	encoder/sse2/cpu.asm	/^cglobal T264_detect_cpu$/;"	l
+cglobal	encoder/sse2/cpu.asm	/^cglobal T264_emms_mmx$/;"	l
+cglobal	encoder/sse2/dct_sse2.asm	/^cglobal dct4x4_mmx$/;"	l
+cglobal	encoder/sse2/dct_sse2.asm	/^cglobal dct4x4dc_mmx$/;"	l
+cglobal	encoder/sse2/dct_sse2.asm	/^cglobal idct4x4_mmx$/;"	l
+cglobal	encoder/sse2/dct_sse2.asm	/^cglobal idct4x4dc_mmx$/;"	l
+cglobal	encoder/sse2/dct_sse2.asm	/^cglobal iquant4x4_sse2$/;"	l
+cglobal	encoder/sse2/dct_sse2.asm	/^cglobal quant4x4_sse2$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_16x16_sse$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_16x16_sse2$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_16x8_sse$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_16x8_sse2$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_4x4_mmx$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_4x8_mmx$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_8x16_sse$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_8x4_sse$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal T264_pia_u_8x8_sse$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal interpolate_halfpel_h_sse2$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal interpolate_halfpel_hv_sse2$/;"	l
+cglobal	encoder/sse2/interpolate_sse2.asm	/^cglobal interpolate_halfpel_v_sse2$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_16x16_sse2$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_16x8_sse2$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_4x4_sse$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_4x8_sse$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_8x16_sse$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_8x4_sse$/;"	l
+cglobal	encoder/sse2/sad.asm	/^cglobal T264_sad_u_8x8_sse$/;"	l
+cglobal	encoder/sse2/utility_mmx.asm	/^cglobal contract16to8_4x4_mmx$/;"	l
+cglobal	encoder/sse2/utility_mmx.asm	/^cglobal contract16to8_mmx$/;"	l
+cglobal	encoder/sse2/utility_mmx.asm	/^cglobal contract16to8add_4x4_mmx$/;"	l
+cglobal	encoder/sse2/utility_mmx.asm	/^cglobal contract16to8add_mmx$/;"	l
+cglobal	encoder/sse2/utility_mmx.asm	/^cglobal expand8to16sub_4x4_mmx$/;"	l
+cglobal	encoder/sse2/utility_mmx.asm	/^cglobal expand8to16sub_mmx$/;"	l
+cgu_tab	encoder/yuvrgb24.c	/^long int cgu_tab[256];$/;"	v
+cgv_tab	encoder/yuvrgb24.c	/^long int cgv_tab[256];$/;"	v
+check_vec	encoder/estimation.c	/^check_vec(int32_t i, T264_vector_t* vec)$/;"	f	file:
+chrom_height	encoder/display.c	/^int chrom_width = 88, chrom_height = 72;\/\/, blk_cnt;$/;"	v
+chrom_height	encoder/dither.c	/^EXTERN int chrom_width, chrom_height, blk_cnt;$/;"	v
+chrom_height	encoder/yuv2rgb.c	/^EXTERN int chrom_width, chrom_height, blk_cnt;$/;"	v
+chrom_width	encoder/display.c	/^int chrom_width = 88, chrom_height = 72;\/\/, blk_cnt;$/;"	v
+chrom_width	encoder/dither.c	/^EXTERN int chrom_width, chrom_height, blk_cnt;$/;"	v
+chrom_width	encoder/yuv2rgb.c	/^EXTERN int chrom_width, chrom_height, blk_cnt;$/;"	v
+chromaCorrect	encoder/yuv2rgb.c	/^double chromaCorrect = 1.0;$/;"	v
+chromaCorrectFlag	encoder/yuv2rgb.c	/^int chromaCorrectFlag = 0;$/;"	v
+chroma_qp	encoder/t264enc.c	/^const int32_t chroma_qp[] =$/;"	v
+chroma_qp_index_offset	common/T264.h	/^    int32_t chroma_qp_index_offset;$/;"	m	struct:__anon17
+clip3	common/portab.h	/^clip3(int32_t a, int32_t low, int32_t high)$/;"	f
+close	common/T264.h	/^    void (*close)(T264_t* t, void* data);$/;"	m	struct:__anon20
+closeDisplay	encoder/win.c	/^int closeDisplay ()$/;"	f
+clp	encoder/display.c	/^unsigned char * clp = NULL;$/;"	v
+clp	encoder/win.c	/^unsigned char *clp = NULL;$/;"	v
+clp1	encoder/display.c	/^unsigned char * clp1 = NULL;$/;"	v
+clp1	encoder/win.c	/^unsigned char *clp1 = NULL;$/;"	v
+cmp	common/T264.h	/^	T264_cmp_t cmp[8];$/;"	m	struct:T264_t
+coded_picture_height	encoder/display.c	/^int coded_picture_height = 144;$/;"	v
+coded_picture_height	encoder/dither.c	/^EXTERN int coded_picture_width, coded_picture_height;$/;"	v
+coded_picture_height	encoder/yuv2rgb.c	/^EXTERN int coded_picture_width, coded_picture_height;$/;"	v
+coded_picture_width	encoder/display.c	/^int coded_picture_width = 176;$/;"	v
+coded_picture_width	encoder/dither.c	/^EXTERN int coded_picture_width, coded_picture_height;$/;"	v
+coded_picture_width	encoder/yuv2rgb.c	/^EXTERN int coded_picture_width, coded_picture_height;$/;"	v
+coeff0_0	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff0_0[] = $/;"	v	file:
+coeff0_1	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff0_1[] = $/;"	v	file:
+coeff0_2	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff0_2[] = $/;"	v	file:
+coeff0_3	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff0_3[] = $/;"	v	file:
+coeff0_4	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff0_4[] = $/;"	v	file:
+coeff0_5	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff0_5[] = $/;"	v	file:
+coeff1_0	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_0[] = $/;"	v	file:
+coeff1_1	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_1[] = $/;"	v	file:
+coeff1_2	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_2[] = $/;"	v	file:
+coeff1_3	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_3[] = $/;"	v	file:
+coeff1_4	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_4[] = $/;"	v	file:
+coeff1_5	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_5[] = $/;"	v	file:
+coeff1_6	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff1_6[] = $/;"	v	file:
+coeff2_0	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_0[] = $/;"	v	file:
+coeff2_1	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_1[] = $/;"	v	file:
+coeff2_2	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_2[] = $/;"	v	file:
+coeff2_3	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_3[] = $/;"	v	file:
+coeff2_4	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_4[] = $/;"	v	file:
+coeff2_5	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_5[] = $/;"	v	file:
+coeff2_6	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff2_6[] = $/;"	v	file:
+coeff3_0	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff3_0[] =$/;"	v	file:
+coeff4_0	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff4_0[] = $/;"	v	file:
+coeff4_1	decoder/dec_cavlc.c	/^static const vlc_coeff_token_t coeff4_1[] = $/;"	v	file:
+context	common/T264.h	/^    T264_mb_context_t* context;$/;"	m	struct:__anon27
+contract16to8	common/T264.h	/^    contract16to8_t   contract16to8;$/;"	m	struct:T264_t
+contract16to8_4x4_mmx	encoder/sse2/utility_mmx.asm	/^contract16to8_4x4_mmx    $/;"	l
+contract16to8_c	common/utility.c	/^contract16to8_c(int16_t* src, int32_t quarter_width, int32_t quarter_height, uint8_t* dst, int32_t dst_stride)$/;"	f
+contract16to8_mmx	encoder/sse2/utility_mmx.asm	/^contract16to8_mmx$/;"	l
+contract16to8_t	common/T264.h	/^typedef void (*contract16to8_t)(int16_t* src, int32_t quarter_width, int32_t quarter_height, uint8_t* dst, int32_t dst_stride);$/;"	t
+contract16to8add	common/T264.h	/^    contract16to8add_t contract16to8add;$/;"	m	struct:T264_t
+contract16to8add_4x4_mmx	encoder/sse2/utility_mmx.asm	/^contract16to8add_4x4_mmx    $/;"	l
+contract16to8add_c	common/utility.c	/^contract16to8add_c(int16_t* src, int32_t quarter_width, int32_t quarter_height, uint8_t* pred, uint8_t* dst, int32_t dst_stride)$/;"	f
+contract16to8add_mmx	encoder/sse2/utility_mmx.asm	/^contract16to8add_mmx$/;"	l
+contract16to8add_t	common/T264.h	/^typedef void (*contract16to8add_t)(int16_t* src, int32_t quarter_width, int32_t quarter_height, uint8_t* org, uint8_t* dst, int32_t dst_stride);$/;"	t
+convmat	encoder/display.c	/^int convmat[8][4]$/;"	v
+copy_nvec	encoder/inter.c	/^copy_nvec(T264_vector_t* src, T264_vector_t* dst, int32_t width, int32_t height, int32_t stride)$/;"	f
+copy_nvec	encoder/inter_test.c	/^copy_nvec(T264_vector_t* src, T264_vector_t* dst, int32_t width, int32_t height, int32_t stride)$/;"	f
+cpu	common/T264.h	/^    int32_t cpu;$/;"	m	struct:__anon13
+crv_tab	encoder/yuvrgb24.c	/^long int crv_tab[256];$/;"	v
+ctxstate	common/T264.h	/^	} ctxstate[399];$/;"	m	struct:__anon24	typeref:struct:__anon24::__anon26
+cur	common/T264.h	/^    T264_frame_t cur;$/;"	m	struct:T264_t
+cur_frame	common/T264.h	/^    T264_frame_t* cur_frame;$/;"	m	struct:T264_t
+custom_set_init	encoder/rbsp.c	/^custom_set_init(_R T264_t* t, _RW T264_custom_set_t* set)$/;"	f
+custom_set_write	encoder/rbsp.c	/^custom_set_write(_R T264_t* t, _RW T264_custom_set_t* set)$/;"	f
+dc2x2_z	common/T264.h	/^    int16_t     dc2x2_z[2][4];                  \/\/ Z扫描后的4个DC系数$/;"	m	struct:__anon27
+dc4x4_z	common/T264.h	/^    int16_t     dc4x4_z[16];                    \/\/ Z扫描后的16个DC系数$/;"	m	struct:__anon27
+dct2x2dc_c	common/dct.c	/^dct2x2dc_c(int16_t* data)$/;"	f
+dct4x4_c	common/dct.c	/^dct4x4_c(int16_t* data)$/;"	f
+dct4x4_mmx	encoder/sse2/dct_sse2.asm	/^dct4x4_mmx$/;"	l
+dct4x4dc_c	common/dct.c	/^dct4x4dc_c(int16_t* data)$/;"	f
+dct4x4dc_mmx	encoder/sse2/dct_sse2.asm	/^dct4x4dc_mmx$/;"	l
+dct_uv_z	common/T264.h	/^    int16_t     dct_uv_z[2][4][4*4];$/;"	m	struct:__anon27
+dct_y_z	common/T264.h	/^    int16_t     dct_y_z[16][4*4];               \/\/ 块进行Z扫描后的系数$/;"	m	struct:__anon27
+deblock_mb	common/deblock.c	/^deblock_mb(T264_t* t, int32_t y, int32_t x, T264_frame_t* f)$/;"	f
+deblock_mb_chroma	common/deblock.c	/^deblock_mb_chroma(T264_t*t, int32_t x, int32_t y, uint8_t* dst_uv, uint8_t bSV[4][4], uint8_t bSH[4][4],$/;"	f
+deblock_mb_chroma_	common/deblock.c	/^deblock_mb_chroma_(T264_t*t, int32_t x, int32_t y, uint8_t* org_dst_u, uint8_t* org_dst_v, uint8_t bSV[4][4], uint8_t bSH[4][4],$/;"	f
+deblock_threshold_a	common/deblock.c	/^static const uint8_t deblock_threshold_a[] = $/;"	v	file:
+deblock_threshold_b	common/deblock.c	/^static const uint8_t deblock_threshold_b[] = $/;"	v	file:
+deblock_threshold_tc0	common/deblock.c	/^static const uint8_t deblock_threshold_tc0[][3] = $/;"	v	file:
+deblocking_filter_control_present_flag	common/T264.h	/^    int32_t deblocking_filter_control_present_flag;$/;"	m	struct:__anon17
+dec_psnr	encoder/T264.c	/^dec_psnr(uint8_t* p1, uint8_t* p2, int32_t width1, int32_t width2, int32_t height, int print)$/;"	f	file:
+decision_slice_type	encoder/typedecision.c	/^decision_slice_type(T264_t* t)$/;"	f
+decode	encoder/T264.c	/^decode(const char* filename)$/;"	f
+decoder_state_t	common/T264.h	/^} decoder_state_t;$/;"	t	typeref:enum:__anon12
+delta_pic_order_cnt_bottom	common/T264.h	/^    int32_t delta_pic_order_cnt_bottom;$/;"	m	struct:__anon18
+deltap	encoder/plugins/ratecontrol.c	/^    double deltap;$/;"	m	struct:__anon34	file:
+diamond_search	encoder/estimation.c	/^diamond_search(T264_t* t, uint8_t* cur, uint8_t* ref_st, T264_search_context_t* context, int32_t stride_cur, int32_t stride_ref, uint32_t sad)$/;"	f
+direct_flag	common/T264.h	/^    int32_t direct_flag;$/;"	m	struct:__anon13
+direct_spatial_mv_pred_flag	common/T264.h	/^    int32_t direct_spatial_mv_pred_flag;$/;"	m	struct:__anon18
+disable_filter	common/T264.h	/^    int32_t disable_filter;$/;"	m	struct:__anon13
+display	encoder/display.c	/^static Display *display;$/;"	v	file:
+displayImage	encoder/win.c	/^int displayImage (unsigned char *lum, unsigned char *Cr, unsigned char *Cb)$/;"	f
+display_image	encoder/display.c	/^static void display_image (ximage, dithered_image)$/;"	f	file:
+dither	encoder/display.c	/^void dither (src)$/;"	f
+dithered_image	encoder/display.c	/^static unsigned char *dithered_image;$/;"	v	file:
+dpy_depth	encoder/display.c	/^static int dpy_depth;$/;"	v	file:
+dst_u	common/T264.h	/^    uint8_t*    dst_u;$/;"	m	struct:__anon27
+dst_v	common/T264.h	/^    uint8_t*    dst_v;$/;"	m	struct:__anon27
+dst_y	common/T264.h	/^    uint8_t*    dst_y;	$/;"	m	struct:__anon27
+dwThreadID	encoder/win.h	/^  DWORD dwThreadID;$/;"	m	struct:__anon33
+edged_height	common/T264.h	/^    int32_t     edged_height;$/;"	m	struct:T264_t
+edged_stride	common/T264.h	/^    int32_t     edged_stride;$/;"	m	struct:T264_t
+edged_stride_uv	common/T264.h	/^    int32_t     edged_stride_uv;$/;"	m	struct:T264_t
+edged_width	common/T264.h	/^    int32_t     edged_width;$/;"	m	struct:T264_t
+eg_align	common/bitstream.h	535;"	d
+eg_flush	common/bitstream.h	538;"	d
+eg_init	common/bitstream.h	534;"	d
+eg_len	common/bitstream.h	537;"	d
+eg_read	common/bitstream.h	/^eg_read(Bitstream* const bs)$/;"	f
+eg_read_direct	common/bitstream.h	530;"	d
+eg_read_direct1	common/bitstream.h	531;"	d
+eg_read_se	common/bitstream.h	/^eg_read_se(Bitstream* const bs)$/;"	f
+eg_read_skip	common/bitstream.h	532;"	d
+eg_read_te	common/bitstream.h	/^eg_read_te(Bitstream* const bs, int32_t x)$/;"	f
+eg_read_ue	common/bitstream.h	527;"	d
+eg_show	common/bitstream.h	533;"	d
+eg_size_se	common/bitstream.h	/^eg_size_se(Bitstream* const bs, int32_t k)$/;"	f
+eg_size_te	common/bitstream.h	/^eg_size_te(Bitstream* const bs, int32_t x, int32_t k)$/;"	f
+eg_size_ue	common/bitstream.h	/^eg_size_ue(Bitstream* const bs, int32_t code_num)$/;"	f
+eg_write	common/bitstream.h	/^eg_write(Bitstream* const bs, int32_t code_num)$/;"	f
+eg_write_direct	common/bitstream.h	528;"	d
+eg_write_direct1	common/bitstream.h	529;"	d
+eg_write_se	common/bitstream.h	/^eg_write_se(Bitstream* const bs, int32_t k)$/;"	f
+eg_write_te	common/bitstream.h	/^eg_write_te(Bitstream* const bs, int32_t x, int32_t code_num)$/;"	f
+eg_write_ue	common/bitstream.h	526;"	d
+eg_write_vlc	encoder/cavlc.c	/^static __inline void eg_write_vlc(bs_t* bs, vlc_t v)$/;"	f	file:
+eighth_pixel_mc_u	common/T264.h	/^    T264_eighth_pixel_mc_u_t eighth_pixel_mc_u;$/;"	m	struct:T264_t
+emms	common/T264.h	/^    T264_emms_t emms;$/;"	m	struct:T264_t
+enable_rc	common/T264.h	/^    int32_t enable_rc;$/;"	m	struct:__anon13
+enable_stat	common/T264.h	/^    int32_t enable_stat;$/;"	m	struct:__anon13
+encode	encoder/T264.c	/^encode(const char* paramfile)$/;"	f
+entroy_coding_mode_flag	common/T264.h	/^    int32_t entroy_coding_mode_flag;$/;"	m	struct:__anon17
+exit_display	encoder/display.c	/^void exit_display ()$/;"	f
+expand	encoder/display.c	/^int expand = 0;$/;"	v
+expand8to16	common/T264.h	/^    expand8to16_t     expand8to16;$/;"	m	struct:T264_t
+expand8to16_c	common/utility.c	/^expand8to16_c(uint8_t* src, int32_t src_stride, int32_t quarter_width, int32_t quarter_height, int16_t* dst)$/;"	f
+expand8to16_t	common/T264.h	/^typedef void (*expand8to16_t)(uint8_t* src, int32_t src_stride, int32_t quarter_width, int32_t quarter_height, int16_t* dst);$/;"	t
+expand8to16sub	common/T264.h	/^    expand8to16sub_t  expand8to16sub;$/;"	m	struct:T264_t
+expand8to16sub_4x4_mmx	encoder/sse2/utility_mmx.asm	/^expand8to16sub_4x4_mmx    $/;"	l
+expand8to16sub_c	common/utility.c	/^expand8to16sub_c(uint8_t* pred, int32_t quarter_width, int32_t quarter_height, int16_t* dst, uint8_t* src, int32_t src_stride)$/;"	f
+expand8to16sub_mmx	encoder/sse2/utility_mmx.asm	/^expand8to16sub_mmx$/;"	l
+expand8to16sub_t	common/T264.h	/^typedef void (*expand8to16sub_t)(uint8_t* pred, int32_t quarter_width, int32_t quarter_height, int16_t* dst, uint8_t* src, int32_t src_stride);$/;"	t
+fdct2x2dc	common/T264.h	/^    T264_dct_t fdct2x2dc;$/;"	m	struct:T264_t
+fdct4x4	common/T264.h	/^    T264_dct_t fdct4x4;$/;"	m	struct:T264_t
+fdct4x4dc	common/T264.h	/^    T264_dct_t fdct4x4dc;$/;"	m	struct:T264_t
+first_mb_in_slice	common/T264.h	/^    int32_t first_mb_in_slice;$/;"	m	struct:__anon18
+flags	common/T264.h	/^    int32_t flags;$/;"	m	struct:__anon13
+flags	common/T264.h	/^    int32_t flags;$/;"	m	struct:__anon19
+flags	common/T264.h	/^    uint32_t    flags;$/;"	m	struct:T264_t
+fpCABAC	common/cabac_engine.c	/^FILE *fpCABAC;$/;"	v
+fpCABACDec	common/cabac_engine.c	/^FILE *fpCABACDec;$/;"	v
+frame_bits	common/T264.h	/^    int32_t     frame_bits;$/;"	m	struct:T264_t
+frame_id	common/T264.h	/^    uint32_t    frame_id;$/;"	m	struct:T264_t
+frame_mbs_only_flag	common/T264.h	/^    int32_t frame_mbs_only_flag;$/;"	m	struct:__anon16
+frame_no	common/T264.h	/^    uint32_t    frame_no;$/;"	m	struct:T264_t
+frame_no	encoder/plugins/stat.c	/^    int32_t frame_no;$/;"	m	struct:__anon35	file:
+frame_num	common/T264.h	/^    int32_t frame_num;$/;"	m	struct:__anon18
+frame_num	common/T264.h	/^    uint32_t    frame_num;$/;"	m	struct:T264_t
+framerate	common/T264.h	/^    float   framerate;$/;"	m	struct:__anon13
+free_bits_at_bottom	encoder/yuv2rgb.c	/^ free_bits_at_bottom (a)$/;"	f	file:
+free_bits_at_top	encoder/yuv2rgb.c	/^ free_bits_at_top (a)$/;"	f	file:
+gXErrorFlag	encoder/display.c	/^static int gXErrorFlag;$/;"	v	file:
+g_2_pix	encoder/yuv2rgb.c	/^static long *g_2_pix;$/;"	v	file:
+g_2_pix_alloc	encoder/yuv2rgb.c	/^static long *g_2_pix_alloc;$/;"	v	file:
+g_Templates	dshow/T264Enc.cpp	/^CFactoryTemplate g_Templates[]=$/;"	v
+g_cTemplates	dshow/T264Enc.cpp	/^int g_cTemplates = sizeof(g_Templates)\/sizeof(g_Templates[0]);  $/;"	v
+g_wszDecName	dshow/T264Enc.cpp	/^static const WCHAR g_wszDecName[] = L"T264 Decoder";$/;"	v	file:
+g_wszDecPropName	dshow/T264Enc.cpp	/^static const WCHAR g_wszDecPropName[] = L"T264 decoder properties";$/;"	v	file:
+g_wszEncName	dshow/T264Enc.cpp	/^static const WCHAR g_wszEncName[] = L"T264 Encoder";$/;"	v	file:
+g_wszEncPropName	dshow/T264Enc.cpp	/^static const WCHAR g_wszEncPropName[] = L"T264 Properties";$/;"	v	file:
+g_wszSplitterName	dshow/T264Enc.cpp	/^static const WCHAR g_wszSplitterName[] = L"T264 splitter";$/;"	v	file:
+gamma	encoder/plugins/ratecontrol.c	/^    double gamma;$/;"	m	struct:__anon34	file:
+gammaCorrect	encoder/yuv2rgb.c	/^double gammaCorrect = 1.0;$/;"	v
+gammaCorrectFlag	encoder/yuv2rgb.c	/^int gammaCorrectFlag = 0;$/;"	v
+gc	encoder/display.c	/^static GC gc;$/;"	v	file:
+get_Para	dshow/T264Enc.cpp	/^HRESULT CT264Enc::get_Para(INT** pPara)$/;"	f	class:CT264Enc
+get_output_frame	decoder/T264dec.c	/^get_output_frame(T264_t* t)$/;"	f	file:
+get_pmv	encoder/inter.c	/^get_pmv(T264_t* t, int32_t list, T264_vector_t* vec, int32_t part, int32_t idx, int32_t width, int32_t* n)$/;"	f
+get_pmv	encoder/inter_test.c	/^get_pmv(T264_t* t, T264_vector_t* vec, int32_t part, int32_t idx, int32_t width, int32_t* n)$/;"	f	file:
+get_strength	common/deblock.c	/^get_strength(T264_t* t, uint8_t bS[4], int32_t dir, int32_t edge, T264_mb_context_t* cur, T264_mb_context_t* prev)$/;"	f	file:
+gop	encoder/plugins/ratecontrol.c	/^    int32_t gop;$/;"	m	struct:__anon34	file:
+gop_bits	encoder/plugins/ratecontrol.c	/^    int32_t gop_bits;$/;"	m	struct:__anon34	file:
+hDC	encoder/win.h	/^  HDC hDC;$/;"	m	struct:__anon33
+hDrawDib	encoder/win.h	/^  HDRAWDIB hDrawDib;$/;"	m	struct:__anon33
+hEvent	encoder/win.h	/^  HANDLE hEvent;$/;"	m	struct:__anon33
+hReadyEvt	encoder/win.h	/^  HANDLE hReadyEvt;       \/\/Add for initDisplay()$/;"	m	struct:__anon33
+hReadyQuitEvt	encoder/win.h	/^  HANDLE hReadyQuitEvt;   \/\/Add for closeDisplay()$/;"	m	struct:__anon33
+hThread	encoder/win.h	/^  HANDLE hThread;$/;"	m	struct:__anon33
+hWnd	encoder/win.h	/^  HWND hWnd;$/;"	m	struct:__anon33
+handle	common/T264.h	/^    void* handle;$/;"	m	struct:__anon20
+header_bits	common/T264.h	/^    int32_t     header_bits;$/;"	m	struct:T264_t
+height	common/T264.h	/^    int32_t     height;$/;"	m	struct:T264_t
+height	common/T264.h	/^    int32_t height;$/;"	m	struct:T264_search_context_t
+height	common/T264.h	/^    int32_t width, height;$/;"	m	struct:__anon13
+height	encoder/win.h	/^  int width, height;$/;"	m	struct:__anon33
+help	encoder/T264.c	/^help()$/;"	f
+horizontal_size	encoder/display.c	/^int horizontal_size = 176;$/;"	v
+horizontal_size	encoder/dither.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+horizontal_size	encoder/yuv2rgb.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+i16x16_eg_to_cbp	decoder/dec_cavlc.c	/^static const uint8_t i16x16_eg_to_cbp[26][3] = $/;"	v	file:
+i4x4_eg_to_cbp	decoder/dec_cavlc.c	/^static const uint8_t i4x4_eg_to_cbp[48] =$/;"	v	file:
+i4x4_pred_mode_ref	common/T264.h	/^    int8_t i4x4_pred_mode_ref[5 * 8];   \/\/ see load_context for detail layout$/;"	m	struct:__anon27
+i_bits	encoder/vlc.h	/^    int i_bits;$/;"	m	struct:__anon37
+i_bits_outstanding	common/T264.h	/^	int i_bits_outstanding;$/;"	m	struct:__anon24
+i_block_num	common/T264.h	/^    int32_t i_block_num[2];$/;"	m	struct:__anon14
+i_cost	common/T264.h	/^		int i_cost;$/;"	m	struct:__anon24::__anon25
+i_count	common/T264.h	/^		int i_count;$/;"	m	struct:__anon24::__anon26
+i_low	common/T264.h	/^	int i_low;$/;"	m	struct:__anon24
+i_model	common/T264.h	/^		int i_model;$/;"	m	struct:__anon24::__anon25
+i_mps	common/T264.h	/^		int i_mps;$/;"	m	struct:__anon24::__anon26
+i_range	common/T264.h	/^	int i_range;$/;"	m	struct:__anon24
+i_size	encoder/vlc.h	/^    int i_size;$/;"	m	struct:__anon37
+i_state	common/T264.h	/^		int i_state;$/;"	m	struct:__anon24::__anon26
+i_sym_cnt	common/T264.h	/^	int i_sym_cnt;$/;"	m	struct:__anon24
+idct2x2dc	common/T264.h	/^    T264_dct_t idct2x2dc;$/;"	m	struct:T264_t
+idct2x2dc_c	common/dct.c	/^idct2x2dc_c(int16_t* data)$/;"	f
+idct4x4	common/T264.h	/^    T264_dct_t idct4x4;$/;"	m	struct:T264_t
+idct4x4_c	common/dct.c	/^idct4x4_c(int16_t* data)$/;"	f
+idct4x4_mmx	encoder/sse2/dct_sse2.asm	/^idct4x4_mmx$/;"	l
+idct4x4dc	common/T264.h	/^    T264_dct_t idct4x4dc;$/;"	m	struct:T264_t
+idct4x4dc_c	common/dct.c	/^idct4x4dc_c(int16_t* data)$/;"	f
+idct4x4dc_mmx	encoder/sse2/dct_sse2.asm	/^idct4x4dc_mmx$/;"	l
+ideal_bits	encoder/plugins/ratecontrol.c	/^    int32_t ideal_bits;$/;"	m	struct:__anon34	file:
+idr_pic_id	common/T264.h	/^    int32_t idr_pic_id;$/;"	m	struct:__anon18
+idr_pic_id	common/T264.h	/^    uint32_t    idr_pic_id;$/;"	m	struct:T264_t
+idrframe	common/T264.h	/^    int32_t idrframe;                   \/\/ idr 间距$/;"	m	struct:__anon13
+if_you_see_errors_here_please_install_vc6_sp5_or_higher	common/portab.h	/^extern _declspec(align(16)) int32_t if_you_see_errors_here_please_install_vc6_sp5_or_higher[1];$/;"	v
+iframe	common/T264.h	/^    int32_t iframe;                     \/\/ I 帧间距$/;"	m	struct:__anon13
+imageIsReady	encoder/win.h	/^  BOOL imageIsReady;$/;"	m	struct:__anon33
+index_	decoder/block.c	/^    static const int8_t index_[4][4][6] = $/;"	v	file:
+initDisplay	encoder/win.c	/^int initDisplay (int pels, int lines)$/;"	f
+init_display	encoder/display.c	/^void init_display (char *name, int width, int height)$/;"	f
+init_dither_tab	encoder/yuvrgb24.c	/^void init_dither_tab ()$/;"	f
+init_param	encoder/T264.c	/^init_param(T264_param_t* param, const char* file)$/;"	f
+init_timer	common/timer.h	/^init_timer(timer_st* t)$/;"	f
+initpos	common/bitstream.h	/^    uint32_t initpos;$/;"	m	struct:__anon1
+int16_t	common/inttypes.h	/^typedef short int16_t;$/;"	t
+int16_t	common/portab.h	130;"	d
+int16_t	common/portab.h	41;"	d
+int32_t	common/inttypes.h	/^typedef int int32_t;$/;"	t
+int32_t	common/portab.h	132;"	d
+int32_t	common/portab.h	43;"	d
+int64_t	common/inttypes.h	/^typedef long long int64_t;$/;"	t
+int64_t	common/portab.h	134;"	d
+int64_t	common/portab.h	45;"	d
+int8_t	common/inttypes.h	/^typedef signed char int8_t;$/;"	t
+int8_t	common/portab.h	128;"	d
+int8_t	common/portab.h	39;"	d
+inter_cbp_to_golomb	encoder/cavlc.c	/^static const uint8_t inter_cbp_to_golomb[48]=$/;"	v	file:
+inter_eg_to_cbp	decoder/dec_cavlc.c	/^static const uint8_t inter_eg_to_cbp[48] = $/;"	v	file:
+interpolate_halfpel_h	common/T264.h	/^    T264_interpolate_halfpel_t interpolate_halfpel_h;$/;"	m	struct:T264_t
+interpolate_halfpel_h_c	encoder/interpolate.c	/^interpolate_halfpel_h_c(uint8_t* src, int32_t src_stride, uint8_t* dst, int32_t dst_stride, int32_t width, int32_t height)$/;"	f
+interpolate_halfpel_h_sse2	encoder/sse2/interpolate_sse2.asm	/^interpolate_halfpel_h_sse2$/;"	l
+interpolate_halfpel_hv	common/T264.h	/^    T264_interpolate_halfpel_t interpolate_halfpel_hv;$/;"	m	struct:T264_t
+interpolate_halfpel_hv_c	encoder/interpolate.c	/^interpolate_halfpel_hv_c(uint8_t* src, int32_t src_stride, uint8_t* dst, int32_t dst_stride, int32_t width, int32_t height)$/;"	f
+interpolate_halfpel_hv_sse2	encoder/sse2/interpolate_sse2.asm	/^interpolate_halfpel_hv_sse2$/;"	l
+interpolate_halfpel_v	common/T264.h	/^    T264_interpolate_halfpel_t interpolate_halfpel_v;$/;"	m	struct:T264_t
+interpolate_halfpel_v_c	encoder/interpolate.c	/^interpolate_halfpel_v_c(uint8_t* src, int32_t src_stride, uint8_t* dst, int32_t dst_stride, int32_t width, int32_t height)$/;"	f
+interpolate_halfpel_v_sse2	encoder/sse2/interpolate_sse2.asm	/^interpolate_halfpel_v_sse2$/;"	l
+intptr_t	common/inttypes.h	/^typedef int16_t intptr_t;$/;"	t
+intra4x4_cbp_to_golomb	encoder/cavlc.c	/^static const uint8_t intra4x4_cbp_to_golomb[48]=$/;"	v	file:
+iquant2x2dc	common/T264.h	/^    T264_iquant_t     iquant2x2dc;$/;"	m	struct:T264_t
+iquant2x2dc_c	common/dct.c	/^iquant2x2dc_c(int16_t* data, const int32_t Qp)$/;"	f
+iquant4x4	common/T264.h	/^    T264_iquant_t     iquant4x4;$/;"	m	struct:T264_t
+iquant4x4_c	common/dct.c	/^iquant4x4_c(int16_t* data, const int32_t Qp)$/;"	f
+iquant4x4_sse2	encoder/sse2/dct_sse2.asm	/^iquant4x4_sse2$/;"	l
+iquant4x4dc	common/T264.h	/^    T264_iquant_t     iquant4x4dc;$/;"	m	struct:T264_t
+iquant4x4dc_c	common/dct.c	/^iquant4x4dc_c(int16_t* data, const int32_t Qp)$/;"	f
+is_copy	common/T264.h	/^	uint8_t     is_copy;$/;"	m	struct:__anon22
+is_copy	common/T264.h	/^	uint8_t     is_copy;$/;"	m	struct:__anon27
+lambda	common/T264.h	/^    int32_t     lambda;$/;"	m	struct:__anon27
+last_i_frame_id	common/T264.h	/^    uint32_t    last_i_frame_id;$/;"	m	struct:T264_t
+len	decoder/dec_cavlc.c	/^    uint8_t len;$/;"	m	struct:__anon30	file:
+len	decoder/dec_cavlc.c	/^    uint8_t len;$/;"	m	struct:__anon31	file:
+length	common/bitstream.h	/^    uint32_t length;$/;"	m	struct:__anon1
+level_idc	common/T264.h	/^    int32_t level_idc;$/;"	m	struct:__anon16
+limit_x	common/T264.h	/^    int8_t limit_x;$/;"	m	struct:T264_search_context_t
+limit_y	common/T264.h	/^    int8_t limit_y;$/;"	m	struct:T264_search_context_t
+list_index	common/T264.h	/^    int32_t list_index;$/;"	m	struct:T264_search_context_t
+list_index	encoder/inter.h	/^    int32_t  list_index;$/;"	m	struct:__anon38
+list_index	encoder/inter.h	/^    int32_t  list_index;$/;"	m	struct:__anon39
+log2_max_frame_num_minus4	common/T264.h	/^    int32_t log2_max_frame_num_minus4;$/;"	m	struct:__anon16
+long_term_reference_flag	common/T264.h	/^    int32_t long_term_reference_flag;$/;"	m	struct:__anon18
+lpszAppName	encoder/win.h	/^  char lpszAppName[15];$/;"	m	struct:__anon33
+luma_coeff_cost	common/T264.h	/^    int32_t luma_coeff_cost;$/;"	m	struct:__anon13
+luma_index	common/T264.h	/^static const int8_t luma_index[] = $/;"	v
+luma_inverse_x	common/T264.h	/^static const int8_t luma_inverse_x[] = $/;"	v
+luma_inverse_y	common/T264.h	/^static const int8_t luma_inverse_y[] = $/;"	v
+m_Notify	dshow/splitter.h	/^    CImplParserNotify        m_Notify;$/;"	m	class:CBaseSplitterFilter
+m_Notify	dshow/splitter.h	/^    CImplStreamNotify  m_Notify;$/;"	m	class:CSplitterOutputPin
+m_OutputPins	dshow/splitter.h	/^    CGenericList<CSplitterOutputPin> m_OutputPins;$/;"	m	class:CBaseSplitterFilter
+m_Video	dshow/T264Enc.h	/^    CStream  m_Video;$/;"	m	class:CT264Parser
+m_avgFrameTime	dshow/T264Enc.h	/^    LONGLONG m_avgFrameTime;$/;"	m	class:CT264Dec
+m_avgFrameTime	dshow/T264Enc.h	/^    LONGLONG m_avgFrameTime;$/;"	m	class:CT264Enc
+m_bDiscontinuity	dshow/splitter.h	/^    BOOL               m_bDiscontinuity;$/;"	m	class:CSplitterOutputPin
+m_bGotFirstPts	dshow/T264Enc.h	/^    BOOL     m_bGotFirstPts;$/;"	m	class:CT264Parser
+m_csFilter	dshow/splitter.h	/^    CCritSec                 m_csFilter;$/;"	m	class:CBaseSplitterFilter
+m_csPins	dshow/splitter.h	/^    CCritSec                 m_csPins;$/;"	m	class:CBaseSplitterFilter
+m_csStream	dshow/splitter.h	/^    CCritSec                 m_csStream;$/;"	m	class:CBaseSplitterFilter
+m_framerate	dshow/T264Enc.h	/^    float m_framerate;$/;"	m	class:CT264Dec
+m_hWnd	dshow/T264Enc.h	/^    HWND m_hWnd;$/;"	m	class:CT264Dec
+m_hWnd	dshow/T264Enc.h	/^    HWND m_hWnd;$/;"	m	class:CT264Enc
+m_hWnd	dshow/T264EncProp.h	/^    HWND m_hWnd;$/;"	m	class:CT264EncProp
+m_lTypes	dshow/splitter.h	/^    CGenericList<CMediaType> m_lTypes;$/;"	m	class:CSplitterOutputPin
+m_lValid	dshow/alloc.h	/^    LONG            m_lValid;$/;"	m	class:CSequentialAllocator
+m_llFirstPts	dshow/T264Enc.h	/^    LONGLONG m_llFirstPts;$/;"	m	class:CT264Parser
+m_llPos	dshow/splitter.h	/^    LONGLONG      m_llPos;$/;"	m	class:CParseReaderFromAsync
+m_nHeight	dshow/T264Enc.h	/^    INT m_nHeight;$/;"	m	class:CT264Dec
+m_nStride	dshow/T264Enc.h	/^    INT m_nStride;$/;"	m	class:CT264Dec
+m_nWidth	dshow/T264Enc.h	/^    INT m_nWidth;$/;"	m	class:CT264Dec
+m_pAlloc	dshow/alloc.h	/^    CSequentialAllocator *const m_pAlloc;$/;"	m	class:CSubAllocator
+m_pBuffer	dshow/T264Enc.h	/^    BYTE* m_pBuffer;$/;"	m	class:CT264Enc
+m_pBuffer	dshow/alloc.h	/^    PBYTE           m_pBuffer;  \/* Copy of CMemAllocator's which is private *\/$/;"	m	class:CSequentialAllocator
+m_pFilter	dshow/splitter.h	/^        CBaseSplitterFilter * const m_pFilter;$/;"	m	class:CBaseSplitterFilter::CImplParserNotify
+m_pInput	dshow/splitter.h	/^    CBaseInputPin           *m_pInput;$/;"	m	class:CBaseSplitterFilter
+m_pNextFilterInputpin	dshow/T264Enc.h	/^    IMemInputPin* m_pNextFilterInputpin;$/;"	m	class:CT264Dec
+m_pNotify	dshow/T264Enc.h	/^            CStreamNotify *m_pNotify;$/;"	m	class:CT264Parser::CStream
+m_pNotify	dshow/splitter.h	/^    CParserNotify * const m_pNotify;$/;"	m	class:CBaseParser
+m_pOutputQueue	dshow/splitter.h	/^    COutputQueue      *m_pOutputQueue;$/;"	m	class:CSplitterOutputPin
+m_pParser	dshow/splitter.h	/^    CBaseParser             *m_pParser;$/;"	m	class:CBaseSplitterFilter
+m_pPin	dshow/splitter.h	/^        CSplitterInputPin * const m_pPin;$/;"	m	class:CSplitterInputPin::CImplPullPin
+m_pPin	dshow/splitter.h	/^        CSplitterOutputPin * const m_pPin;$/;"	m	class:CSplitterOutputPin::CImplStreamNotify
+m_pProp	dshow/T264EncProp.h	/^    IProp *m_pProp;$/;"	m	class:CT264EncProp
+m_pReader	dshow/splitter.h	/^    IAsyncReader *m_pReader;$/;"	m	class:CParseReaderFromAsync
+m_parSamples	dshow/alloc.h	/^    LPCMEDIASAMPLE *m_parSamples;$/;"	m	class:CSequentialAllocator
+m_param	dshow/T264Enc.h	/^    T264_param_t m_param;$/;"	m	class:CT264Enc
+m_pbNext	dshow/alloc.h	/^    PBYTE           m_pbNext;$/;"	m	class:CSequentialAllocator
+m_pbStartValid	dshow/alloc.h	/^    PBYTE           m_pbStartValid;$/;"	m	class:CSequentialAllocator
+m_puller	dshow/splitter.h	/^    CImplPullPin m_puller;$/;"	m	class:CSplitterInputPin
+m_szInfo	dshow/T264Enc.h	/^    TCHAR m_szInfo[_MAX_PATH];$/;"	m	class:CT264Dec
+m_szInfo	dshow/T264Enc.h	/^    TCHAR m_szInfo[_MAX_PATH];$/;"	m	class:CT264Enc
+m_t264	dshow/T264Enc.h	/^    T264_t* m_t264;$/;"	m	class:CT264Dec
+m_t264	dshow/T264Enc.h	/^    T264_t* m_t264;$/;"	m	class:CT264Enc
+m_time	dshow/T264Enc.h	/^    CRefTime m_time;$/;"	m	class:CT264Dec
+mad	encoder/plugins/ratecontrol.c	/^    double mad[20];$/;"	m	struct:__anon34	file:
+mad_model_estimator	encoder/plugins/ratecontrol.c	/^mad_model_estimator(T264_t* t, int8_t valid[20], int32_t window, T264_rc_t* rc)$/;"	f
+mad_p	encoder/plugins/ratecontrol.c	/^    double mad_p;$/;"	m	struct:__anon34	file:
+mad_window_p	encoder/plugins/ratecontrol.c	/^    int32_t mad_window_p;$/;"	m	struct:__anon34	file:
+main	encoder/T264.c	/^main(int argc, char* argv[])$/;"	f
+matrix_coefficients	encoder/display.c	/^int matrix_coefficients = 5;$/;"	v
+max_pic_order	common/T264.h	/^    int32_t max_pic_order;$/;"	m	struct:__anon16
+max_qp	common/T264.h	/^    int32_t max_qp;$/;"	m	struct:__anon13
+mb	common/T264.h	/^    T264_mb_context_t* mb;$/;"	m	struct:__anon23
+mb	common/T264.h	/^    T264_mb_t      mb;$/;"	m	struct:T264_t
+mb_get_directMB16x16_mv	decoder/dec_cavlc.c	/^mb_get_directMB16x16_mv(T264_t* t)$/;"	f
+mb_get_directMB16x16_mv_cabac	decoder/dec_cabac.c	/^static void __inline mb_get_directMB16x16_mv_cabac(T264_t* t)$/;"	f	file:
+mb_height	common/T264.h	/^    int32_t     mb_width, mb_height;$/;"	m	struct:T264_t
+mb_height	encoder/dither.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+mb_height	encoder/yuv2rgb.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+mb_mode	common/T264.h	/^    uint8_t     mb_mode;$/;"	m	struct:__anon22
+mb_mode	common/T264.h	/^    uint8_t     mb_mode;$/;"	m	struct:__anon27
+mb_mode_uv	common/T264.h	/^    uint8_t     mb_mode_uv;$/;"	m	struct:__anon22
+mb_mode_uv	common/T264.h	/^    uint8_t     mb_mode_uv;$/;"	m	struct:__anon27
+mb_neighbour	common/T264.h	/^    int32_t     mb_neighbour;$/;"	m	struct:__anon27
+mb_part	common/T264.h	/^    int32_t mb_part;$/;"	m	struct:T264_search_context_t
+mb_part	common/T264.h	/^    uint8_t     mb_part;$/;"	m	struct:__anon22
+mb_part	common/T264.h	/^    uint8_t     mb_part;$/;"	m	struct:__anon27
+mb_part2	common/T264.h	/^    uint8_t     mb_part2[2];    \/\/ b slice use$/;"	m	struct:__anon27
+mb_qp_delta	common/T264.h	/^    int8_t      mb_qp_delta; $/;"	m	struct:__anon22
+mb_qp_delta	common/T264.h	/^    int8_t      mb_qp_delta; $/;"	m	struct:__anon27
+mb_stride	common/T264.h	/^	int32_t		mb_stride;$/;"	m	struct:T264_t
+mb_width	common/T264.h	/^    int32_t     mb_width, mb_height;$/;"	m	struct:T264_t
+mb_width	encoder/dither.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+mb_width	encoder/yuv2rgb.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+mb_x	common/T264.h	/^    int16_t     mb_x;$/;"	m	struct:__anon27
+mb_xy	common/T264.h	/^    int16_t		mb_xy;$/;"	m	struct:__anon27
+mb_y	common/T264.h	/^    int16_t     mb_y;$/;"	m	struct:__anon27
+memcpy_stride_u	common/T264.h	/^    memcpy_stride_u_t   memcpy_stride_u;$/;"	m	struct:T264_t
+memcpy_stride_u_c	common/utility.c	/^memcpy_stride_u_c(void* src, int32_t width, int32_t height, int32_t src_stride, void* dst, int32_t dst_stride)$/;"	f
+memcpy_stride_u_t	common/T264.h	/^typedef void (*memcpy_stride_u_t)(void* src, int32_t width, int32_t height, int32_t src_stride, void* dst, int32_t dst_stride);$/;"	t
+min_qp	common/T264.h	/^    int32_t min_qp;$/;"	m	struct:__anon13
+mmax	encoder/display.h	21;"	d
+mmin	encoder/display.h	22;"	d
+mmx1	encoder/sse2/dct_sse2.asm	/^    mmx1 dw 1, 1, 1, 1$/;"	d
+mmx32	encoder/sse2/dct_sse2.asm	/^    mmx32 dw 32, 32, 32, 32$/;"	d
+mmx_mask01	encoder/sse2/sad.asm	/^    mmx_mask01 db 0xff, 0xff, 0xff, 0xff, 0, 0, 0, 0$/;"	d
+mnint	encoder/display.h	23;"	d
+mode_i16x16	common/T264.h	/^    uint8_t     mode_i16x16;$/;"	m	struct:__anon22
+mode_i16x16	common/T264.h	/^    uint8_t     mode_i16x16;$/;"	m	struct:__anon27
+mode_i4x4	common/T264.h	/^    uint8_t     mode_i4x4[16];$/;"	m	struct:__anon22
+mode_i4x4	common/T264.h	/^    uint8_t     mode_i4x4[16];$/;"	m	struct:__anon27
+msg	encoder/win.h	/^  MSG msg;$/;"	m	struct:__anon33
+mvd	common/T264.h	/^	int16_t		mvd[2][4*4][2];$/;"	m	struct:__anon22
+mvd	common/T264.h	/^	int16_t		mvd[2][4*4][2];$/;"	m	struct:__anon27
+mvd_ref	common/T264.h	/^	int16_t mvd_ref[2][5 * 8][2];$/;"	m	struct:__anon27
+nal	common/T264.h	/^    T264_nal_t     nal;$/;"	m	struct:T264_t
+nal_buf	common/T264.h	/^    uint8_t* nal_buf;   \/* buffer one whole nal unit *\/$/;"	m	struct:T264_t
+nal_len	common/T264.h	/^    int32_t nal_len;    \/* one nal unit length *\/$/;"	m	struct:T264_t
+nal_ref_idc	common/T264.h	/^    int32_t nal_ref_idc;$/;"	m	struct:__anon15
+nal_size	common/T264.h	/^    int32_t nal_size;$/;"	m	struct:__anon15
+nal_unit_init	encoder/rbsp.c	/^nal_unit_init(_RW T264_nal_t* nal, int32_t nal_ref_idc, int32_t nal_unit_type)$/;"	f
+nal_unit_type	common/T264.h	/^    int32_t nal_unit_type;$/;"	m	struct:__anon15
+nal_unit_write	encoder/rbsp.c	/^nal_unit_write(_R T264_t* t, _R T264_nal_t* nal)$/;"	f
+nb	encoder/plugins/ratecontrol.c	/^    int32_t nb;$/;"	m	struct:__anon34	file:
+need_deblock	common/T264.h	/^    int32_t need_deblock;$/;"	m	struct:T264_t
+nnz	common/T264.h	/^    uint8_t     nnz[16 + 4 + 4];$/;"	m	struct:__anon22
+nnz	common/T264.h	/^    uint8_t     nnz[16 + 4 + 4];$/;"	m	struct:__anon27
+nnz_ref	common/T264.h	/^    uint8_t nnz_ref[6 * 8];$/;"	m	struct:__anon27
+no_output_of_prior_pics_flag	common/T264.h	/^    int32_t no_output_of_prior_pics_flag;$/;"	m	struct:__anon18
+np	encoder/plugins/ratecontrol.c	/^    int32_t np;$/;"	m	struct:__anon34	file:
+num	decoder/dec_cavlc.c	/^    uint8_t num;$/;"	m	struct:__anon31	file:
+num_ref_frames	common/T264.h	/^    int32_t num_ref_frames;$/;"	m	struct:__anon16
+num_ref_idx_active_override_flag	common/T264.h	/^    int32_t num_ref_idx_active_override_flag;$/;"	m	struct:__anon18
+num_ref_idx_l0_active_minus1	common/T264.h	/^    int32_t num_ref_idx_l0_active_minus1;$/;"	m	struct:__anon17
+num_ref_idx_l1_active_minus1	common/T264.h	/^    int32_t num_ref_idx_l1_active_minus1;$/;"	m	struct:__anon17
+num_slice_groups_minus1	common/T264.h	/^    int32_t num_slice_groups_minus1;$/;"	m	struct:__anon17
+number_of_bits_set	encoder/yuv2rgb.c	/^ number_of_bits_set (a)$/;"	f	file:
+offset	common/T264.h	/^    int32_t offset;$/;"	m	struct:T264_search_context_t
+offset	encoder/inter.h	/^    int32_t  offset[1 + 2 + 2];$/;"	m	struct:__anon38
+offset	encoder/inter.h	/^    int32_t  offset[4][1 + 2 + 2 + 4];$/;"	m	struct:__anon39
+oldzoom	encoder/win.h	/^  int zoom, oldzoom;$/;"	m	struct:__anon33
+ord4x4_dither_frame	encoder/dither.c	/^ ord4x4_dither_frame (unsigned char *src[], unsigned char *dst)$/;"	f
+ord4x4_dither_init	encoder/dither.c	/^ ord4x4_dither_init (void)$/;"	f
+out_path	encoder/T264.c	/^char out_path[256];$/;"	v
+output	common/T264.h	/^    T264_frame_t output;$/;"	m	struct:T264_t
+overhead	common/timer.h	/^    int64_t overhead;$/;"	m	struct:__anon29
+pTmp	dshow/T264Enc.cpp	/^unsigned char* pTmp = new unsigned char[120*160*3];$/;"	v
+p_block_num	common/T264.h	/^    int32_t p_block_num[8];$/;"	m	struct:__anon14
+p_no	encoder/plugins/ratecontrol.c	/^    int32_t p_no;$/;"	m	struct:__anon34	file:
+pad	common/T264.h	/^    uint8_t     pad[CACHE_SIZE - 7];$/;"	m	struct:__anon22
+param	common/T264.h	/^    T264_param_t   param;$/;"	m	struct:T264_t
+part	common/T264.h	/^        uint8_t part;$/;"	m	struct:__anon27::__anon28
+pending_bframes	common/T264.h	/^    T264_frame_t pending_bframes[MAX_BREFNUMS];$/;"	m	struct:T264_t
+pending_bframes_num	common/T264.h	/^    int32_t     pending_bframes_num;$/;"	m	struct:T264_t
+pia	common/T264.h	/^    T264_pia_t pia[9];  \/\/for pixel avearage func$/;"	m	struct:T264_t
+pic_height_in_mbs_minus1	common/T264.h	/^    int32_t pic_height_in_mbs_minus1;$/;"	m	struct:__anon16
+pic_id	common/T264.h	/^    int32_t pic_id;$/;"	m	struct:__anon17
+pic_id	common/T264.h	/^    int32_t pic_id;$/;"	m	struct:__anon18
+pic_init_qp_minus26	common/T264.h	/^    int32_t pic_init_qp_minus26;$/;"	m	struct:__anon17
+pic_init_qs_minus26	common/T264.h	/^    int32_t pic_init_qs_minus26;$/;"	m	struct:__anon17
+pic_order_cnt_lsb	common/T264.h	/^    int32_t pic_order_cnt_lsb;$/;"	m	struct:__anon18
+pic_order_cnt_type	common/T264.h	/^    int32_t pic_order_cnt_type;$/;"	m	struct:__anon16
+pic_order_present_flag	common/T264.h	/^    int32_t pic_order_present_flag;$/;"	m	struct:__anon17
+pic_set_init	encoder/rbsp.c	/^pic_set_init(_R T264_t* t, _RW T264_pic_set_t* pic)$/;"	f
+pic_set_write	encoder/rbsp.c	/^pic_set_write(_R T264_t* t, _RW T264_pic_set_t* pic)$/;"	f
+pic_width_in_mbs_minus1	common/T264.h	/^    int32_t pic_width_in_mbs_minus1;$/;"	m	struct:__anon16
+pixel	encoder/display.c	/^unsigned char pixel[256];$/;"	v
+pixel_avg	common/T264.h	/^    T264_pixel_avg_t pixel_avg;$/;"	m	struct:T264_t
+plug_num	common/T264.h	/^    int32_t        plug_num;$/;"	m	struct:T264_t
+plugins	common/T264.h	/^    T264_plugin_t  plugins[MAX_PLUGINS];$/;"	m	struct:T264_t
+poc	common/T264.h	/^    int32_t   poc;$/;"	m	struct:__anon23
+poc	common/T264.h	/^    uint32_t    poc;$/;"	m	struct:T264_t
+pos	common/bitstream.h	/^    uint32_t pos;$/;"	m	struct:__anon1
+pred16x16	common/T264.h	/^    T264_predict_16x16_mode_t pred16x16[4 + 3];$/;"	m	struct:T264_t
+pred4x4	common/T264.h	/^	T264_predict_4x4_mode_t   pred4x4[9 + 3];$/;"	m	struct:T264_t
+pred8x8	common/T264.h	/^	T264_predict_8x8_mode_t   pred8x8[4 + 3];$/;"	m	struct:T264_t
+prefix_table0	decoder/dec_cavlc.c	/^static const uint8_t prefix_table0[] = $/;"	v	file:
+prefix_table1	decoder/dec_cavlc.c	/^static const uint8_t prefix_table1[] = $/;"	v	file:
+prefix_table2	decoder/dec_cavlc.c	/^static const uint8_t prefix_table2[] =$/;"	v	file:
+prefix_table3	decoder/dec_cavlc.c	/^static const uint8_t prefix_table3[] = $/;"	v	file:
+proc	common/T264.h	/^    void (*proc)(T264_t* t, void* data, int32_t state);$/;"	m	struct:__anon20
+profile_idc	common/T264.h	/^    int32_t profile_idc;$/;"	m	struct:__anon16
+ps	common/T264.h	/^    T264_pic_set_t ps;$/;"	m	struct:T264_t
+psnr	encoder/plugins/stat.c	/^psnr(uint8_t* p1, uint8_t* p2, int32_t size)$/;"	f	file:
+psnr_u	encoder/plugins/stat.c	/^    float psnr_u;$/;"	m	struct:__anon35	file:
+psnr_v	encoder/plugins/stat.c	/^    float psnr_v;$/;"	m	struct:__anon35	file:
+psnr_y	encoder/plugins/stat.c	/^    float psnr_y;$/;"	m	struct:__anon35	file:
+psudPins	dshow/T264Enc.cpp	/^const AMOVIESETUP_PIN psudPins[] =$/;"	v
+psudPinsdec	dshow/T264Enc.cpp	/^const AMOVIESETUP_PIN psudPinsdec[] =$/;"	v
+psudPinssplitter	dshow/T264Enc.cpp	/^const AMOVIESETUP_PIN psudPinssplitter[] =$/;"	v
+ptr_t	common/portab.h	136;"	d
+ptr_t	common/portab.h	47;"	d
+ptr_t	common/portab.h	95;"	d
+put_Default	dshow/T264Enc.cpp	/^HRESULT CT264Enc::put_Default()$/;"	f	class:CT264Enc
+put_InfoWnd	dshow/T264Enc.cpp	/^HRESULT CT264Enc::put_InfoWnd(INT hWnd)$/;"	f	class:CT264Enc
+qp	common/T264.h	/^    int32_t   qp;$/;"	m	struct:__anon23
+qp	common/T264.h	/^    int32_t qp;$/;"	m	struct:__anon13
+qp	encoder/plugins/ratecontrol.c	/^    double qp[20];$/;"	m	struct:__anon34	file:
+qp2qstep	encoder/plugins/ratecontrol.c	/^qp2qstep( int32_t qp)$/;"	f
+qp_cost	encoder/t264enc.c	/^static const int32_t qp_cost[52]=$/;"	v	file:
+qp_p1	encoder/plugins/ratecontrol.c	/^    int32_t qp_p1;$/;"	m	struct:__anon34	file:
+qp_p2	encoder/plugins/ratecontrol.c	/^    int32_t qp_p2;$/;"	m	struct:__anon34	file:
+qp_sum	encoder/plugins/ratecontrol.c	/^    int32_t qp_sum;$/;"	m	struct:__anon34	file:
+qp_uv	common/T264.h	/^    int32_t     qp_y, qp_uv;$/;"	m	struct:T264_t
+qp_y	common/T264.h	/^    int32_t     qp_y, qp_uv;$/;"	m	struct:T264_t
+qstep2qp	encoder/plugins/ratecontrol.c	/^qstep2qp(double qstep)$/;"	f
+quad_model_estimator	encoder/plugins/ratecontrol.c	/^quad_model_estimator(T264_t* t, int8_t valid[20], int32_t window, T264_rc_t* rc)$/;"	f
+quant2x2dc	common/T264.h	/^    T264_quant2x2dc_t quant2x2dc;$/;"	m	struct:T264_t
+quant2x2dc_c	common/dct.c	/^quant2x2dc_c(int16_t* data, const int32_t Qp, int32_t is_intra)$/;"	f
+quant4x4	common/T264.h	/^    T264_quant4x4_t   quant4x4;$/;"	m	struct:T264_t
+quant4x4_c	common/dct.c	/^quant4x4_c(int16_t* data, const int32_t Qp, int32_t is_intra)$/;"	f
+quant4x4_sse2	encoder/sse2/dct_sse2.asm	/^quant4x4_sse2$/;"	l
+quant4x4dc	common/T264.h	/^    T264_quant4x4dc_t quant4x4dc;$/;"	m	struct:T264_t
+quant4x4dc_c	common/dct.c	/^quant4x4dc_c(int16_t* data, const int32_t Qp)$/;"	f
+quiet	encoder/display.c	/^int quiet = 1;$/;"	v
+r_2_pix	encoder/yuv2rgb.c	/^static long *r_2_pix;$/;"	v	file:
+r_2_pix_alloc	encoder/yuv2rgb.c	/^static long *r_2_pix_alloc;$/;"	v	file:
+rbsp_trailing_bits	encoder/rbsp.c	/^void rbsp_trailing_bits(_R T264_t* t)$/;"	f
+rc_create	encoder/plugins/ratecontrol.c	/^rc_create(T264_t* t, T264_plugin_t* plugin)$/;"	f
+rc_destroy	encoder/plugins/ratecontrol.c	/^rc_destroy(T264_t* t, T264_plugin_t* plugin)$/;"	f
+rc_init_gop	encoder/plugins/ratecontrol.c	/^rc_init_gop(T264_t* t, T264_rc_t* rc)$/;"	f
+rc_init_pic	encoder/plugins/ratecontrol.c	/^rc_init_pic(T264_t* t, T264_rc_t* rc)$/;"	f
+rc_init_seq	encoder/plugins/ratecontrol.c	/^rc_init_seq(T264_t* t, T264_rc_t* rc)$/;"	f
+rc_proc	encoder/plugins/ratecontrol.c	/^rc_proc(T264_t* t, void* data, int32_t state)$/;"	f	file:
+rc_update_mad_model	encoder/plugins/ratecontrol.c	/^rc_update_mad_model(T264_t* t, T264_rc_t* rc)$/;"	f
+rc_update_pic	encoder/plugins/ratecontrol.c	/^rc_update_pic(T264_t* t, T264_rc_t* rc)$/;"	f
+rc_update_qp	encoder/plugins/ratecontrol.c	/^rc_update_qp(T264_t* t, T264_rc_t* rc)$/;"	f
+rc_update_quad_model	encoder/plugins/ratecontrol.c	/^rc_update_quad_model(T264_t* t, T264_rc_t* rc)$/;"	f
+read_counter	common/portab.h	/^		 static __inline uint64_t read_counter(void)$/;"	f
+read_counter	common/portab.h	/^         static __inline int64_t read_counter(void)$/;"	f
+read_counter	common/portab.h	/^         static __inline uint64_t read_counter(void)$/;"	f
+rec	common/T264.h	/^    T264_frame_t* rec;$/;"	m	struct:T264_t
+rec	encoder/plugins/stat.c	/^    FILE* rec;$/;"	m	struct:__anon35	file:
+rec_name	common/T264.h	/^    void*   rec_name;$/;"	m	struct:__anon13
+rec_path	encoder/T264.c	/^char rec_path[256];$/;"	v
+rect	encoder/win.h	/^  RECT rect;$/;"	m	struct:__anon33
+ref	common/T264.h	/^    T264_frame_t* ref[2][MAX_REFFRAMES];$/;"	m	struct:T264_t
+ref	encoder/inter.h	/^    T264_frame_t* ref[1 + 2 + 2];$/;"	m	struct:__anon38
+ref	encoder/inter.h	/^    T264_frame_t* ref[4][1 + 2 + 2 + 4];$/;"	m	struct:__anon39
+ref_chrom_height	encoder/display.c	/^int ref_chrom_width = 88, ref_chrom_height = 72;$/;"	v
+ref_chrom_height	encoder/dither.c	/^EXTERN int ref_chrom_width, ref_chrom_height;$/;"	v
+ref_chrom_height	encoder/yuv2rgb.c	/^EXTERN int ref_chrom_width, ref_chrom_height;$/;"	v
+ref_chrom_width	encoder/display.c	/^int ref_chrom_width = 88, ref_chrom_height = 72;$/;"	v
+ref_chrom_width	encoder/dither.c	/^EXTERN int ref_chrom_width, ref_chrom_height;$/;"	v
+ref_chrom_width	encoder/yuv2rgb.c	/^EXTERN int ref_chrom_width, ref_chrom_height;$/;"	v
+ref_coded_picture_height	encoder/display.c	/^int ref_coded_picture_width = 176, ref_coded_picture_height = 144;$/;"	v
+ref_coded_picture_height	encoder/dither.c	/^EXTERN int ref_coded_picture_width, ref_coded_picture_height;$/;"	v
+ref_coded_picture_height	encoder/yuv2rgb.c	/^EXTERN int ref_coded_picture_width, ref_coded_picture_height;$/;"	v
+ref_coded_picture_width	encoder/display.c	/^int ref_coded_picture_width = 176, ref_coded_picture_height = 144;$/;"	v
+ref_coded_picture_width	encoder/dither.c	/^EXTERN int ref_coded_picture_width, ref_coded_picture_height;$/;"	v
+ref_coded_picture_width	encoder/yuv2rgb.c	/^EXTERN int ref_coded_picture_width, ref_coded_picture_height;$/;"	v
+ref_num	common/T264.h	/^    int32_t ref_num;                    \/\/ 参考帧数目$/;"	m	struct:__anon13
+ref_path	encoder/T264.c	/^char ref_path[256];$/;"	v
+ref_pic_list_reordering_flag_l0	common/T264.h	/^    int32_t ref_pic_list_reordering_flag_l0;$/;"	m	struct:__anon18
+ref_skip	encoder/T264.c	/^static int  ref_skip;$/;"	v	file:
+refl0_num	common/T264.h	/^    int32_t refl0_num;$/;"	m	struct:T264_t
+refl1_num	common/T264.h	/^    int32_t refl1_num;$/;"	m	struct:T264_t
+refn	common/T264.h	/^    T264_frame_t refn[MAX_REFFRAMES];$/;"	m	struct:T264_t
+refno	common/T264.h	/^    int8_t  refno;$/;"	m	struct:__anon21
+remove_mad_outlier	encoder/plugins/ratecontrol.c	/^remove_mad_outlier(T264_t* t, int8_t valid[20], T264_rc_t* rc)$/;"	f	file:
+remove_outlier	encoder/plugins/ratecontrol.c	/^remove_outlier(T264_t* t, int8_t valid[20], T264_rc_t* rc)$/;"	f	file:
+ret	common/T264.h	/^    int32_t ret;    \/\/ ret value, optional$/;"	m	struct:__anon20
+ret	encoder/sse2/utility_mmx.asm	/^ret$/;"	l
+rp	encoder/plugins/ratecontrol.c	/^    double rp[20];$/;"	m	struct:__anon34	file:
+run_before_table_0	decoder/dec_cavlc.c	/^static const zero_count_t run_before_table_0[7][8] = $/;"	v	file:
+run_before_table_1	decoder/dec_cavlc.c	/^static const uint8_t run_before_table_1[] =$/;"	v	file:
+run_before_table_2	decoder/dec_cavlc.c	/^static const uint8_t run_before_table_2[] =$/;"	v	file:
+s	common/T264.h	/^	void *s;$/;"	m	struct:__anon24
+sad	common/T264.h	/^	uint32_t    sad;$/;"	m	struct:__anon22
+sad	common/T264.h	/^    T264_cmp_t sad[8];$/;"	m	struct:T264_t
+sad	common/T264.h	/^    uint32_t sad;$/;"	m	struct:__anon27
+sad	encoder/inter.h	/^    uint32_t sad[1 + 2 + 2];$/;"	m	struct:__anon38
+sad	encoder/inter.h	/^    uint32_t sad[4][1 + 2 + 2 + 4];$/;"	m	struct:__anon39
+sad_all	common/T264.h	/^    uint32_t    sad_all;$/;"	m	struct:T264_t
+sad_ref	common/T264.h	/^	uint32_t sad_ref[3]; \/\/left, top, top-right$/;"	m	struct:__anon27
+scan_zig_2x2	common/utility.h	/^scan_zig_2x2(int16_t* zig, int16_t* dct)$/;"	f
+scan_zig_4x4	common/utility.h	/^scan_zig_4x4(int16_t* zig, int16_t* dct)$/;"	f
+search	common/T264.h	/^    T264_search_t   search;$/;"	m	struct:T264_t
+search_data_t	encoder/inter.h	/^} search_data_t;$/;"	t	typeref:struct:__anon38
+search_x	common/T264.h	/^    int32_t search_x;$/;"	m	struct:__anon13
+search_y	common/T264.h	/^    int32_t search_y;$/;"	m	struct:__anon13
+section	encoder/sse2/cpu.asm	/^section .data$/;"	l
+section	encoder/sse2/cpu.asm	/^section .text$/;"	l
+section	encoder/sse2/dct_sse2.asm	/^section .rodata data align=16$/;"	l
+section	encoder/sse2/dct_sse2.asm	/^section .text$/;"	l
+section	encoder/sse2/interpolate_sse2.asm	/^section .rodata data align=16$/;"	l
+section	encoder/sse2/interpolate_sse2.asm	/^section .text$/;"	l
+section	encoder/sse2/sad.asm	/^section .rodata data align=16$/;"	l
+section	encoder/sse2/sad.asm	/^section .text$/;"	l
+section	encoder/sse2/utility_mmx.asm	/^section .text$/;"	l
+seq_id	common/T264.h	/^    int32_t seq_id;$/;"	m	struct:__anon16
+seq_id	common/T264.h	/^    int32_t seq_id;$/;"	m	struct:__anon17
+seq_set_init	encoder/rbsp.c	/^seq_set_init(_R T264_t* t, _RW T264_seq_set_t* seq)$/;"	f
+seq_set_write	encoder/rbsp.c	/^seq_set_write(_R T264_t* t, _RW T264_seq_set_t* seq)$/;"	f
+shift	common/T264.h	/^    uint32_t shift;     \/* nal decode use *\/$/;"	m	struct:T264_t
+shift1	common/T264.h	/^    uint32_t shift1;$/;"	m	struct:T264_t
+shifted_down	encoder/yuv2rgb.c	/^ shifted_down (a)$/;"	f	file:
+shmem_flag	encoder/display.c	/^static int shmem_flag;$/;"	v	file:
+shminfo1	encoder/display.c	/^static XShmSegmentInfo shminfo1, shminfo2;$/;"	v	file:
+shminfo2	encoder/display.c	/^static XShmSegmentInfo shminfo1, shminfo2;$/;"	v	file:
+sign	encoder/display.h	24;"	d
+skip	common/T264.h	/^    int32_t     skip;$/;"	m	struct:T264_t
+skip_block_num	common/T264.h	/^    int32_t skip_block_num;$/;"	m	struct:__anon14
+slice	common/T264.h	/^	} slice[3];$/;"	m	struct:__anon24	typeref:struct:__anon24::__anon25
+slice	common/T264.h	/^    T264_slice_t   slice;$/;"	m	struct:T264_t
+slice_header_init	encoder/rbsp.c	/^slice_header_init(_R T264_t* t, _RW T264_slice_t* slice)$/;"	f
+slice_header_write	encoder/rbsp.c	/^slice_header_write(_R T264_t* t, _RW T264_slice_t* slice)$/;"	f
+slice_qp_delta	common/T264.h	/^    int32_t slice_qp_delta;$/;"	m	struct:__anon18
+slice_type	common/T264.h	/^    int32_t slice_type;$/;"	m	struct:__anon18
+slice_type	common/T264.h	/^    uint32_t    slice_type;$/;"	m	struct:T264_t
+small_diamond_search	encoder/estimation.c	/^small_diamond_search(T264_t* t, uint8_t* cur, uint8_t* ref_st, T264_search_context_t* context, int32_t stride_cur, int32_t stride_ref, uint32_t sad)$/;"	f
+square_diamond_search	encoder/estimation.c	/^square_diamond_search(T264_t* t, uint8_t* cur, uint8_t* ref_st, T264_search_context_t* context, int32_t stride_cur, int32_t stride_ref, uint32_t sad)$/;"	f
+src	encoder/inter.h	/^    uint8_t* src[1 + 2 + 2];$/;"	m	struct:__anon38
+src	encoder/inter.h	/^    uint8_t* src[4][1 + 2 + 2 + 4];$/;"	m	struct:__anon39
+src	encoder/win.h	/^  unsigned char *src[3];$/;"	m	struct:__anon33
+src_buf	common/T264.h	/^    uint8_t* src_buf;   \/* source buffer start ptr *\/ $/;"	m	struct:T264_t
+src_end	common/T264.h	/^    uint8_t* src_end;$/;"	m	struct:T264_t
+src_path	encoder/T264.c	/^char src_path[256];$/;"	v
+src_u	common/T264.h	/^    uint8_t*    src_u;$/;"	m	struct:__anon27
+src_v	common/T264.h	/^    uint8_t*    src_v;$/;"	m	struct:__anon27
+src_y	common/T264.h	/^    uint8_t*    src_y;$/;"	m	struct:__anon27
+ss	common/T264.h	/^    T264_seq_set_t ss;$/;"	m	struct:T264_t
+sse2_1	encoder/sse2/dct_sse2.asm	/^    sse2_1 dw 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1$/;"	d
+sse2_neg1	encoder/sse2/dct_sse2.asm	/^    sse2_neg1 dw -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1$/;"	d
+start	common/bitstream.h	/^    uint32_t *start;$/;"	m	struct:__anon1
+start	common/timer.h	/^    int64_t start;$/;"	m	struct:__anon29
+start_timer	common/timer.h	/^start_timer(timer_st* t)$/;"	f
+stat	common/T264.h	/^    T264_stat_t    stat;$/;"	m	struct:T264_t
+stat_create	encoder/plugins/stat.c	/^stat_create(T264_t* t, T264_plugin_t* plugin)$/;"	f
+stat_destroy	encoder/plugins/stat.c	/^stat_destroy(T264_t* t, T264_plugin_t* plugin)$/;"	f
+stat_prev	encoder/plugins/stat.c	/^    T264_stat_t stat_prev;$/;"	m	struct:__anon35	file:
+stat_proc	encoder/plugins/stat.c	/^stat_proc(T264_t* t, void* data, int32_t state)$/;"	f	file:
+stat_t	encoder/plugins/stat.c	/^} stat_t;$/;"	t	typeref:struct:__anon35	file:
+stop_timer_all	common/timer.h	/^stop_timer_all(timer_st* t)$/;"	f
+stride	common/T264.h	/^    int32_t     stride;$/;"	m	struct:T264_t
+stride_uv	common/T264.h	/^    int32_t     stride_uv;$/;"	m	struct:T264_t
+stuffing_codes	common/bitstream.h	/^static const int stuffing_codes[8] =$/;"	v
+subDST264Splitter	dshow/T264Enc.cpp	/^const AMOVIESETUP_FILTER subDST264Splitter = $/;"	v
+sub_is_copy	common/T264.h	/^    uint8_t     sub_is_copy[4];$/;"	m	struct:__anon27
+submb_part	common/T264.h	/^    uint8_t     submb_part[16];$/;"	m	struct:__anon22
+submb_part	common/T264.h	/^    uint8_t     submb_part[16];$/;"	m	struct:__anon27
+subpart	common/T264.h	/^        uint8_t subpart;$/;"	m	struct:__anon27::__anon28
+subpart_search_data_t	encoder/inter.h	/^} subpart_search_data_t;$/;"	t	typeref:struct:__anon39
+subpel_pts	common/T264.h	/^    int16_t        subpel_pts;$/;"	m	struct:T264_t
+sudDST264DEC	dshow/T264Enc.cpp	/^const AMOVIESETUP_FILTER sudDST264DEC =$/;"	v
+sudDST264ENC	dshow/T264Enc.cpp	/^const AMOVIESETUP_FILTER sudDST264ENC =$/;"	v
+sudInPinTypes	dshow/T264Enc.cpp	/^const AMOVIESETUP_MEDIATYPE sudInPinTypes[] =$/;"	v
+sudInPinTypes1	dshow/T264Enc.cpp	/^const AMOVIESETUP_MEDIATYPE sudInPinTypes1[] = $/;"	v
+sudOutPinTypes	dshow/T264Enc.cpp	/^const AMOVIESETUP_MEDIATYPE sudOutPinTypes[] =$/;"	v
+tab_76309	encoder/yuvrgb24.c	/^long int tab_76309[256];$/;"	v
+tail	common/bitstream.h	/^    uint32_t *tail;$/;"	m	struct:__anon1
+tapfilter_h	encoder/interpolate.c	/^tapfilter_h(uint8_t* p)$/;"	f	file:
+tapfilter_v	encoder/interpolate.c	/^tapfilter_v(uint8_t* p, int32_t stride)$/;"	f	file:
+tbl	encoder/plugins/ratecontrol.c	/^    double tbl;$/;"	m	struct:__anon34	file:
+theta	encoder/plugins/ratecontrol.c	/^    double theta;$/;"	m	struct:__anon34	file:
+timer_st	common/timer.h	/^} timer_st;$/;"	t	typeref:struct:__anon29
+total_coeff	decoder/dec_cavlc.c	/^    uint8_t total_coeff;$/;"	m	struct:__anon30	file:
+total_no	encoder/T264.c	/^int32_t total_no = 300;$/;"	v
+total_zero_table10_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table10_0[] = $/;"	v	file:
+total_zero_table10_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table10_1[] = $/;"	v	file:
+total_zero_table11_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table11_0[] = $/;"	v	file:
+total_zero_table12_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table12_0[] = $/;"	v	file:
+total_zero_table13_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table13_0[] = $/;"	v	file:
+total_zero_table14_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table14_0[] = $/;"	v	file:
+total_zero_table1_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table1_0[] = $/;"	v	file:
+total_zero_table1_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table1_1[] = $/;"	v	file:
+total_zero_table2_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table2_0[] = $/;"	v	file:
+total_zero_table2_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table2_1[] = $/;"	v	file:
+total_zero_table3_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table3_0[] = $/;"	v	file:
+total_zero_table3_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table3_1[] = $/;"	v	file:
+total_zero_table4_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table4_0[] = $/;"	v	file:
+total_zero_table4_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table4_1[] = $/;"	v	file:
+total_zero_table5_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table5_0[] = $/;"	v	file:
+total_zero_table5_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table5_1[] = $/;"	v	file:
+total_zero_table6_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table6_0[] = $/;"	v	file:
+total_zero_table6_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table6_1[] = $/;"	v	file:
+total_zero_table7_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table7_0[] = $/;"	v	file:
+total_zero_table7_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table7_1[] = $/;"	v	file:
+total_zero_table8_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table8_0[] = $/;"	v	file:
+total_zero_table8_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table8_1[] = $/;"	v	file:
+total_zero_table9_0	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table9_0[] = $/;"	v	file:
+total_zero_table9_1	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table9_1[] = $/;"	v	file:
+total_zero_table_chroma	decoder/dec_cavlc.c	/^static const zero_count_t total_zero_table_chroma[3][8] = $/;"	v	file:
+trailing_ones	decoder/dec_cavlc.c	/^    uint8_t trailing_ones;$/;"	m	struct:__anon30	file:
+uint16_t	common/inttypes.h	/^typedef unsigned int uint16_t;$/;"	t
+uint16_t	common/portab.h	131;"	d
+uint16_t	common/portab.h	42;"	d
+uint32_t	common/inttypes.h	/^typedef unsigned long uint32_t;$/;"	t
+uint32_t	common/portab.h	133;"	d
+uint32_t	common/portab.h	44;"	d
+uint64_t	common/inttypes.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint64_t	common/portab.h	135;"	d
+uint64_t	common/portab.h	46;"	d
+uint8_t	common/inttypes.h	/^typedef unsigned char uint8_t;$/;"	t
+uint8_t	common/portab.h	129;"	d
+uint8_t	common/portab.h	40;"	d
+uintptr_t	common/inttypes.h	/^typedef uint16_t uintptr_t;$/;"	t
+uninit_display	encoder/T264.c	/^uninit_display()$/;"	f
+unscan_zig_2x2	common/utility.h	/^unscan_zig_2x2(int16_t* zig, int16_t* dct)$/;"	f
+unscan_zig_4x4	common/utility.h	/^unscan_zig_4x4(int16_t* zig, int16_t* dct)$/;"	f
+uvtab	encoder/dither.c	/^static unsigned char uvtab[256 * 269 + 270];$/;"	v	file:
+vdWindow	encoder/win.c	/^T_VDWINDOW vdWindow;$/;"	v
+vec	common/T264.h	/^        T264_vector_t vec[2];$/;"	m	struct:__anon27::__anon28
+vec	common/T264.h	/^    T264_vector_t vec[2][4 * 4];$/;"	m	struct:__anon22
+vec	common/T264.h	/^    T264_vector_t vec[2][4 * 4];$/;"	m	struct:__anon27
+vec	common/T264.h	/^    T264_vector_t* vec;$/;"	m	struct:T264_search_context_t
+vec	encoder/inter.h	/^    T264_vector_t vec[1 + 2 + 2];$/;"	m	struct:__anon38
+vec	encoder/inter.h	/^    T264_vector_t vec[4][1 + 2 + 2 + 4];$/;"	m	struct:__anon39
+vec_best	common/T264.h	/^    T264_vector_t vec_best;$/;"	m	struct:T264_search_context_t
+vec_median	encoder/inter.h	/^    T264_vector_t vec_median[1 + 2 + 2];$/;"	m	struct:__anon38
+vec_median	encoder/inter.h	/^    T264_vector_t vec_median[4][1 + 2 + 2 + 4];$/;"	m	struct:__anon39
+vec_num	common/T264.h	/^    int32_t vec_num;$/;"	m	struct:T264_search_context_t
+vec_ref	common/T264.h	/^    } vec_ref[5 * 8];$/;"	m	struct:__anon27	typeref:struct:__anon27::__anon28
+ver	common/T264.h	/^    int32_t ver;$/;"	m	struct:__anon19
+vertical_size	encoder/display.c	/^int vertical_size = 144;$/;"	v
+vertical_size	encoder/dither.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+vertical_size	encoder/yuv2rgb.c	/^EXTERN int horizontal_size, vertical_size, mb_width, mb_height;$/;"	v
+video_format	common/T264.h	/^    int32_t video_format;$/;"	m	struct:T264_t
+video_format	common/T264.h	/^    int32_t video_format;$/;"	m	struct:__anon13
+vlc_coeff_token_t	decoder/dec_cavlc.c	/^} vlc_coeff_token_t;$/;"	t	typeref:struct:__anon30	file:
+vlc_t	encoder/vlc.h	/^} vlc_t;$/;"	t	typeref:struct:__anon37
+wb	encoder/plugins/ratecontrol.c	/^    double wb;$/;"	m	struct:__anon34	file:
+wc	encoder/win.h	/^  WNDCLASS wc;$/;"	m	struct:__anon33
+weighted_bipred_idc	common/T264.h	/^    int32_t weighted_bipred_idc;$/;"	m	struct:__anon17
+weighted_pred_flag	common/T264.h	/^    int32_t weighted_pred_flag;$/;"	m	struct:__anon17
+width	common/T264.h	/^    int32_t     width;$/;"	m	struct:T264_t
+width	common/T264.h	/^    int32_t width, height;$/;"	m	struct:__anon13
+width	common/T264.h	/^    int32_t width;$/;"	m	struct:T264_search_context_t
+width	encoder/win.h	/^  int width, height;$/;"	m	struct:__anon33
+winDisplay	encoder/T264.c	/^winDisplay(T264_t* t, T264_frame_t* f)$/;"	f
+window	encoder/display.c	/^static Window window;$/;"	v	file:
+windowDismissed	encoder/win.h	/^  int windowDismissed;$/;"	m	struct:__anon33
+window_p	encoder/plugins/ratecontrol.c	/^    int32_t window_p;$/;"	m	struct:__anon34	file:
+wp	encoder/plugins/ratecontrol.c	/^    double wp;$/;"	m	struct:__anon34	file:
+wpixel	encoder/display.c	/^unsigned long wpixel[3];$/;"	v
+write_dst	encoder/t264enc.c	/^write_dst(uint8_t* src, int32_t nal_pos[4], int32_t nal_num, uint8_t* dst, int32_t dst_size)$/;"	f	file:
+write_frame	encoder/T264.c	/^write_frame(T264_t* t,T264_frame_t *frame,FILE *f_rec)$/;"	f
+x	common/T264.h	/^    int16_t x;$/;"	m	struct:__anon21
+x1	encoder/plugins/ratecontrol.c	/^    double x1;$/;"	m	struct:__anon34	file:
+x2	encoder/plugins/ratecontrol.c	/^    double x2;$/;"	m	struct:__anon34	file:
+x264_coeff_token	encoder/vlc.h	/^static const vlc_t x264_coeff_token[5][17*4] =$/;"	v
+x264_level_prefix	encoder/vlc.h	/^static const vlc_t x264_level_prefix[16] =$/;"	v
+x264_run_before	encoder/vlc.h	/^static const vlc_t x264_run_before[7][15] =$/;"	v
+x264_total_zeros	encoder/vlc.h	/^static const vlc_t x264_total_zeros[15][16] =$/;"	v
+x264_total_zeros_dc	encoder/vlc.h	/^static const vlc_t x264_total_zeros_dc[3][4] =$/;"	v
+ximage	encoder/display.c	/^XImage *ximage;$/;"	v
+y	common/T264.h	/^    int16_t y;$/;"	m	struct:__anon21
+ytab	encoder/dither.c	/^static unsigned char ytab[16 * (256 + 16)];$/;"	v	file:
+zero_count_t	decoder/dec_cavlc.c	/^} zero_count_t;$/;"	t	typeref:struct:__anon31	file:
+zoom	encoder/win.h	/^  int zoom, oldzoom;$/;"	m	struct:__anon33
+~CBaseSplitterFilter	dshow/splitter.cpp	/^CBaseSplitterFilter::~CBaseSplitterFilter()$/;"	f	class:CBaseSplitterFilter
+~CSequentialAllocator	dshow/alloc.cpp	/^CSequentialAllocator::~CSequentialAllocator()$/;"	f	class:CSequentialAllocator
+~CSplitterOutputPin	dshow/splitter.cpp	/^CSplitterOutputPin::~CSplitterOutputPin()$/;"	f	class:CSplitterOutputPin
+~CT264Dec	dshow/T264Enc.cpp	/^CT264Dec::~CT264Dec()$/;"	f	class:CT264Dec
+~CT264Enc	dshow/T264Enc.cpp	/^CT264Enc::~CT264Enc()$/;"	f	class:CT264Enc
+~CT264EncProp	dshow/T264EncProp.cpp	/^CT264EncProp::~CT264EncProp(void)$/;"	f	class:CT264EncProp

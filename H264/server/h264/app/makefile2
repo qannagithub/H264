@@ -1,0 +1,9 @@
+LIBPATH= ./avc-src-0.14/avc/build/obj/
+CC=/usr/local/arm/2.95.3/bin/arm-linux-gcc
+#CC=gcc
+server_arm:
+	$(CC) -c server_arm.c
+	$(CC) -o server_arm server_arm.o $(LIBPATH)block.o $(LIBPATH)cabac.o $(LIBPATH)cabac_engine.o $(LIBPATH)cavlc.o $(LIBPATH)dct.o $(LIBPATH)deblock.o $(LIBPATH)dec_cabac.o $(LIBPATH)dec_cavlc.o $(LIBPATH)display.o $(LIBPATH)dither.o $(LIBPATH)estimation.o $(LIBPATH)inter.o $(LIBPATH)inter_b.o $(LIBPATH)interpolate.o $(LIBPATH)intra.o $(LIBPATH)predict.o $(LIBPATH)ratecontrol.o $(LIBPATH)rbsp.o $(LIBPATH)stat.o $(LIBPATH)T264dec.o $(LIBPATH)t264enc.o $(LIBPATH)typedecision.o $(LIBPATH)utility.o $(LIBPATH)yuv2rgb.o $(LIBPATH)yuvrgb24.o -lm
+clean:
+	@rm server_arm.o
+	@rm server_arm					
